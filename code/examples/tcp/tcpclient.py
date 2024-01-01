@@ -16,7 +16,7 @@ with open(f"../objects/{OBJ}.obj", 'rb') as file:
 
 client_socket.sendall(file_data)  # send file data
 
-response = client_socket.recv(10240).decode()  # receive response
+response = client_socket.recv(1024).decode()  # receive response
 print('Received from server: ' + response)  # show in terminal
 
 client_socket.close()  # close the connection
