@@ -1,0 +1,2061 @@
+UDP server up and listening
+Waiting for incoming datagrams
+Sent ACK for chunk b'1' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'2' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'3' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'4' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'5' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'6' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'7' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'8' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'9' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'10' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'11' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'12' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'13' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'14' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'15' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'16' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'17' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'18' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'19' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'20' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'21' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'22' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'23' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'24' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'25' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'26' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'27' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'28' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'29' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'30' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'31' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'32' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'33' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'34' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'35' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'36' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'37' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'38' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'39' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'40' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'41' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'42' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'43' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'44' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'45' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'46' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'47' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'48' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'49' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'50' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'51' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'52' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'53' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'54' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'55' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'56' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'57' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'58' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'59' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'60' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'61' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'62' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'63' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'64' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'65' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'66' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'67' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'68' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'69' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'70' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'71' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'72' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'73' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'74' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'75' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'76' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'77' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'78' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'79' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'80' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'81' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'82' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'83' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'84' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'85' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'86' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'87' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'88' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'89' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'90' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'91' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'92' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'93' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'94' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'95' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'96' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'97' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'98' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'99' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'100' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'101' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'102' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'103' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'104' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'105' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'106' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'107' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'108' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'109' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'110' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'111' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'112' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'113' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'114' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'115' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'116' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'117' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'118' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'119' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'120' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'121' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'122' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'123' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'124' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'125' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'126' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'127' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'128' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'129' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'130' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'131' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'132' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'133' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'134' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'135' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'136' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'137' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'138' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'139' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'140' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'141' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'142' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'143' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'144' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'145' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'146' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'147' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'148' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'149' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'150' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'151' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'152' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'153' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'154' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'155' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'156' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'157' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'158' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'159' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'160' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'161' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'162' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'163' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'164' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'165' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'166' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'167' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'168' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'169' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'170' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'171' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'172' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'173' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'174' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'175' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'176' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'177' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'178' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'179' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'180' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'181' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'182' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'183' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'184' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'185' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'186' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'187' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'188' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'189' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'190' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'191' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'192' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'193' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'194' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'195' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'196' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'197' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'198' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'199' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'200' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'201' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'202' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'203' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'204' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'205' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'206' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'207' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'208' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'209' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'210' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'211' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'212' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'213' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'214' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'215' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'216' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'217' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'218' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'219' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'220' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'221' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'222' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'223' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'224' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'225' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'226' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'227' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'228' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'229' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'230' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'231' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'232' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'233' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'234' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'235' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'236' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'237' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'238' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'239' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'240' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'241' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'242' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'243' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'244' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'245' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'246' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'247' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'248' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'249' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'250' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'251' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'252' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'253' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'254' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'255' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'256' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'257' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'258' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'259' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'260' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'261' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'262' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'263' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'264' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'265' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'266' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'267' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'268' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'269' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'270' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'271' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'272' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'273' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'274' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'275' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'276' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'277' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'278' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'279' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'280' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'281' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'282' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'283' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'284' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'285' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'286' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'287' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'288' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'289' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'290' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'291' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'292' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'293' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'294' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'295' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'296' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'297' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'298' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'299' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'300' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'301' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'302' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'303' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'304' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'305' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'306' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'307' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'308' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'309' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'310' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'311' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'312' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'313' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'314' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'315' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'316' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'317' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'318' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'319' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'320' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'321' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'322' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'323' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'324' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'325' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'326' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'327' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'328' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'329' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'330' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'331' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'332' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'333' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'334' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'335' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'336' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'337' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'338' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'339' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'340' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'341' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'342' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'343' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'344' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'345' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'346' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'347' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'348' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'349' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'350' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'351' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'352' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'353' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'354' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'355' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'356' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'357' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'358' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'359' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'360' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'361' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'362' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'363' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'364' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'365' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'366' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'367' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'368' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'369' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'370' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'371' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'372' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'373' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'374' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'375' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'376' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'377' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'378' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'379' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'380' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'381' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'382' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'383' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'384' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'385' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'386' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'387' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'388' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'389' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'390' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'391' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'392' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'393' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'394' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'395' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'396' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'397' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'398' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'399' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'400' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'401' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'402' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'403' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'404' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'405' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'406' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'407' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'408' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'409' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'410' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'411' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'412' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'413' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'414' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'415' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'416' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'417' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'418' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'419' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'420' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'421' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'422' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'423' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'424' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'425' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'426' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'427' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'428' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'429' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'430' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'431' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'432' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'433' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'434' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'435' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'436' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'437' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'438' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'439' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'440' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'441' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'442' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'443' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'444' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'445' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'446' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'447' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'448' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'449' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'450' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'451' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'452' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'453' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'454' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'455' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'456' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'457' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'458' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'459' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'460' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'461' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'462' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'463' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'464' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'465' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'466' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'467' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'468' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'469' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'470' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'471' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'472' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'473' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'474' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'475' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'476' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'477' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'478' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'479' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'480' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'481' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'482' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'483' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'484' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'485' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'486' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'487' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'488' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'489' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'490' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'491' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'492' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'493' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'494' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'495' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'496' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'497' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'498' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'499' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'500' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'501' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'502' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'503' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'504' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'505' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'506' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'507' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'508' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'509' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'510' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'511' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'512' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'513' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'514' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'515' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'516' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'517' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'518' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'519' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'520' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'521' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'522' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'523' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'524' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'525' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'526' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'527' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'528' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'529' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'530' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'531' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'532' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'533' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'534' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'535' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'536' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'537' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'538' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'539' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'540' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'541' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'542' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'543' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'544' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'545' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'546' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'547' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'548' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'549' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'550' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'551' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'552' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'553' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'554' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'555' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'556' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'557' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'558' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'559' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'560' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'561' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'562' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'563' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'564' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'565' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'566' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'567' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'568' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'569' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'570' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'571' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'572' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'573' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'574' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'575' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'576' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'577' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'578' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'579' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'580' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'581' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'582' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'583' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'584' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'585' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'586' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'587' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'588' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'589' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'590' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'591' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'592' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'593' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'594' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'595' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'596' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'597' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'598' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'599' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'600' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'601' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'602' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'603' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'604' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'605' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'606' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'607' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'608' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'609' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'610' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'611' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'612' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'613' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'614' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'615' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'616' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'617' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'618' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'619' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'620' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'621' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'622' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'623' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'624' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'625' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'626' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'627' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'628' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'629' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'630' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'631' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'632' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'633' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'634' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'635' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'636' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'637' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'638' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'639' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'640' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'641' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'642' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'643' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'644' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'645' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'646' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'647' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'648' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'649' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'650' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'651' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'652' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'653' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'654' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'655' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'656' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'657' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'658' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'659' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'660' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'661' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'662' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'663' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'664' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'665' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'666' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'667' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'668' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'669' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'670' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'671' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'672' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'673' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'674' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'675' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'676' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'677' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'678' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'679' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'680' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'681' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'682' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'683' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'684' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'685' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'686' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'687' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'688' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'689' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'690' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'691' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'692' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'693' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'694' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'695' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'696' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'697' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'698' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'699' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'700' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'701' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'702' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'703' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'704' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'705' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'706' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'707' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'708' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'709' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'710' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'711' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'712' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'713' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'714' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'715' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'716' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'717' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'718' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'719' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'720' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'721' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'722' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'723' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'724' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'725' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'726' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'727' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'728' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'729' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'730' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'731' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'732' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'733' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'734' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'735' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'736' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'737' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'738' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'739' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'740' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'741' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'742' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'743' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'744' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'745' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'746' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'747' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'748' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'749' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'750' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'751' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'752' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'753' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'754' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'755' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'756' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'757' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'758' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'759' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'760' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'761' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'762' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'763' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'764' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'765' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'766' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'767' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'768' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'769' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'770' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'771' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'772' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'773' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'774' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'775' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'776' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'777' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'778' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'779' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'780' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'781' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'782' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'783' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'784' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'785' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'786' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'787' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'788' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'789' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'790' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'791' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'792' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'793' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'794' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'795' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'796' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'797' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'798' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'799' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'800' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'801' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'802' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'803' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'804' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'805' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'806' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'807' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'808' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'809' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'810' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'811' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'812' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'813' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'814' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'815' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'816' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'817' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'818' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'819' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'820' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'821' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'822' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'823' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'824' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'825' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'826' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'827' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'828' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'829' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'830' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'831' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'832' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'833' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'834' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'835' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'836' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'837' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'838' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'839' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'840' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'841' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'842' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'843' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'844' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'845' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'846' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'847' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'848' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'849' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'850' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'851' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'852' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'853' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'854' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'855' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'856' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'857' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'858' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'859' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'860' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'861' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'862' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'863' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'864' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'865' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'866' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'867' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'868' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'869' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'870' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'871' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'872' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'873' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'874' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'875' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'876' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'877' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'878' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'879' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'880' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'881' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'882' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'883' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'884' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'885' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'886' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'887' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'888' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'889' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'890' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'891' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'892' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'893' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'894' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'895' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'896' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'897' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'898' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'899' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'900' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'901' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'902' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'903' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'904' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'905' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'906' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'907' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'908' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'909' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'910' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'911' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'912' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'913' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'914' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'915' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'916' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'917' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'918' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'919' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'920' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'921' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'922' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'923' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'924' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'925' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'926' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'927' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'928' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'929' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'930' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'931' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'932' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'933' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'934' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'935' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'936' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'937' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'938' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'939' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'940' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'941' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'942' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'943' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'944' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'945' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'946' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'947' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'948' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'949' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'950' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'951' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'952' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'953' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'954' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'955' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'956' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'957' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'958' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'959' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'960' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'961' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'962' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'963' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'964' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'965' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'966' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'967' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'968' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'969' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'970' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'971' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'972' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'973' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'974' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'975' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'976' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'977' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'978' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'979' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'980' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'981' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'982' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'983' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'984' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'985' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'986' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'987' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'988' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'989' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'990' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'991' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'992' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'993' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'994' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'995' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'996' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'997' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'998' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'999' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1000' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1001' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1002' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1003' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1004' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1005' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1006' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1007' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1008' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1009' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1010' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1011' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1012' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1013' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1014' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1015' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1016' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1017' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1018' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1019' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1020' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1021' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1022' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1023' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1024' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1025' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1026' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1027' to ('172.18.0.2', 33704)
+Waiting for incoming datagrams
+Sent ACK for chunk b'1028' to ('172.18.0.2', 33704)
+Reassembled file data with size 999684
+File received intact
+Finished receiving file large-0
+Waiting for incoming datagrams

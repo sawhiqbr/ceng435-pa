@@ -1,0 +1,3052 @@
+Waiting for ACKs for 1028 chunks
+Sending file large-0 with size 999651
+Total chunks: 1028
+Packet size is 1024
+Sent chunk 1 of 1028 - Sequence number: 1
+Packet size is 1024
+Sent chunk 2 of 1028 - Sequence number: 2
+Packet size is 1024
+Sent chunk 3 of 1028 - Sequence number: 3
+Packet size is 1024
+Sent chunk 4 of 1028 - Sequence number: 4
+Packet size is 1024
+Sent chunk 5 of 1028 - Sequence number: 5
+Packet size is 1024
+Sent chunk 6 of 1028 - Sequence number: 6
+Packet size is 1024
+Sent chunk 7 of 1028 - Sequence number: 7
+Packet size is 1024
+Sent chunk 8 of 1028 - Sequence number: 8
+Packet size is 1024
+Sent chunk 9 of 1028 - Sequence number: 9
+Packet size is 1024
+Received ACK for chunk 1 from ('172.18.0.3', 20001)
+Received ACK for chunk 2 from ('172.18.0.3', 20001)
+Sent chunk 10 of 1028 - Sequence number: 10
+Packet size is 1024
+Received ACK for chunk 3 from ('172.18.0.3', 20001)
+Sent chunk 11 of 1028 - Sequence number: 11
+Packet size is 1024
+Sent chunk 12 of 1028 - Sequence number: 12
+Packet size is 1024
+Received ACK for chunk 4 from ('172.18.0.3', 20001)
+Sent chunk 13 of 1028 - Sequence number: 13
+Packet size is 1024
+Received ACK for chunk 5 from ('172.18.0.3', 20001)
+Received ACK for chunk 6 from ('172.18.0.3', 20001)
+Received ACK for chunk 7 from ('172.18.0.3', 20001)
+Sent chunk 14 of 1028 - Sequence number: 14
+Packet size is 1024
+Received ACK for chunk 8 from ('172.18.0.3', 20001)
+Received ACK for chunk 9 from ('172.18.0.3', 20001)
+Sent chunk 15 of 1028 - Sequence number: 15
+Packet size is 1024
+Received ACK for chunk 10 from ('172.18.0.3', 20001)
+Sent chunk 16 of 1028 - Sequence number: 16
+Packet size is 1024
+Received ACK for chunk 11 from ('172.18.0.3', 20001)
+Sent chunk 17 of 1028 - Sequence number: 17
+Packet size is 1024
+Received ACK for chunk 12 from ('172.18.0.3', 20001)
+Sent chunk 18 of 1028 - Sequence number: 18
+Packet size is 1024
+Received ACK for chunk 13 from ('172.18.0.3', 20001)
+Sent chunk 19 of 1028 - Sequence number: 19
+Packet size is 1024
+Received ACK for chunk 14 from ('172.18.0.3', 20001)
+Sent chunk 20 of 1028 - Sequence number: 20
+Packet size is 1024
+Sent chunk 21 of 1028 - Sequence number: 21
+Packet size is 1024
+Received ACK for chunk 15 from ('172.18.0.3', 20001)
+Sent chunk 22 of 1028 - Sequence number: 22
+Packet size is 1024
+Received ACK for chunk 16 from ('172.18.0.3', 20001)
+Sent chunk 23 of 1028 - Sequence number: 23
+Packet size is 1024
+Received ACK for chunk 17 from ('172.18.0.3', 20001)
+Sent chunk 24 of 1028 - Sequence number: 24
+Packet size is 1024
+Sent chunk 25 of 1028 - Sequence number: 25
+Packet size is 1024
+Received ACK for chunk 18 from ('172.18.0.3', 20001)
+Sent chunk 26 of 1028 - Sequence number: 26
+Packet size is 1024
+Received ACK for chunk 19 from ('172.18.0.3', 20001)
+Sent chunk 27 of 1028 - Sequence number: 27
+Packet size is 1024
+Received ACK for chunk 20 from ('172.18.0.3', 20001)
+Sent chunk 28 of 1028 - Sequence number: 28
+Packet size is 1024
+Received ACK for chunk 21 from ('172.18.0.3', 20001)
+Sent chunk 29 of 1028 - Sequence number: 29
+Packet size is 1024
+Received ACK for chunk 22 from ('172.18.0.3', 20001)
+Sent chunk 30 of 1028 - Sequence number: 30
+Packet size is 1024
+Sent chunk 31 of 1028 - Sequence number: 31
+Packet size is 1024
+Sent chunk 32 of 1028 - Sequence number: 32
+Packet size is 1024
+Sent chunk 33 of 1028 - Sequence number: 33
+Packet size is 1024
+Received ACK for chunk 23 from ('172.18.0.3', 20001)
+Sent chunk 34 of 1028 - Sequence number: 34
+Packet size is 1024
+Received ACK for chunk 24 from ('172.18.0.3', 20001)
+Sent chunk 35 of 1028 - Sequence number: 35
+Packet size is 1024
+Received ACK for chunk 25 from ('172.18.0.3', 20001)
+Sent chunk 36 of 1028 - Sequence number: 36
+Packet size is 1024
+Received ACK for chunk 26 from ('172.18.0.3', 20001)
+Sent chunk 37 of 1028 - Sequence number: 37
+Packet size is 1024
+Received ACK for chunk 27 from ('172.18.0.3', 20001)
+Sent chunk 38 of 1028 - Sequence number: 38
+Packet size is 1024
+Received ACK for chunk 28 from ('172.18.0.3', 20001)
+Sent chunk 39 of 1028 - Sequence number: 39
+Packet size is 1024
+Received ACK for chunk 29 from ('172.18.0.3', 20001)
+Sent chunk 40 of 1028 - Sequence number: 40
+Packet size is 1024
+Sent chunk 41 of 1028 - Sequence number: 41
+Packet size is 1024
+Received ACK for chunk 30 from ('172.18.0.3', 20001)
+Sent chunk 42 of 1028 - Sequence number: 42
+Packet size is 1024
+Received ACK for chunk 31 from ('172.18.0.3', 20001)
+Sent chunk 43 of 1028 - Sequence number: 43
+Packet size is 1024
+Received ACK for chunk 32 from ('172.18.0.3', 20001)
+Sent chunk 44 of 1028 - Sequence number: 44
+Packet size is 1024
+Received ACK for chunk 33 from ('172.18.0.3', 20001)
+Received ACK for chunk 34 from ('172.18.0.3', 20001)
+Sent chunk 45 of 1028 - Sequence number: 45
+Packet size is 1024
+Received ACK for chunk 35 from ('172.18.0.3', 20001)
+Sent chunk 46 of 1028 - Sequence number: 46
+Packet size is 1024
+Received ACK for chunk 36 from ('172.18.0.3', 20001)
+Sent chunk 47 of 1028 - Sequence number: 47
+Packet size is 1024
+Received ACK for chunk 37 from ('172.18.0.3', 20001)
+Sent chunk 48 of 1028 - Sequence number: 48
+Packet size is 1024
+Received ACK for chunk 38 from ('172.18.0.3', 20001)
+Sent chunk 49 of 1028 - Sequence number: 49
+Packet size is 1024
+Received ACK for chunk 39 from ('172.18.0.3', 20001)
+Sent chunk 50 of 1028 - Sequence number: 50
+Packet size is 1024
+Received ACK for chunk 40 from ('172.18.0.3', 20001)
+Sent chunk 51 of 1028 - Sequence number: 51
+Packet size is 1024
+Received ACK for chunk 41 from ('172.18.0.3', 20001)
+Sent chunk 52 of 1028 - Sequence number: 52
+Packet size is 1024
+Received ACK for chunk 42 from ('172.18.0.3', 20001)
+Sent chunk 53 of 1028 - Sequence number: 53
+Packet size is 1024
+Received ACK for chunk 43 from ('172.18.0.3', 20001)
+Sent chunk 54 of 1028 - Sequence number: 54
+Packet size is 1024
+Received ACK for chunk 44 from ('172.18.0.3', 20001)
+Sent chunk 55 of 1028 - Sequence number: 55
+Packet size is 1024
+Received ACK for chunk 45 from ('172.18.0.3', 20001)
+Sent chunk 56 of 1028 - Sequence number: 56
+Packet size is 1024
+Received ACK for chunk 46 from ('172.18.0.3', 20001)
+Sent chunk 57 of 1028 - Sequence number: 57
+Packet size is 1024
+Received ACK for chunk 47 from ('172.18.0.3', 20001)
+Sent chunk 58 of 1028 - Sequence number: 58
+Packet size is 1024
+Received ACK for chunk 48 from ('172.18.0.3', 20001)
+Sent chunk 59 of 1028 - Sequence number: 59
+Packet size is 1024
+Received ACK for chunk 49 from ('172.18.0.3', 20001)
+Sent chunk 60 of 1028 - Sequence number: 60
+Packet size is 1024
+Received ACK for chunk 50 from ('172.18.0.3', 20001)
+Sent chunk 61 of 1028 - Sequence number: 61
+Packet size is 1024
+Received ACK for chunk 51 from ('172.18.0.3', 20001)
+Sent chunk 62 of 1028 - Sequence number: 62
+Packet size is 1024
+Received ACK for chunk 52 from ('172.18.0.3', 20001)
+Sent chunk 63 of 1028 - Sequence number: 63
+Packet size is 1024
+Received ACK for chunk 53 from ('172.18.0.3', 20001)
+Sent chunk 64 of 1028 - Sequence number: 64
+Packet size is 1024
+Received ACK for chunk 54 from ('172.18.0.3', 20001)
+Sent chunk 65 of 1028 - Sequence number: 65
+Packet size is 1024
+Received ACK for chunk 55 from ('172.18.0.3', 20001)
+Sent chunk 66 of 1028 - Sequence number: 66
+Packet size is 1024
+Received ACK for chunk 56 from ('172.18.0.3', 20001)
+Sent chunk 67 of 1028 - Sequence number: 67
+Packet size is 1024
+Received ACK for chunk 57 from ('172.18.0.3', 20001)
+Sent chunk 68 of 1028 - Sequence number: 68
+Packet size is 1024
+Received ACK for chunk 58 from ('172.18.0.3', 20001)
+Sent chunk 69 of 1028 - Sequence number: 69
+Packet size is 1024
+Received ACK for chunk 59 from ('172.18.0.3', 20001)
+Sent chunk 70 of 1028 - Sequence number: 70
+Packet size is 1024
+Received ACK for chunk 60 from ('172.18.0.3', 20001)
+Sent chunk 71 of 1028 - Sequence number: 71
+Packet size is 1024
+Received ACK for chunk 61 from ('172.18.0.3', 20001)
+Sent chunk 72 of 1028 - Sequence number: 72
+Packet size is 1024
+Received ACK for chunk 62 from ('172.18.0.3', 20001)
+Sent chunk 73 of 1028 - Sequence number: 73
+Packet size is 1024
+Received ACK for chunk 63 from ('172.18.0.3', 20001)
+Sent chunk 74 of 1028 - Sequence number: 74
+Packet size is 1024
+Sent chunk 75 of 1028 - Sequence number: 75
+Packet size is 1024
+Received ACK for chunk 68 from ('172.18.0.3', 20001)
+Sent chunk 76 of 1028 - Sequence number: 76
+Packet size is 1024
+Received ACK for chunk 69 from ('172.18.0.3', 20001)
+Sent chunk 77 of 1028 - Sequence number: 77
+Packet size is 1024
+Sent chunk 78 of 1028 - Sequence number: 78
+Packet size is 1024
+Received ACK for chunk 70 from ('172.18.0.3', 20001)
+Received ACK for chunk 71 from ('172.18.0.3', 20001)
+Sent chunk 79 of 1028 - Sequence number: 79
+Packet size is 1024
+Received ACK for chunk 72 from ('172.18.0.3', 20001)
+Sent chunk 80 of 1028 - Sequence number: 80
+Packet size is 1024
+Received ACK for chunk 73 from ('172.18.0.3', 20001)
+Sent chunk 81 of 1028 - Sequence number: 81
+Packet size is 1024
+Sent chunk 82 of 1028 - Sequence number: 82
+Packet size is 1024
+Received ACK for chunk 74 from ('172.18.0.3', 20001)
+Sent chunk 83 of 1028 - Sequence number: 83
+Packet size is 1024
+Received ACK for chunk 75 from ('172.18.0.3', 20001)
+Sent chunk 84 of 1028 - Sequence number: 84
+Packet size is 1024
+Received ACK for chunk 76 from ('172.18.0.3', 20001)
+Sent chunk 85 of 1028 - Sequence number: 85
+Packet size is 1024
+Received ACK for chunk 77 from ('172.18.0.3', 20001)
+Sent chunk 86 of 1028 - Sequence number: 86
+Packet size is 1024
+Received ACK for chunk 78 from ('172.18.0.3', 20001)
+Sent chunk 87 of 1028 - Sequence number: 87
+Packet size is 1024
+Received ACK for chunk 79 from ('172.18.0.3', 20001)
+Sent chunk 88 of 1028 - Sequence number: 88
+Packet size is 1024
+Received ACK for chunk 80 from ('172.18.0.3', 20001)
+Sent chunk 89 of 1028 - Sequence number: 89
+Packet size is 1024
+Received ACK for chunk 81 from ('172.18.0.3', 20001)
+Sent chunk 90 of 1028 - Sequence number: 90
+Packet size is 1024
+Received ACK for chunk 82 from ('172.18.0.3', 20001)
+Sent chunk 91 of 1028 - Sequence number: 91
+Packet size is 1024
+Received ACK for chunk 83 from ('172.18.0.3', 20001)
+Sent chunk 92 of 1028 - Sequence number: 92
+Packet size is 1024
+Received ACK for chunk 84 from ('172.18.0.3', 20001)
+Sent chunk 93 of 1028 - Sequence number: 93
+Packet size is 1024
+Received ACK for chunk 85 from ('172.18.0.3', 20001)
+Sent chunk 94 of 1028 - Sequence number: 94
+Packet size is 1024
+Sent chunk 95 of 1028 - Sequence number: 95
+Packet size is 1024
+Sent chunk 96 of 1028 - Sequence number: 96
+Packet size is 1024
+Received ACK for chunk 86 from ('172.18.0.3', 20001)
+Sent chunk 97 of 1028 - Sequence number: 97
+Packet size is 1024
+Received ACK for chunk 87 from ('172.18.0.3', 20001)
+Sent chunk 98 of 1028 - Sequence number: 98
+Packet size is 1024
+Received ACK for chunk 88 from ('172.18.0.3', 20001)
+Sent chunk 99 of 1028 - Sequence number: 99
+Packet size is 1024
+Received ACK for chunk 89 from ('172.18.0.3', 20001)
+Sent chunk 100 of 1028 - Sequence number: 100
+Packet size is 1024
+Received ACK for chunk 90 from ('172.18.0.3', 20001)
+Sent chunk 101 of 1028 - Sequence number: 101
+Packet size is 1024
+Received ACK for chunk 91 from ('172.18.0.3', 20001)
+Sent chunk 102 of 1028 - Sequence number: 102
+Packet size is 1024
+Received ACK for chunk 92 from ('172.18.0.3', 20001)
+Sent chunk 103 of 1028 - Sequence number: 103
+Packet size is 1024
+Received ACK for chunk 93 from ('172.18.0.3', 20001)
+Sent chunk 104 of 1028 - Sequence number: 104
+Packet size is 1024
+Received ACK for chunk 94 from ('172.18.0.3', 20001)
+Sent chunk 105 of 1028 - Sequence number: 105
+Packet size is 1024
+Received ACK for chunk 95 from ('172.18.0.3', 20001)
+Sent chunk 106 of 1028 - Sequence number: 106
+Packet size is 1024
+Received ACK for chunk 96 from ('172.18.0.3', 20001)
+Sent chunk 107 of 1028 - Sequence number: 107
+Packet size is 1024
+Received ACK for chunk 97 from ('172.18.0.3', 20001)
+Sent chunk 108 of 1028 - Sequence number: 108
+Packet size is 1024
+Received ACK for chunk 98 from ('172.18.0.3', 20001)
+Sent chunk 109 of 1028 - Sequence number: 109
+Packet size is 1024
+Sent chunk 110 of 1028 - Sequence number: 110
+Packet size is 1024
+Received ACK for chunk 99 from ('172.18.0.3', 20001)
+Sent chunk 111 of 1028 - Sequence number: 111
+Packet size is 1024
+Received ACK for chunk 100 from ('172.18.0.3', 20001)
+Sent chunk 112 of 1028 - Sequence number: 112
+Packet size is 1024
+Received ACK for chunk 101 from ('172.18.0.3', 20001)
+Sent chunk 113 of 1028 - Sequence number: 113
+Packet size is 1024
+Sent chunk 114 of 1028 - Sequence number: 114
+Packet size is 1024
+Sent chunk 115 of 1028 - Sequence number: 115
+Packet size is 1024
+Sent chunk 116 of 1028 - Sequence number: 116
+Packet size is 1024
+Sent chunk 117 of 1028 - Sequence number: 117
+Packet size is 1024
+Received ACK for chunk 102 from ('172.18.0.3', 20001)
+Sent chunk 118 of 1028 - Sequence number: 118
+Packet size is 1024
+Received ACK for chunk 103 from ('172.18.0.3', 20001)
+Sent chunk 119 of 1028 - Sequence number: 119
+Packet size is 1024
+Received ACK for chunk 104 from ('172.18.0.3', 20001)
+Sent chunk 120 of 1028 - Sequence number: 120
+Packet size is 1024
+Received ACK for chunk 105 from ('172.18.0.3', 20001)
+Sent chunk 121 of 1028 - Sequence number: 121
+Packet size is 1024
+Received ACK for chunk 106 from ('172.18.0.3', 20001)
+Sent chunk 122 of 1028 - Sequence number: 122
+Packet size is 1024
+Received ACK for chunk 107 from ('172.18.0.3', 20001)
+Sent chunk 123 of 1028 - Sequence number: 123
+Packet size is 1024
+Received ACK for chunk 108 from ('172.18.0.3', 20001)
+Sent chunk 124 of 1028 - Sequence number: 124
+Packet size is 1024
+Sent chunk 125 of 1028 - Sequence number: 125
+Packet size is 1024
+Received ACK for chunk 109 from ('172.18.0.3', 20001)
+Sent chunk 126 of 1028 - Sequence number: 126
+Packet size is 1024
+Received ACK for chunk 110 from ('172.18.0.3', 20001)
+Sent chunk 127 of 1028 - Sequence number: 127
+Packet size is 1024
+Received ACK for chunk 111 from ('172.18.0.3', 20001)
+Sent chunk 128 of 1028 - Sequence number: 128
+Packet size is 1024
+Received ACK for chunk 112 from ('172.18.0.3', 20001)
+Sent chunk 129 of 1028 - Sequence number: 129
+Packet size is 1024
+Received ACK for chunk 113 from ('172.18.0.3', 20001)
+Sent chunk 130 of 1028 - Sequence number: 130
+Packet size is 1024
+Received ACK for chunk 114 from ('172.18.0.3', 20001)
+Sent chunk 131 of 1028 - Sequence number: 131
+Packet size is 1024
+Received ACK for chunk 115 from ('172.18.0.3', 20001)
+Sent chunk 132 of 1028 - Sequence number: 132
+Packet size is 1024
+Received ACK for chunk 116 from ('172.18.0.3', 20001)
+Sent chunk 133 of 1028 - Sequence number: 133
+Packet size is 1024
+Received ACK for chunk 117 from ('172.18.0.3', 20001)
+Sent chunk 134 of 1028 - Sequence number: 134
+Packet size is 1024
+Received ACK for chunk 118 from ('172.18.0.3', 20001)
+Sent chunk 135 of 1028 - Sequence number: 135
+Packet size is 1024
+Received ACK for chunk 119 from ('172.18.0.3', 20001)
+Sent chunk 136 of 1028 - Sequence number: 136
+Packet size is 1024
+Received ACK for chunk 120 from ('172.18.0.3', 20001)
+Sent chunk 137 of 1028 - Sequence number: 137
+Packet size is 1024
+Received ACK for chunk 121 from ('172.18.0.3', 20001)
+Sent chunk 138 of 1028 - Sequence number: 138
+Packet size is 1024
+Received ACK for chunk 122 from ('172.18.0.3', 20001)
+Sent chunk 139 of 1028 - Sequence number: 139
+Packet size is 1024
+Received ACK for chunk 123 from ('172.18.0.3', 20001)
+Sent chunk 140 of 1028 - Sequence number: 140
+Packet size is 1024
+Received ACK for chunk 124 from ('172.18.0.3', 20001)
+Sent chunk 141 of 1028 - Sequence number: 141
+Packet size is 1024
+Received ACK for chunk 125 from ('172.18.0.3', 20001)
+Sent chunk 142 of 1028 - Sequence number: 142
+Packet size is 1024
+Received ACK for chunk 126 from ('172.18.0.3', 20001)
+Sent chunk 143 of 1028 - Sequence number: 143
+Packet size is 1024
+Sent chunk 144 of 1028 - Sequence number: 144
+Packet size is 1024
+Received ACK for chunk 127 from ('172.18.0.3', 20001)
+Sent chunk 145 of 1028 - Sequence number: 145
+Packet size is 1024
+Received ACK for chunk 128 from ('172.18.0.3', 20001)
+Sent chunk 146 of 1028 - Sequence number: 146
+Packet size is 1024
+                                                                                                                                                                                                                    Received ACK for chunk 129 from ('172.18.0.3', 20001)
+Received ACK for chunk 130 from ('172.18.0.3', 20001)
+Received ACK for chunk 131 from ('172.18.0.3', 20001)
+Received ACK for chunk 132 from ('172.18.0.3', 20001)
+Sent chunk 149 of 1028 - Sequence number: 149
+Packet size is 1024
+Sent chunk 150 of 1028 - Sequence number: 150
+Packet size is 1024
+Received ACK for chunk 133 from ('172.18.0.3', 20001)
+Sent chunk 151 of 1028 - Sequence number: 151
+Packet size is 1024
+Received ACK for chunk 134 from ('172.18.0.3', 20001)
+Sent chunk 152 of 1028 - Sequence number: 152
+Packet size is 1024
+Received ACK for chunk 135 from ('172.18.0.3', 20001)
+Sent chunk 153 of 1028 - Sequence number: 153
+Packet size is 1024
+Received ACK for chunk 136 from ('172.18.0.3', 20001)
+Sent chunk 154 of 1028 - Sequence number: 154
+Packet size is 1024
+Sent chunk 155 of 1028 - Sequence number: 155
+Packet size is 1024
+Received ACK for chunk 137 from ('172.18.0.3', 20001)
+Sent chunk 156 of 1028 - Sequence number: 156
+Packet size is 1024
+Received ACK for chunk 138 from ('172.18.0.3', 20001)
+Sent chunk 157 of 1028 - Sequence number: 157
+Packet size is 1024
+Received ACK for chunk 139 from ('172.18.0.3', 20001)
+Sent chunk 158 of 1028 - Sequence number: 158
+Packet size is 1024
+Received ACK for chunk 140 from ('172.18.0.3', 20001)
+Sent chunk 159 of 1028 - Sequence number: 159
+Packet size is 1024
+Received ACK for chunk 141 from ('172.18.0.3', 20001)
+Sent chunk 160 of 1028 - Sequence number: 160
+Packet size is 1024
+Received ACK for chunk 142 from ('172.18.0.3', 20001)
+Sent chunk 161 of 1028 - Sequence number: 161
+Packet size is 1024
+Received ACK for chunk 143 from ('172.18.0.3', 20001)
+Sent chunk 162 of 1028 - Sequence number: 162
+Packet size is 1024
+Received ACK for chunk 144 from ('172.18.0.3', 20001)
+Sent chunk 163 of 1028 - Sequence number: 163
+Packet size is 1024
+Received ACK for chunk 145 from ('172.18.0.3', 20001)
+Sent chunk 164 of 1028 - Sequence number: 164
+Packet size is 1024
+Received ACK for chunk 146 from ('172.18.0.3', 20001)
+Sent chunk 165 of 1028 - Sequence number: 165
+Packet size is 1024
+Received ACK for chunk 147 from ('172.18.0.3', 20001)
+Sent chunk 166 of 1028 - Sequence number: 166
+Packet size is 1024
+Received ACK for chunk 148 from ('172.18.0.3', 20001)
+Sent chunk 167 of 1028 - Sequence number: 167
+Packet size is 1024
+Received ACK for chunk 149 from ('172.18.0.3', 20001)
+Sent chunk 168 of 1028 - Sequence number: 168
+Packet size is 1024
+Received ACK for chunk 150 from ('172.18.0.3', 20001)
+Sent chunk 169 of 1028 - Sequence number: 169
+Packet size is 1024
+Received ACK for chunk 151 from ('172.18.0.3', 20001)
+Sent chunk 170 of 1028 - Sequence number: 170
+Packet size is 1024
+Received ACK for chunk 152 from ('172.18.0.3', 20001)
+Sent chunk 171 of 1028 - Sequence number: 171
+Packet size is 1024
+Received ACK for chunk 153 from ('172.18.0.3', 20001)
+Sent chunk 172 of 1028 - Sequence number: 172
+Packet size is 1024
+Received ACK for chunk 154 from ('172.18.0.3', 20001)
+Sent chunk 173 of 1028 - Sequence number: 173
+Packet size is 1024
+Received ACK for chunk 155 from ('172.18.0.3', 20001)
+Sent chunk 174 of 1028 - Sequence number: 174
+Packet size is 1024
+Received ACK for chunk 156 from ('172.18.0.3', 20001)
+Sent chunk 175 of 1028 - Sequence number: 175
+Packet size is 1024
+Received ACK for chunk 157 from ('172.18.0.3', 20001)
+Sent chunk 176 of 1028 - Sequence number: 176
+Packet size is 1024
+Received ACK for chunk 158 from ('172.18.0.3', 20001)
+Sent chunk 177 of 1028 - Sequence number: 177
+Packet size is 1024
+Received ACK for chunk 159 from ('172.18.0.3', 20001)
+Sent chunk 178 of 1028 - Sequence number: 178
+Packet size is 1024
+Received ACK for chunk 160 from ('172.18.0.3', 20001)
+Sent chunk 179 of 1028 - Sequence number: 179
+Packet size is 1024
+Received ACK for chunk 161 from ('172.18.0.3', 20001)
+Sent chunk 180 of 1028 - Sequence number: 180
+Packet size is 1024
+Received ACK for chunk 162 from ('172.18.0.3', 20001)
+Sent chunk 181 of 1028 - Sequence number: 181
+Packet size is 1024
+Received ACK for chunk 163 from ('172.18.0.3', 20001)
+Sent chunk 182 of 1028 - Sequence number: 182
+Packet size is 1024
+Received ACK for chunk 164 from ('172.18.0.3', 20001)
+Sent chunk 183 of 1028 - Sequence number: 183
+Packet size is 1024
+Received ACK for chunk 165 from ('172.18.0.3', 20001)
+Sent chunk 184 of 1028 - Sequence number: 184
+Packet size is 1024
+Received ACK for chunk 166 from ('172.18.0.3', 20001)
+Sent chunk 185 of 1028 - Sequence number: 185
+Packet size is 1024
+Received ACK for chunk 167 from ('172.18.0.3', 20001)
+Sent chunk 186 of 1028 - Sequence number: 186
+Packet size is 1024
+Received ACK for chunk 168 from ('172.18.0.3', 20001)
+Sent chunk 187 of 1028 - Sequence number: 187
+Packet size is 1024
+Received ACK for chunk 169 from ('172.18.0.3', 20001)
+Sent chunk 188 of 1028 - Sequence number: 188
+Packet size is 1024
+Sent chunk 189 of 1028 - Sequence number: 189
+Packet size is 1024
+Received ACK for chunk 170 from ('172.18.0.3', 20001)
+Sent chunk 190 of 1028 - Sequence number: 190
+Packet size is 1024
+Sent chunk 191 of 1028 - Sequence number: 191
+Packet size is 1024
+Received ACK for chunk 171 from ('172.18.0.3', 20001)
+Sent chunk 192 of 1028 - Sequence number: 192
+Packet size is 1024
+Received ACK for chunk 172 from ('172.18.0.3', 20001)
+Sent chunk 193 of 1028 - Sequence number: 193
+Packet size is 1024
+Received ACK for chunk 173 from ('172.18.0.3', 20001)
+Sent chunk 194 of 1028 - Sequence number: 194
+Packet size is 1024
+Received ACK for chunk 174 from ('172.18.0.3', 20001)
+Sent chunk 195 of 1028 - Sequence number: 195
+Packet size is 1024
+Received ACK for chunk 175 from ('172.18.0.3', 20001)
+Sent chunk 196 of 1028 - Sequence number: 196
+Packet size is 1024
+Received ACK for chunk 176 from ('172.18.0.3', 20001)
+Sent chunk 197 of 1028 - Sequence number: 197
+Packet size is 1024
+Received ACK for chunk 177 from ('172.18.0.3', 20001)
+Sent chunk 198 of 1028 - Sequence number: 198
+Packet size is 1024
+Received ACK for chunk 178 from ('172.18.0.3', 20001)
+Sent chunk 199 of 1028 - Sequence number: 199
+Packet size is 1024
+Sent chunk 200 of 1028 - Sequence number: 200
+Packet size is 1024
+Received ACK for chunk 179 from ('172.18.0.3', 20001)
+Sent chunk 201 of 1028 - Sequence number: 201
+Packet size is 1024
+Received ACK for chunk 180 from ('172.18.0.3', 20001)
+Sent chunk 202 of 1028 - Sequence number: 202
+Packet size is 1024
+Received ACK for chunk 181 from ('172.18.0.3', 20001)
+Sent chunk 203 of 1028 - Sequence number: 203
+Packet size is 1024
+Received ACK for chunk 182 from ('172.18.0.3', 20001)
+Sent chunk 204 of 1028 - Sequence number: 204
+Packet size is 1024
+Received ACK for chunk 183 from ('172.18.0.3', 20001)
+Sent chunk 205 of 1028 - Sequence number: 205
+Packet size is 1024
+Received ACK for chunk 184 from ('172.18.0.3', 20001)
+Sent chunk 206 of 1028 - Sequence number: 206
+Packet size is 1024
+Received ACK for chunk 185 from ('172.18.0.3', 20001)
+Sent chunk 207 of 1028 - Sequence number: 207
+Packet size is 1024
+Received ACK for chunk 186 from ('172.18.0.3', 20001)
+Sent chunk 208 of 1028 - Sequence number: 208
+Packet size is 1024
+Received ACK for chunk 187 from ('172.18.0.3', 20001)
+Sent chunk 209 of 1028 - Sequence number: 209
+Packet size is 1024
+Received ACK for chunk 188 from ('172.18.0.3', 20001)
+Sent chunk 210 of 1028 - Sequence number: 210
+Packet size is 1024
+Received ACK for chunk 189 from ('172.18.0.3', 20001)
+Sent chunk 211 of 1028 - Sequence number: 211
+Packet size is 1024
+Sent chunk 212 of 1028 - Sequence number: 212
+Packet size is 1024
+Received ACK for chunk 190 from ('172.18.0.3', 20001)
+Sent chunk 213 of 1028 - Sequence number: 213
+Packet size is 1024
+Received ACK for chunk 191 from ('172.18.0.3', 20001)
+Sent chunk 214 of 1028 - Sequence number: 214
+Packet size is 1024
+Received ACK for chunk 192 from ('172.18.0.3', 20001)
+Sent chunk 215 of 1028 - Sequence number: 215
+Packet size is 1024
+Received ACK for chunk 193 from ('172.18.0.3', 20001)
+Sent chunk 216 of 1028 - Sequence number: 216
+Packet size is 1024
+Received ACK for chunk 194 from ('172.18.0.3', 20001)
+                                                                                                                                    Sent chunk 217 of 1028 - Sequence number: 217
+Packet size is 1024
+Received ACK for chunk 197 from ('172.18.0.3', 20001)
+Sent chunk 218 of 1028 - Sequence number: 218
+Packet size is 1024
+Received ACK for chunk 198 from ('172.18.0.3', 20001)
+Sent chunk 219 of 1028 - Sequence number: 219
+Packet size is 1024
+Received ACK for chunk 199 from ('172.18.0.3', 20001)
+Sent chunk 220 of 1028 - Sequence number: 220
+Packet size is 1024
+Received ACK for chunk 200 from ('172.18.0.3', 20001)
+Sent chunk 221 of 1028 - Sequence number: 221
+Packet size is 1024
+Sent chunk 222 of 1028 - Sequence number: 222
+Packet size is 1024
+Sent chunk 223 of 1028 - Sequence number: 223
+Packet size is 1024
+Received ACK for chunk 201 from ('172.18.0.3', 20001)
+Sent chunk 224 of 1028 - Sequence number: 224
+Packet size is 1024
+Received ACK for chunk 202 from ('172.18.0.3', 20001)
+Sent chunk 225 of 1028 - Sequence number: 225
+Packet size is 1024
+Received ACK for chunk 203 from ('172.18.0.3', 20001)
+Sent chunk 226 of 1028 - Sequence number: 226
+Packet size is 1024
+Received ACK for chunk 204 from ('172.18.0.3', 20001)
+Sent chunk 227 of 1028 - Sequence number: 227
+Packet size is 1024
+Received ACK for chunk 205 from ('172.18.0.3', 20001)
+Sent chunk 228 of 1028 - Sequence number: 228
+Packet size is 1024
+Received ACK for chunk 206 from ('172.18.0.3', 20001)
+Sent chunk 229 of 1028 - Sequence number: 229
+Packet size is 1024
+Received ACK for chunk 207 from ('172.18.0.3', 20001)
+Sent chunk 230 of 1028 - Sequence number: 230
+Packet size is 1024
+Received ACK for chunk 208 from ('172.18.0.3', 20001)
+Sent chunk 231 of 1028 - Sequence number: 231
+Packet size is 1024
+Received ACK for chunk 209 from ('172.18.0.3', 20001)
+Sent chunk 232 of 1028 - Sequence number: 232
+Packet size is 1024
+Received ACK for chunk 210 from ('172.18.0.3', 20001)
+Sent chunk 233 of 1028 - Sequence number: 233
+Packet size is 1024
+Received ACK for chunk 211 from ('172.18.0.3', 20001)
+Sent chunk 234 of 1028 - Sequence number: 234
+Packet size is 1024
+Sent chunk 235 of 1028 - Sequence number: 235
+Packet size is 1024
+Received ACK for chunk 212 from ('172.18.0.3', 20001)
+Sent chunk 236 of 1028 - Sequence number: 236
+Packet size is 1024
+Received ACK for chunk 213 from ('172.18.0.3', 20001)
+Sent chunk 237 of 1028 - Sequence number: 237
+Packet size is 1024
+Sent chunk 238 of 1028 - Sequence number: 238
+Packet size is 1024
+Received ACK for chunk 214 from ('172.18.0.3', 20001)
+Sent chunk 239 of 1028 - Sequence number: 239
+Packet size is 1024
+Received ACK for chunk 215 from ('172.18.0.3', 20001)
+Sent chunk 240 of 1028 - Sequence number: 240
+Packet size is 1024
+Received ACK for chunk 216 from ('172.18.0.3', 20001)
+Sent chunk 241 of 1028 - Sequence number: 241
+Packet size is 1024
+Received ACK for chunk 217 from ('172.18.0.3', 20001)
+Sent chunk 242 of 1028 - Sequence number: 242
+Packet size is 1024
+Received ACK for chunk 218 from ('172.18.0.3', 20001)
+Sent chunk 243 of 1028 - Sequence number: 243
+Packet size is 1024
+Received ACK for chunk 219 from ('172.18.0.3', 20001)
+Sent chunk 244 of 1028 - Sequence number: 244
+Packet size is 1024
+Sent chunk 245 of 1028 - Sequence number: 245
+Packet size is 1024
+Received ACK for chunk 220 from ('172.18.0.3', 20001)
+Sent chunk 246 of 1028 - Sequence number: 246
+Packet size is 1024
+Received ACK for chunk 221 from ('172.18.0.3', 20001)
+Sent chunk 247 of 1028 - Sequence number: 247
+Packet size is 1024
+Received ACK for chunk 222 from ('172.18.0.3', 20001)
+Sent chunk 248 of 1028 - Sequence number: 248
+Packet size is 1024
+Received ACK for chunk 223 from ('172.18.0.3', 20001)
+Sent chunk 249 of 1028 - Sequence number: 249
+Packet size is 1024
+Sent chunk 250 of 1028 - Sequence number: 250
+Packet size is 1024
+Received ACK for chunk 224 from ('172.18.0.3', 20001)
+Sent chunk 251 of 1028 - Sequence number: 251
+Packet size is 1024
+Received ACK for chunk 225 from ('172.18.0.3', 20001)
+Sent chunk 252 of 1028 - Sequence number: 252
+Packet size is 1024
+Sent chunk 253 of 1028 - Sequence number: 253
+Packet size is 1024
+Received ACK for chunk 226 from ('172.18.0.3', 20001)
+Sent chunk 254 of 1028 - Sequence number: 254
+Packet size is 1024
+Received ACK for chunk 227 from ('172.18.0.3', 20001)
+Sent chunk 255 of 1028 - Sequence number: 255
+Packet size is 1024
+Sent chunk 256 of 1028 - Sequence number: 256
+Packet size is 1024
+Received ACK for chunk 228 from ('172.18.0.3', 20001)
+Sent chunk 257 of 1028 - Sequence number: 257
+Packet size is 1024
+Received ACK for chunk 229 from ('172.18.0.3', 20001)
+Sent chunk 258 of 1028 - Sequence number: 258
+Packet size is 1024
+Sent chunk 259 of 1028 - Sequence number: 259
+Packet size is 1024
+Received ACK for chunk 230 from ('172.18.0.3', 20001)
+Sent chunk 260 of 1028 - Sequence number: 260
+Packet size is 1024
+Received ACK for chunk 231 from ('172.18.0.3', 20001)
+Sent chunk 261 of 1028 - Sequence number: 261
+Packet size is 1024
+Received ACK for chunk 232 from ('172.18.0.3', 20001)
+Sent chunk 262 of 1028 - Sequence number: 262
+Packet size is 1024
+Sent chunk 263 of 1028 - Sequence number: 263
+Packet size is 1024
+Received ACK for chunk 233 from ('172.18.0.3', 20001)
+Sent chunk 264 of 1028 - Sequence number: 264
+Packet size is 1024
+Received ACK for chunk 234 from ('172.18.0.3', 20001)
+Received ACK for chunk 235 from ('172.18.0.3', 20001)
+Sent chunk 265 of 1028 - Sequence number: 265
+Packet size is 1024
+Received ACK for chunk 236 from ('172.18.0.3', 20001)
+Sent chunk 266 of 1028 - Sequence number: 266
+Packet size is 1024
+Sent chunk 267 of 1028 - Sequence number: 267
+Packet size is 1024
+Received ACK for chunk 237 from ('172.18.0.3', 20001)
+Received ACK for chunk 238 from ('172.18.0.3', 20001)
+Sent chunk 268 of 1028 - Sequence number: 268
+Packet size is 1024
+Received ACK for chunk 239 from ('172.18.0.3', 20001)
+Sent chunk 269 of 1028 - Sequence number: 269
+Packet size is 1024
+Received ACK for chunk 240 from ('172.18.0.3', 20001)
+Sent chunk 270 of 1028 - Sequence number: 270
+Packet size is 1024
+Received ACK for chunk 241 from ('172.18.0.3', 20001)
+Sent chunk 271 of 1028 - Sequence number: 271
+Packet size is 1024
+Received ACK for chunk 242 from ('172.18.0.3', 20001)
+Sent chunk 272 of 1028 - Sequence number: 272
+Packet size is 1024
+Received ACK for chunk 243 from ('172.18.0.3', 20001)
+Received ACK for chunk 244 from ('172.18.0.3', 20001)
+Sent chunk 273 of 1028 - Sequence number: 273
+Packet size is 1024
+Received ACK for chunk 245 from ('172.18.0.3', 20001)
+Sent chunk 274 of 1028 - Sequence number: 274
+Packet size is 1024
+Received ACK for chunk 246 from ('172.18.0.3', 20001)
+Sent chunk 275 of 1028 - Sequence number: 275
+Packet size is 1024
+Received ACK for chunk 247 from ('172.18.0.3', 20001)
+Sent chunk 276 of 1028 - Sequence number: 276
+Packet size is 1024
+Received ACK for chunk 248 from ('172.18.0.3', 20001)
+Sent chunk 277 of 1028 - Sequence number: 277
+Packet size is 1024
+Received ACK for chunk 249 from ('172.18.0.3', 20001)
+Sent chunk 278 of 1028 - Sequence number: 278
+Packet size is 1024
+Received ACK for chunk 250 from ('172.18.0.3', 20001)
+Sent chunk 279 of 1028 - Sequence number: 279
+Packet size is 1024
+Received ACK for chunk 251 from ('172.18.0.3', 20001)
+Sent chunk 280 of 1028 - Sequence number: 280
+Packet size is 1024
+Received ACK for chunk 252 from ('172.18.0.3', 20001)
+Sent chunk 281 of 1028 - Sequence number: 281
+Packet size is 1024
+Received ACK for chunk 253 from ('172.18.0.3', 20001)
+Sent chunk 282 of 1028 - Sequence number: 282
+Packet size is 1024
+Received ACK for chunk 254 from ('172.18.0.3', 20001)
+Sent chunk 283 of 1028 - Sequence number: 283
+Packet size is 1024
+Received ACK for chunk 255 from ('172.18.0.3', 20001)
+Sent chunk 284 of 1028 - Sequence number: 284
+Packet size is 1024
+Received ACK for chunk 256 from ('172.18.0.3', 20001)
+Sent chunk 285 of 1028 - Sequence number: 285
+Packet size is 1024
+Received ACK for chunk 257 from ('172.18.0.3', 20001)
+Sent chunk 286 of 1028 - Sequence number: 286
+Packet size is 1024
+Received ACK for chunk 258 from ('172.18.0.3', 20001)
+Sent chunk 287 of 1028 - Sequence number: 287
+Packet size is 1024
+                                                                                                            Received ACK for chunk 259 from ('172.18.0.3', 20001)
+Sent chunk 292 of 1028 - Sequence number: 292
+Packet size is 1024
+Received ACK for chunk 260 from ('172.18.0.3', 20001)
+Sent chunk 293 of 1028 - Sequence number: 293
+Packet size is 1024
+Received ACK for chunk 261 from ('172.18.0.3', 20001)
+Sent chunk 294 of 1028 - Sequence number: 294
+Packet size is 1024
+Received ACK for chunk 262 from ('172.18.0.3', 20001)
+Sent chunk 295 of 1028 - Sequence number: 295
+Packet size is 1024
+Received ACK for chunk 263 from ('172.18.0.3', 20001)
+Received ACK for chunk 264 from ('172.18.0.3', 20001)
+Received ACK for chunk 265 from ('172.18.0.3', 20001)
+Received ACK for chunk 266 from ('172.18.0.3', 20001)
+Received ACK for chunk 267 from ('172.18.0.3', 20001)
+Sent chunk 296 of 1028 - Sequence number: 296
+Packet size is 1024
+Received ACK for chunk 268 from ('172.18.0.3', 20001)
+Received ACK for chunk 269 from ('172.18.0.3', 20001)
+Received ACK for chunk 270 from ('172.18.0.3', 20001)
+Received ACK for chunk 271 from ('172.18.0.3', 20001)
+Received ACK for chunk 272 from ('172.18.0.3', 20001)
+Sent chunk 297 of 1028 - Sequence number: 297
+Packet size is 1024
+Received ACK for chunk 273 from ('172.18.0.3', 20001)
+Received ACK for chunk 274 from ('172.18.0.3', 20001)
+Sent chunk 298 of 1028 - Sequence number: 298
+Packet size is 1024
+Received ACK for chunk 275 from ('172.18.0.3', 20001)
+Sent chunk 299 of 1028 - Sequence number: 299
+Packet size is 1024
+Received ACK for chunk 276 from ('172.18.0.3', 20001)
+Sent chunk 300 of 1028 - Sequence number: 300
+Packet size is 1024
+Received ACK for chunk 277 from ('172.18.0.3', 20001)
+Sent chunk 301 of 1028 - Sequence number: 301
+Packet size is 1024
+Received ACK for chunk 278 from ('172.18.0.3', 20001)
+Received ACK for chunk 279 from ('172.18.0.3', 20001)
+Sent chunk 302 of 1028 - Sequence number: 302
+Packet size is 1024
+Received ACK for chunk 280 from ('172.18.0.3', 20001)
+Sent chunk 303 of 1028 - Sequence number: 303
+Packet size is 1024
+Received ACK for chunk 281 from ('172.18.0.3', 20001)
+Sent chunk 304 of 1028 - Sequence number: 304
+Packet size is 1024
+Received ACK for chunk 282 from ('172.18.0.3', 20001)
+Sent chunk 305 of 1028 - Sequence number: 305
+Packet size is 1024
+Received ACK for chunk 283 from ('172.18.0.3', 20001)
+Sent chunk 306 of 1028 - Sequence number: 306
+Packet size is 1024
+Received ACK for chunk 284 from ('172.18.0.3', 20001)
+Sent chunk 307 of 1028 - Sequence number: 307
+Packet size is 1024
+Received ACK for chunk 285 from ('172.18.0.3', 20001)
+Sent chunk 308 of 1028 - Sequence number: 308
+Packet size is 1024
+Received ACK for chunk 286 from ('172.18.0.3', 20001)
+Sent chunk 309 of 1028 - Sequence number: 309
+Packet size is 1024
+Received ACK for chunk 287 from ('172.18.0.3', 20001)
+Sent chunk 310 of 1028 - Sequence number: 310
+Packet size is 1024
+Received ACK for chunk 288 from ('172.18.0.3', 20001)
+Sent chunk 311 of 1028 - Sequence number: 311
+Packet size is 1024
+Received ACK for chunk 289 from ('172.18.0.3', 20001)
+Sent chunk 312 of 1028 - Sequence number: 312
+Packet size is 1024
+Received ACK for chunk 290 from ('172.18.0.3', 20001)
+Sent chunk 313 of 1028 - Sequence number: 313
+Packet size is 1024
+Received ACK for chunk 291 from ('172.18.0.3', 20001)
+Sent chunk 314 of 1028 - Sequence number: 314
+Packet size is 1024
+Received ACK for chunk 292 from ('172.18.0.3', 20001)
+Sent chunk 315 of 1028 - Sequence number: 315
+Packet size is 1024
+Received ACK for chunk 293 from ('172.18.0.3', 20001)
+Sent chunk 316 of 1028 - Sequence number: 316
+Packet size is 1024
+Received ACK for chunk 294 from ('172.18.0.3', 20001)
+Received ACK for chunk 295 from ('172.18.0.3', 20001)
+Received ACK for chunk 296 from ('172.18.0.3', 20001)
+Received ACK for chunk 297 from ('172.18.0.3', 20001)
+Received ACK for chunk 298 from ('172.18.0.3', 20001)
+Received ACK for chunk 299 from ('172.18.0.3', 20001)
+Received ACK for chunk 300 from ('172.18.0.3', 20001)
+Received ACK for chunk 301 from ('172.18.0.3', 20001)
+Received ACK for chunk 302 from ('172.18.0.3', 20001)
+Sent chunk 317 of 1028 - Sequence number: 317
+Packet size is 1024
+Received ACK for chunk 303 from ('172.18.0.3', 20001)
+Received ACK for chunk 304 from ('172.18.0.3', 20001)
+Received ACK for chunk 305 from ('172.18.0.3', 20001)
+Received ACK for chunk 306 from ('172.18.0.3', 20001)
+Received ACK for chunk 307 from ('172.18.0.3', 20001)
+Received ACK for chunk 308 from ('172.18.0.3', 20001)
+Received ACK for chunk 309 from ('172.18.0.3', 20001)
+Received ACK for chunk 310 from ('172.18.0.3', 20001)
+Received ACK for chunk 311 from ('172.18.0.3', 20001)
+Sent chunk 318 of 1028 - Sequence number: 318
+Packet size is 1024
+Received ACK for chunk 312 from ('172.18.0.3', 20001)
+Sent chunk 319 of 1028 - Sequence number: 319
+Packet size is 1024
+Received ACK for chunk 313 from ('172.18.0.3', 20001)
+Received ACK for chunk 314 from ('172.18.0.3', 20001)
+Received ACK for chunk 315 from ('172.18.0.3', 20001)
+Received ACK for chunk 316 from ('172.18.0.3', 20001)
+Received ACK for chunk 317 from ('172.18.0.3', 20001)
+Received ACK for chunk 318 from ('172.18.0.3', 20001)
+Received ACK for chunk 319 from ('172.18.0.3', 20001)
+Received ACK for chunk 320 from ('172.18.0.3', 20001)
+Sent chunk 320 of 1028 - Sequence number: 320
+Packet size is 1024
+Sent chunk 321 of 1028 - Sequence number: 321
+Packet size is 1024
+Sent chunk 322 of 1028 - Sequence number: 322
+Packet size is 1024
+Received ACK for chunk 321 from ('172.18.0.3', 20001)
+Sent chunk 323 of 1028 - Sequence number: 323
+Packet size is 1024
+Received ACK for chunk 322 from ('172.18.0.3', 20001)
+Sent chunk 324 of 1028 - Sequence number: 324
+Packet size is 1024
+Received ACK for chunk 323 from ('172.18.0.3', 20001)
+Sent chunk 325 of 1028 - Sequence number: 325
+Packet size is 1024
+Received ACK for chunk 324 from ('172.18.0.3', 20001)
+Sent chunk 326 of 1028 - Sequence number: 326
+Packet size is 1024
+Received ACK for chunk 325 from ('172.18.0.3', 20001)
+Sent chunk 327 of 1028 - Sequence number: 327
+Packet size is 1024
+Received ACK for chunk 326 from ('172.18.0.3', 20001)
+Sent chunk 328 of 1028 - Sequence number: 328
+Packet size is 1024
+Received ACK for chunk 327 from ('172.18.0.3', 20001)
+Sent chunk 329 of 1028 - Sequence number: 329
+Packet size is 1024
+Sent chunk 330 of 1028 - Sequence number: 330
+Packet size is 1024
+Received ACK for chunk 328 from ('172.18.0.3', 20001)
+Sent chunk 331 of 1028 - Sequence number: 331
+Packet size is 1024
+Received ACK for chunk 329 from ('172.18.0.3', 20001)
+Sent chunk 332 of 1028 - Sequence number: 332
+Packet size is 1024
+Received ACK for chunk 330 from ('172.18.0.3', 20001)
+Sent chunk 333 of 1028 - Sequence number: 333
+Packet size is 1024
+Received ACK for chunk 331 from ('172.18.0.3', 20001)
+Sent chunk 334 of 1028 - Sequence number: 334
+Packet size is 1024
+Received ACK for chunk 332 from ('172.18.0.3', 20001)
+Sent chunk 335 of 1028 - Sequence number: 335
+Packet size is 1024
+Received ACK for chunk 333 from ('172.18.0.3', 20001)
+Sent chunk 336 of 1028 - Sequence number: 336
+Packet size is 1024
+Received ACK for chunk 334 from ('172.18.0.3', 20001)
+Sent chunk 337 of 1028 - Sequence number: 337
+Packet size is 1024
+Received ACK for chunk 335 from ('172.18.0.3', 20001)
+Sent chunk 338 of 1028 - Sequence number: 338
+Packet size is 1024
+Sent chunk 339 of 1028 - Sequence number: 339
+Packet size is 1024
+Received ACK for chunk 336 from ('172.18.0.3', 20001)
+Received ACK for chunk 337 from ('172.18.0.3', 20001)
+Sent chunk 340 of 1028 - Sequence number: 340
+Packet size is 1024
+Received ACK for chunk 338 from ('172.18.0.3', 20001)
+Sent chunk 341 of 1028 - Sequence number: 341
+Packet size is 1024
+Received ACK for chunk 339 from ('172.18.0.3', 20001)
+Sent chunk 342 of 1028 - Sequence number: 342
+Packet size is 1024
+Received ACK for chunk 340 from ('172.18.0.3', 20001)
+Sent chunk 343 of 1028 - Sequence number: 343
+Packet size is 1024
+Sent chunk 344 of 1028 - Sequence number: 344
+Packet size is 1024
+                                                                                                                                                                                                                                                                        Received ACK for chunk 341 from ('172.18.0.3', 20001)
+Received ACK for chunk 342 from ('172.18.0.3', 20001)
+Received ACK for chunk 343 from ('172.18.0.3', 20001)
+Sent chunk 347 of 1028 - Sequence number: 347
+Packet size is 1024
+Received ACK for chunk 344 from ('172.18.0.3', 20001)
+Received ACK for chunk 345 from ('172.18.0.3', 20001)
+Sent chunk 348 of 1028 - Sequence number: 348
+Packet size is 1024
+Received ACK for chunk 346 from ('172.18.0.3', 20001)
+Sent chunk 349 of 1028 - Sequence number: 349
+Packet size is 1024
+Received ACK for chunk 347 from ('172.18.0.3', 20001)
+Sent chunk 350 of 1028 - Sequence number: 350
+Packet size is 1024
+Received ACK for chunk 348 from ('172.18.0.3', 20001)
+Sent chunk 351 of 1028 - Sequence number: 351
+Packet size is 1024
+Received ACK for chunk 349 from ('172.18.0.3', 20001)
+Sent chunk 352 of 1028 - Sequence number: 352
+Packet size is 1024
+Received ACK for chunk 350 from ('172.18.0.3', 20001)
+Received ACK for chunk 351 from ('172.18.0.3', 20001)
+Sent chunk 353 of 1028 - Sequence number: 353
+Packet size is 1024
+Received ACK for chunk 352 from ('172.18.0.3', 20001)
+Sent chunk 354 of 1028 - Sequence number: 354
+Packet size is 1024
+Received ACK for chunk 353 from ('172.18.0.3', 20001)
+Sent chunk 355 of 1028 - Sequence number: 355
+Packet size is 1024
+Received ACK for chunk 354 from ('172.18.0.3', 20001)
+Sent chunk 356 of 1028 - Sequence number: 356
+Packet size is 1024
+Received ACK for chunk 355 from ('172.18.0.3', 20001)
+Sent chunk 357 of 1028 - Sequence number: 357
+Packet size is 1024
+Received ACK for chunk 356 from ('172.18.0.3', 20001)
+Sent chunk 358 of 1028 - Sequence number: 358
+Packet size is 1024
+Received ACK for chunk 357 from ('172.18.0.3', 20001)
+Sent chunk 359 of 1028 - Sequence number: 359
+Packet size is 1024
+Sent chunk 360 of 1028 - Sequence number: 360
+Packet size is 1024
+Sent chunk 361 of 1028 - Sequence number: 361
+Packet size is 1024
+Sent chunk 362 of 1028 - Sequence number: 362
+Packet size is 1024
+Received ACK for chunk 358 from ('172.18.0.3', 20001)
+Sent chunk 363 of 1028 - Sequence number: 363
+Packet size is 1024
+Received ACK for chunk 359 from ('172.18.0.3', 20001)
+Sent chunk 364 of 1028 - Sequence number: 364
+Packet size is 1024
+Received ACK for chunk 360 from ('172.18.0.3', 20001)
+Sent chunk 365 of 1028 - Sequence number: 365
+Packet size is 1024
+Received ACK for chunk 361 from ('172.18.0.3', 20001)
+Sent chunk 366 of 1028 - Sequence number: 366
+Packet size is 1024
+Received ACK for chunk 362 from ('172.18.0.3', 20001)
+Sent chunk 367 of 1028 - Sequence number: 367
+Packet size is 1024
+Received ACK for chunk 363 from ('172.18.0.3', 20001)
+Sent chunk 368 of 1028 - Sequence number: 368
+Packet size is 1024
+Sent chunk 369 of 1028 - Sequence number: 369
+Packet size is 1024
+Received ACK for chunk 364 from ('172.18.0.3', 20001)
+Sent chunk 370 of 1028 - Sequence number: 370
+Packet size is 1024
+Received ACK for chunk 365 from ('172.18.0.3', 20001)
+Sent chunk 371 of 1028 - Sequence number: 371
+Packet size is 1024
+Sent chunk 372 of 1028 - Sequence number: 372
+Packet size is 1024
+Received ACK for chunk 366 from ('172.18.0.3', 20001)
+Received ACK for chunk 367 from ('172.18.0.3', 20001)
+Sent chunk 373 of 1028 - Sequence number: 373
+Packet size is 1024
+Received ACK for chunk 368 from ('172.18.0.3', 20001)
+Sent chunk 374 of 1028 - Sequence number: 374
+Packet size is 1024
+Received ACK for chunk 369 from ('172.18.0.3', 20001)
+Sent chunk 375 of 1028 - Sequence number: 375
+Packet size is 1024
+Sent chunk 376 of 1028 - Sequence number: 376
+Packet size is 1024
+Received ACK for chunk 370 from ('172.18.0.3', 20001)
+Received ACK for chunk 371 from ('172.18.0.3', 20001)
+Sent chunk 377 of 1028 - Sequence number: 377
+Packet size is 1024
+Received ACK for chunk 372 from ('172.18.0.3', 20001)
+Sent chunk 378 of 1028 - Sequence number: 378
+Packet size is 1024
+Received ACK for chunk 373 from ('172.18.0.3', 20001)
+Sent chunk 379 of 1028 - Sequence number: 379
+Packet size is 1024
+Received ACK for chunk 374 from ('172.18.0.3', 20001)
+Sent chunk 380 of 1028 - Sequence number: 380
+Packet size is 1024
+Received ACK for chunk 375 from ('172.18.0.3', 20001)
+Sent chunk 381 of 1028 - Sequence number: 381
+Packet size is 1024
+Received ACK for chunk 376 from ('172.18.0.3', 20001)
+Sent chunk 382 of 1028 - Sequence number: 382
+Packet size is 1024
+Received ACK for chunk 377 from ('172.18.0.3', 20001)
+Sent chunk 383 of 1028 - Sequence number: 383
+Packet size is 1024
+Received ACK for chunk 378 from ('172.18.0.3', 20001)
+Sent chunk 384 of 1028 - Sequence number: 384
+Packet size is 1024
+Received ACK for chunk 379 from ('172.18.0.3', 20001)
+Sent chunk 385 of 1028 - Sequence number: 385
+Packet size is 1024
+Received ACK for chunk 380 from ('172.18.0.3', 20001)
+Sent chunk 386 of 1028 - Sequence number: 386
+Packet size is 1024
+Received ACK for chunk 381 from ('172.18.0.3', 20001)
+Sent chunk 387 of 1028 - Sequence number: 387
+Packet size is 1024
+Received ACK for chunk 382 from ('172.18.0.3', 20001)
+Sent chunk 388 of 1028 - Sequence number: 388
+Packet size is 1024
+Received ACK for chunk 383 from ('172.18.0.3', 20001)
+Sent chunk 389 of 1028 - Sequence number: 389
+Packet size is 1024
+Received ACK for chunk 384 from ('172.18.0.3', 20001)
+Sent chunk 390 of 1028 - Sequence number: 390
+Packet size is 1024
+Received ACK for chunk 385 from ('172.18.0.3', 20001)
+Sent chunk 391 of 1028 - Sequence number: 391
+Packet size is 1024
+Received ACK for chunk 386 from ('172.18.0.3', 20001)
+Sent chunk 392 of 1028 - Sequence number: 392
+Packet size is 1024
+Received ACK for chunk 387 from ('172.18.0.3', 20001)
+Sent chunk 393 of 1028 - Sequence number: 393
+Packet size is 1024
+Sent chunk 394 of 1028 - Sequence number: 394
+Packet size is 1024
+Received ACK for chunk 388 from ('172.18.0.3', 20001)
+Sent chunk 395 of 1028 - Sequence number: 395
+Packet size is 1024
+Received ACK for chunk 389 from ('172.18.0.3', 20001)
+Received ACK for chunk 390 from ('172.18.0.3', 20001)
+Sent chunk 396 of 1028 - Sequence number: 396
+Packet size is 1024
+Received ACK for chunk 391 from ('172.18.0.3', 20001)
+Sent chunk 397 of 1028 - Sequence number: 397
+Packet size is 1024
+Received ACK for chunk 392 from ('172.18.0.3', 20001)
+Sent chunk 398 of 1028 - Sequence number: 398
+Packet size is 1024
+Received ACK for chunk 393 from ('172.18.0.3', 20001)
+Sent chunk 399 of 1028 - Sequence number: 399
+Packet size is 1024
+Received ACK for chunk 394 from ('172.18.0.3', 20001)
+Sent chunk 400 of 1028 - Sequence number: 400
+Packet size is 1024
+Received ACK for chunk 395 from ('172.18.0.3', 20001)
+Sent chunk 401 of 1028 - Sequence number: 401
+Packet size is 1024
+Sent chunk 402 of 1028 - Sequence number: 402
+Packet size is 1024
+Received ACK for chunk 396 from ('172.18.0.3', 20001)
+Sent chunk 403 of 1028 - Sequence number: 403
+Packet size is 1024
+Received ACK for chunk 397 from ('172.18.0.3', 20001)
+Sent chunk 404 of 1028 - Sequence number: 404
+Packet size is 1024
+Received ACK for chunk 398 from ('172.18.0.3', 20001)
+Sent chunk 405 of 1028 - Sequence number: 405
+Packet size is 1024
+Received ACK for chunk 399 from ('172.18.0.3', 20001)
+Sent chunk 406 of 1028 - Sequence number: 406
+Packet size is 1024
+Sent chunk 407 of 1028 - Sequence number: 407
+Packet size is 1024
+Sent chunk 408 of 1028 - Sequence number: 408
+Packet size is 1024
+Sent chunk 409 of 1028 - Sequence number: 409
+Packet size is 1024
+Received ACK for chunk 400 from ('172.18.0.3', 20001)
+Sent chunk 410 of 1028 - Sequence number: 410
+Packet size is 1024
+Received ACK for chunk 401 from ('172.18.0.3', 20001)
+Sent chunk 411 of 1028 - Sequence number: 411
+Packet size is 1024
+Received ACK for chunk 402 from ('172.18.0.3', 20001)
+Sent chunk 412 of 1028 - Sequence number: 412
+Packet size is 1024
+Received ACK for chunk 403 from ('172.18.0.3', 20001)
+Sent chunk 413 of 1028 - Sequence number: 413
+Packet size is 1024
+Received ACK for chunk 404 from ('172.18.0.3', 20001)
+Sent chunk 414 of 1028 - Sequence number: 414
+Packet size is 1024
+Received ACK for chunk 405 from ('172.18.0.3', 20001)
+Sent chunk 415 of 1028 - Sequence number: 415
+                                                                                                                                    Packet size is 1024
+Received ACK for chunk 409 from ('172.18.0.3', 20001)
+Sent chunk 416 of 1028 - Sequence number: 416
+Packet size is 1024
+Received ACK for chunk 410 from ('172.18.0.3', 20001)
+Sent chunk 417 of 1028 - Sequence number: 417
+Packet size is 1024
+Sent chunk 418 of 1028 - Sequence number: 418
+Packet size is 1024
+Received ACK for chunk 411 from ('172.18.0.3', 20001)
+Received ACK for chunk 412 from ('172.18.0.3', 20001)
+Sent chunk 419 of 1028 - Sequence number: 419
+Packet size is 1024
+Received ACK for chunk 413 from ('172.18.0.3', 20001)
+Sent chunk 420 of 1028 - Sequence number: 420
+Packet size is 1024
+Received ACK for chunk 414 from ('172.18.0.3', 20001)
+Sent chunk 421 of 1028 - Sequence number: 421
+Packet size is 1024
+Received ACK for chunk 415 from ('172.18.0.3', 20001)
+Sent chunk 422 of 1028 - Sequence number: 422
+Packet size is 1024
+Received ACK for chunk 416 from ('172.18.0.3', 20001)
+Sent chunk 423 of 1028 - Sequence number: 423
+Packet size is 1024
+Received ACK for chunk 417 from ('172.18.0.3', 20001)
+Sent chunk 424 of 1028 - Sequence number: 424
+Packet size is 1024
+Sent chunk 425 of 1028 - Sequence number: 425
+Packet size is 1024
+Received ACK for chunk 418 from ('172.18.0.3', 20001)
+Sent chunk 426 of 1028 - Sequence number: 426
+Packet size is 1024
+Received ACK for chunk 419 from ('172.18.0.3', 20001)
+Sent chunk 427 of 1028 - Sequence number: 427
+Packet size is 1024
+Received ACK for chunk 420 from ('172.18.0.3', 20001)
+Sent chunk 428 of 1028 - Sequence number: 428
+Packet size is 1024
+Received ACK for chunk 421 from ('172.18.0.3', 20001)
+Sent chunk 429 of 1028 - Sequence number: 429
+Packet size is 1024
+Sent chunk 430 of 1028 - Sequence number: 430
+Packet size is 1024
+Received ACK for chunk 422 from ('172.18.0.3', 20001)
+Sent chunk 431 of 1028 - Sequence number: 431
+Packet size is 1024
+Received ACK for chunk 423 from ('172.18.0.3', 20001)
+Sent chunk 432 of 1028 - Sequence number: 432
+Packet size is 1024
+Received ACK for chunk 424 from ('172.18.0.3', 20001)
+Sent chunk 433 of 1028 - Sequence number: 433
+Packet size is 1024
+Received ACK for chunk 425 from ('172.18.0.3', 20001)
+Sent chunk 434 of 1028 - Sequence number: 434
+Packet size is 1024
+Sent chunk 435 of 1028 - Sequence number: 435
+Packet size is 1024
+Received ACK for chunk 426 from ('172.18.0.3', 20001)
+Sent chunk 436 of 1028 - Sequence number: 436
+Packet size is 1024
+Received ACK for chunk 427 from ('172.18.0.3', 20001)
+Sent chunk 437 of 1028 - Sequence number: 437
+Packet size is 1024
+Received ACK for chunk 428 from ('172.18.0.3', 20001)
+Sent chunk 438 of 1028 - Sequence number: 438
+Packet size is 1024
+Sent chunk 439 of 1028 - Sequence number: 439
+Packet size is 1024
+Received ACK for chunk 429 from ('172.18.0.3', 20001)
+Sent chunk 440 of 1028 - Sequence number: 440
+Packet size is 1024
+Received ACK for chunk 430 from ('172.18.0.3', 20001)
+Sent chunk 441 of 1028 - Sequence number: 441
+Packet size is 1024
+Received ACK for chunk 431 from ('172.18.0.3', 20001)
+Sent chunk 442 of 1028 - Sequence number: 442
+Packet size is 1024
+Received ACK for chunk 432 from ('172.18.0.3', 20001)
+Sent chunk 443 of 1028 - Sequence number: 443
+Packet size is 1024
+Received ACK for chunk 433 from ('172.18.0.3', 20001)
+Sent chunk 444 of 1028 - Sequence number: 444
+Packet size is 1024
+Received ACK for chunk 434 from ('172.18.0.3', 20001)
+Sent chunk 445 of 1028 - Sequence number: 445
+Packet size is 1024
+Received ACK for chunk 435 from ('172.18.0.3', 20001)
+Sent chunk 446 of 1028 - Sequence number: 446
+Packet size is 1024
+Received ACK for chunk 436 from ('172.18.0.3', 20001)
+Sent chunk 447 of 1028 - Sequence number: 447
+Packet size is 1024
+Received ACK for chunk 437 from ('172.18.0.3', 20001)
+Received ACK for chunk 438 from ('172.18.0.3', 20001)
+Sent chunk 448 of 1028 - Sequence number: 448
+Packet size is 1024
+Received ACK for chunk 439 from ('172.18.0.3', 20001)
+Sent chunk 449 of 1028 - Sequence number: 449
+Packet size is 1024
+Received ACK for chunk 440 from ('172.18.0.3', 20001)
+Sent chunk 450 of 1028 - Sequence number: 450
+Packet size is 1024
+Received ACK for chunk 441 from ('172.18.0.3', 20001)
+Sent chunk 451 of 1028 - Sequence number: 451
+Packet size is 1024
+Received ACK for chunk 442 from ('172.18.0.3', 20001)
+Sent chunk 452 of 1028 - Sequence number: 452
+Packet size is 1024
+Received ACK for chunk 443 from ('172.18.0.3', 20001)
+Sent chunk 453 of 1028 - Sequence number: 453
+Packet size is 1024
+Received ACK for chunk 444 from ('172.18.0.3', 20001)
+Sent chunk 454 of 1028 - Sequence number: 454
+Packet size is 1024
+Received ACK for chunk 445 from ('172.18.0.3', 20001)
+Sent chunk 455 of 1028 - Sequence number: 455
+Packet size is 1024
+Received ACK for chunk 446 from ('172.18.0.3', 20001)
+Sent chunk 456 of 1028 - Sequence number: 456
+Packet size is 1024
+Received ACK for chunk 447 from ('172.18.0.3', 20001)
+Sent chunk 457 of 1028 - Sequence number: 457
+Packet size is 1024
+Received ACK for chunk 448 from ('172.18.0.3', 20001)
+Sent chunk 458 of 1028 - Sequence number: 458
+Packet size is 1024
+Received ACK for chunk 449 from ('172.18.0.3', 20001)
+Received ACK for chunk 450 from ('172.18.0.3', 20001)
+Sent chunk 459 of 1028 - Sequence number: 459
+Packet size is 1024
+Received ACK for chunk 451 from ('172.18.0.3', 20001)
+Sent chunk 460 of 1028 - Sequence number: 460
+Packet size is 1024
+Received ACK for chunk 452 from ('172.18.0.3', 20001)
+Received ACK for chunk 453 from ('172.18.0.3', 20001)
+Sent chunk 461 of 1028 - Sequence number: 461
+Packet size is 1024
+Received ACK for chunk 454 from ('172.18.0.3', 20001)
+Sent chunk 462 of 1028 - Sequence number: 462
+Packet size is 1024
+Received ACK for chunk 455 from ('172.18.0.3', 20001)
+Received ACK for chunk 456 from ('172.18.0.3', 20001)
+Sent chunk 463 of 1028 - Sequence number: 463
+Packet size is 1024
+Received ACK for chunk 457 from ('172.18.0.3', 20001)
+Sent chunk 464 of 1028 - Sequence number: 464
+Packet size is 1024
+Received ACK for chunk 458 from ('172.18.0.3', 20001)
+Sent chunk 465 of 1028 - Sequence number: 465
+Packet size is 1024
+Received ACK for chunk 459 from ('172.18.0.3', 20001)
+Sent chunk 466 of 1028 - Sequence number: 466
+Packet size is 1024
+Received ACK for chunk 460 from ('172.18.0.3', 20001)
+Sent chunk 467 of 1028 - Sequence number: 467
+Packet size is 1024
+Received ACK for chunk 461 from ('172.18.0.3', 20001)
+Sent chunk 468 of 1028 - Sequence number: 468
+Packet size is 1024
+Received ACK for chunk 462 from ('172.18.0.3', 20001)
+Sent chunk 469 of 1028 - Sequence number: 469
+Packet size is 1024
+Received ACK for chunk 463 from ('172.18.0.3', 20001)
+Sent chunk 470 of 1028 - Sequence number: 470
+Packet size is 1024
+Received ACK for chunk 464 from ('172.18.0.3', 20001)
+Sent chunk 471 of 1028 - Sequence number: 471
+Packet size is 1024
+Received ACK for chunk 465 from ('172.18.0.3', 20001)
+Sent chunk 472 of 1028 - Sequence number: 472
+Packet size is 1024
+Sent chunk 473 of 1028 - Sequence number: 473
+Packet size is 1024
+Sent chunk 474 of 1028 - Sequence number: 474
+Packet size is 1024
+Received ACK for chunk 466 from ('172.18.0.3', 20001)
+Sent chunk 475 of 1028 - Sequence number: 475
+Packet size is 1024
+Received ACK for chunk 467 from ('172.18.0.3', 20001)
+Received ACK for chunk 468 from ('172.18.0.3', 20001)
+Sent chunk 476 of 1028 - Sequence number: 476
+Packet size is 1024
+Received ACK for chunk 469 from ('172.18.0.3', 20001)
+Sent chunk 477 of 1028 - Sequence number: 477
+Packet size is 1024
+Received ACK for chunk 470 from ('172.18.0.3', 20001)
+Sent chunk 478 of 1028 - Sequence number: 478
+Packet size is 1024
+Received ACK for chunk 471 from ('172.18.0.3', 20001)
+Sent chunk 479 of 1028 - Sequence number: 479
+Packet size is 1024
+Received ACK for chunk 472 from ('172.18.0.3', 20001)
+Sent chunk 480 of 1028 - Sequence number: 480
+Packet size is 1024
+Received ACK for chunk 473 from ('172.18.0.3', 20001)
+Sent chunk 481 of 1028 - Sequence number: 481
+Packet size is 1024
+Received ACK for chunk 474 from ('172.18.0.3', 20001)
+Sent chunk 482 of 1028 - Sequence number: 482
+Packet size is 1024
+ from ('172.18.0.3', 20001)
+Sent chunk 341 of 1028 - Sequence number: 341
+Packet size is 1024
+Received ACK for chunk 339 from ('172.18.0.3', 20001)
+Sent chunk 342Received ACK for chunk 475 from ('172.18.0.3', 20001)
+Sent chunk 485 of 1028 - Sequence number: 485
+Packet size is 1024
+Received ACK for chunk 476 from ('172.18.0.3', 20001)
+Received ACK for chunk 477 from ('172.18.0.3', 20001)
+Received ACK for chunk 478 from ('172.18.0.3', 20001)
+Received ACK for chunk 479 from ('172.18.0.3', 20001)
+Received ACK for chunk 480 from ('172.18.0.3', 20001)
+Sent chunk 486 of 1028 - Sequence number: 486
+Packet size is 1024
+Received ACK for chunk 481 from ('172.18.0.3', 20001)
+Sent chunk 487 of 1028 - Sequence number: 487
+Packet size is 1024
+Received ACK for chunk 482 from ('172.18.0.3', 20001)
+Sent chunk 488 of 1028 - Sequence number: 488
+Packet size is 1024
+Received ACK for chunk 483 from ('172.18.0.3', 20001)
+Sent chunk 489 of 1028 - Sequence number: 489
+Packet size is 1024
+Received ACK for chunk 484 from ('172.18.0.3', 20001)
+Sent chunk 490 of 1028 - Sequence number: 490
+Packet size is 1024
+Received ACK for chunk 485 from ('172.18.0.3', 20001)
+Sent chunk 491 of 1028 - Sequence number: 491
+Packet size is 1024
+Received ACK for chunk 486 from ('172.18.0.3', 20001)
+Sent chunk 492 of 1028 - Sequence number: 492
+Packet size is 1024
+Received ACK for chunk 487 from ('172.18.0.3', 20001)
+Sent chunk 493 of 1028 - Sequence number: 493
+Packet size is 1024
+Received ACK for chunk 488 from ('172.18.0.3', 20001)
+Sent chunk 494 of 1028 - Sequence number: 494
+Packet size is 1024
+Received ACK for chunk 489 from ('172.18.0.3', 20001)
+Sent chunk 495 of 1028 - Sequence number: 495
+Packet size is 1024
+Received ACK for chunk 490 from ('172.18.0.3', 20001)
+Sent chunk 496 of 1028 - Sequence number: 496
+Packet size is 1024
+Received ACK for chunk 491 from ('172.18.0.3', 20001)
+Sent chunk 497 of 1028 - Sequence number: 497
+Packet size is 1024
+Received ACK for chunk 492 from ('172.18.0.3', 20001)
+Sent chunk 498 of 1028 - Sequence number: 498
+Packet size is 1024
+Received ACK for chunk 493 from ('172.18.0.3', 20001)
+Sent chunk 499 of 1028 - Sequence number: 499
+Packet size is 1024
+Received ACK for chunk 494 from ('172.18.0.3', 20001)
+Sent chunk 500 of 1028 - Sequence number: 500
+Packet size is 1024
+Received ACK for chunk 495 from ('172.18.0.3', 20001)
+Sent chunk 501 of 1028 - Sequence number: 501
+Packet size is 1024
+Received ACK for chunk 496 from ('172.18.0.3', 20001)
+Sent chunk 502 of 1028 - Sequence number: 502
+Packet size is 1024
+Received ACK for chunk 497 from ('172.18.0.3', 20001)
+Sent chunk 503 of 1028 - Sequence number: 503
+Packet size is 1024
+Received ACK for chunk 498 from ('172.18.0.3', 20001)
+Sent chunk 504 of 1028 - Sequence number: 504
+Packet size is 1024
+Received ACK for chunk 499 from ('172.18.0.3', 20001)
+Sent chunk 505 of 1028 - Sequence number: 505
+Packet size is 1024
+Sent chunk 506 of 1028 - Sequence number: 506
+Packet size is 1024
+Sent chunk 507 of 1028 - Sequence number: 507
+Packet size is 1024
+Received ACK for chunk 500 from ('172.18.0.3', 20001)
+Sent chunk 508 of 1028 - Sequence number: 508
+Packet size is 1024
+Received ACK for chunk 501 from ('172.18.0.3', 20001)
+Sent chunk 509 of 1028 - Sequence number: 509
+Packet size is 1024
+Received ACK for chunk 502 from ('172.18.0.3', 20001)
+Sent chunk 510 of 1028 - Sequence number: 510
+Packet size is 1024
+Received ACK for chunk 503 from ('172.18.0.3', 20001)
+Sent chunk 511 of 1028 - Sequence number: 511
+Packet size is 1024
+Received ACK for chunk 504 from ('172.18.0.3', 20001)
+Sent chunk 512 of 1028 - Sequence number: 512
+Packet size is 1024
+Received ACK for chunk 505 from ('172.18.0.3', 20001)
+Sent chunk 513 of 1028 - Sequence number: 513
+Packet size is 1024
+Received ACK for chunk 506 from ('172.18.0.3', 20001)
+Sent chunk 514 of 1028 - Sequence number: 514
+Packet size is 1024
+Received ACK for chunk 507 from ('172.18.0.3', 20001)
+Sent chunk 515 of 1028 - Sequence number: 515
+Packet size is 1024
+Received ACK for chunk 508 from ('172.18.0.3', 20001)
+Sent chunk 516 of 1028 - Sequence number: 516
+Packet size is 1024
+Received ACK for chunk 509 from ('172.18.0.3', 20001)
+Sent chunk 517 of 1028 - Sequence number: 517
+Packet size is 1024
+Received ACK for chunk 510 from ('172.18.0.3', 20001)
+Sent chunk 518 of 1028 - Sequence number: 518
+Packet size is 1024
+Received ACK for chunk 511 from ('172.18.0.3', 20001)
+Sent chunk 519 of 1028 - Sequence number: 519
+Packet size is 1024
+Received ACK for chunk 512 from ('172.18.0.3', 20001)
+Sent chunk 520 of 1028 - Sequence number: 520
+Packet size is 1024
+Received ACK for chunk 513 from ('172.18.0.3', 20001)
+Sent chunk 521 of 1028 - Sequence number: 521
+Packet size is 1024
+Received ACK for chunk 514 from ('172.18.0.3', 20001)
+Sent chunk 522 of 1028 - Sequence number: 522
+Packet size is 1024
+Received ACK for chunk 515 from ('172.18.0.3', 20001)
+Sent chunk 523 of 1028 - Sequence number: 523
+Packet size is 1024
+Received ACK for chunk 516 from ('172.18.0.3', 20001)
+Sent chunk 524 of 1028 - Sequence number: 524
+Packet size is 1024
+Received ACK for chunk 517 from ('172.18.0.3', 20001)
+Sent chunk 525 of 1028 - Sequence number: 525
+Packet size is 1024
+Received ACK for chunk 518 from ('172.18.0.3', 20001)
+Sent chunk 526 of 1028 - Sequence number: 526
+Packet size is 1024
+Received ACK for chunk 519 from ('172.18.0.3', 20001)
+Sent chunk 527 of 1028 - Sequence number: 527
+Packet size is 1024
+Received ACK for chunk 520 from ('172.18.0.3', 20001)
+Received ACK for chunk 521 from ('172.18.0.3', 20001)
+Sent chunk 528 of 1028 - Sequence number: 528
+Packet size is 1024
+Received ACK for chunk 522 from ('172.18.0.3', 20001)
+Sent chunk 529 of 1028 - Sequence number: 529
+Packet size is 1024
+Received ACK for chunk 523 from ('172.18.0.3', 20001)
+Sent chunk 530 of 1028 - Sequence number: 530
+Packet size is 1024
+Received ACK for chunk 524 from ('172.18.0.3', 20001)
+Sent chunk 531 of 1028 - Sequence number: 531
+Packet size is 1024
+Received ACK for chunk 525 from ('172.18.0.3', 20001)
+Sent chunk 532 of 1028 - Sequence number: 532
+Packet size is 1024
+Received ACK for chunk 526 from ('172.18.0.3', 20001)
+Sent chunk 533 of 1028 - Sequence number: 533
+Packet size is 1024
+Received ACK for chunk 527 from ('172.18.0.3', 20001)
+Sent chunk 534 of 1028 - Sequence number: 534
+Packet size is 1024
+Received ACK for chunk 528 from ('172.18.0.3', 20001)
+Sent chunk 535 of 1028 - Sequence number: 535
+Packet size is 1024
+Received ACK for chunk 529 from ('172.18.0.3', 20001)
+Sent chunk 536 of 1028 - Sequence number: 536
+Packet size is 1024
+Received ACK for chunk 530 from ('172.18.0.3', 20001)
+Sent chunk 537 of 1028 - Sequence number: 537
+Packet size is 1024
+Received ACK for chunk 531 from ('172.18.0.3', 20001)
+Sent chunk 538 of 1028 - Sequence number: 538
+Packet size is 1024
+Received ACK for chunk 532 from ('172.18.0.3', 20001)
+Sent chunk 539 of 1028 - Sequence number: 539
+Packet size is 1024
+Received ACK for chunk 533 from ('172.18.0.3', 20001)
+Sent chunk 540 of 1028 - Sequence number: 540
+Packet size is 1024
+Received ACK for chunk 534 from ('172.18.0.3', 20001)
+Sent chunk 541 of 1028 - Sequence number: 541
+Packet size is 1024
+Sent chunk 542 of 1028 - Sequence number: 542
+Packet size is 1024
+Received ACK for chunk 535 from ('172.18.0.3', 20001)
+Sent chunk 543 of 1028 - Sequence number: 543
+Packet size is 1024
+Received ACK for chunk 536 from ('172.18.0.3', 20001)
+Sent chunk 544 of 1028 - Sequence number: 544
+Packet size is 1024
+Received ACK for chunk 537 from ('172.18.0.3', 20001)
+Sent chunk 545 of 1028 - Sequence number: 545
+Packet size is 1024
+Received ACK for chunk 538 from ('172.18.0.3', 20001)
+Sent chunk 546 of 1028 - Sequence number: 546
+Packet size is 1024
+Received ACK for chunk 539 from ('172.18.0.3', 20001)
+Sent chunk 547 of 1028 - Sequence number: 547
+Packet size is 1024
+Received ACK for chunk 540 from ('172.18.0.3', 20001)
+Sent chunk 548 of 1028 - Sequence number: 548
+Packet size is 1024
+Received ACK for chunk 541 from ('172.18.0.3', 20001)
+Sent chunk 549 of 1028 - Sequence number: 549
+Packet size is 1024
+Received ACK for chunk 542 from ('172.18.0.3', 20001)
+Sent chunk 550 of 1028 - Sequence number: 550
+Packet size is 1024
+f 1028 - Sequence number: 481
+Packet size is 1024
+Received ACK for chunk 474 from ('172.18.0.3', 20001)
+Sent chunk 482 of 1028 - SeqReceived ACK for chunk 543 from ('172.18.0.3', 20001)
+Received ACK for chunk 544 from ('172.18.0.3', 20001)
+Received ACK for chunk 545 from ('172.18.0.3', 20001)
+Received ACK for chunk 546 from ('172.18.0.3', 20001)
+Sent chunk 553 of 1028 - Sequence number: 553
+Packet size is 1024
+Received ACK for chunk 547 from ('172.18.0.3', 20001)
+Sent chunk 554 of 1028 - Sequence number: 554
+Packet size is 1024
+Received ACK for chunk 548 from ('172.18.0.3', 20001)
+Received ACK for chunk 549 from ('172.18.0.3', 20001)
+Sent chunk 555 of 1028 - Sequence number: 555
+Packet size is 1024
+Received ACK for chunk 550 from ('172.18.0.3', 20001)
+Sent chunk 556 of 1028 - Sequence number: 556
+Packet size is 1024
+Received ACK for chunk 551 from ('172.18.0.3', 20001)
+Sent chunk 557 of 1028 - Sequence number: 557
+Packet size is 1024
+Received ACK for chunk 552 from ('172.18.0.3', 20001)
+Sent chunk 558 of 1028 - Sequence number: 558
+Packet size is 1024
+Received ACK for chunk 553 from ('172.18.0.3', 20001)
+Sent chunk 559 of 1028 - Sequence number: 559
+Packet size is 1024
+Received ACK for chunk 554 from ('172.18.0.3', 20001)
+Sent chunk 560 of 1028 - Sequence number: 560
+Packet size is 1024
+Received ACK for chunk 555 from ('172.18.0.3', 20001)
+Received ACK for chunk 556 from ('172.18.0.3', 20001)
+Sent chunk 561 of 1028 - Sequence number: 561
+Packet size is 1024
+Received ACK for chunk 557 from ('172.18.0.3', 20001)
+Sent chunk 562 of 1028 - Sequence number: 562
+Packet size is 1024
+Sent chunk 563 of 1028 - Sequence number: 563
+Packet size is 1024
+Received ACK for chunk 558 from ('172.18.0.3', 20001)
+Received ACK for chunk 559 from ('172.18.0.3', 20001)
+Sent chunk 564 of 1028 - Sequence number: 564
+Packet size is 1024
+Received ACK for chunk 560 from ('172.18.0.3', 20001)
+Sent chunk 565 of 1028 - Sequence number: 565
+Packet size is 1024
+Received ACK for chunk 561 from ('172.18.0.3', 20001)
+Sent chunk 566 of 1028 - Sequence number: 566
+Packet size is 1024
+Received ACK for chunk 562 from ('172.18.0.3', 20001)
+Sent chunk 567 of 1028 - Sequence number: 567
+Packet size is 1024
+Received ACK for chunk 563 from ('172.18.0.3', 20001)
+Sent chunk 568 of 1028 - Sequence number: 568
+Packet size is 1024
+Received ACK for chunk 564 from ('172.18.0.3', 20001)
+Sent chunk 569 of 1028 - Sequence number: 569
+Packet size is 1024
+Received ACK for chunk 565 from ('172.18.0.3', 20001)
+Sent chunk 570 of 1028 - Sequence number: 570
+Packet size is 1024
+Received ACK for chunk 566 from ('172.18.0.3', 20001)
+Sent chunk 571 of 1028 - Sequence number: 571
+Packet size is 1024
+Received ACK for chunk 567 from ('172.18.0.3', 20001)
+Sent chunk 572 of 1028 - Sequence number: 572
+Packet size is 1024
+Received ACK for chunk 568 from ('172.18.0.3', 20001)
+Sent chunk 573 of 1028 - Sequence number: 573
+Packet size is 1024
+Received ACK for chunk 569 from ('172.18.0.3', 20001)
+Sent chunk 574 of 1028 - Sequence number: 574
+Packet size is 1024
+Received ACK for chunk 570 from ('172.18.0.3', 20001)
+Sent chunk 575 of 1028 - Sequence number: 575
+Packet size is 1024
+Received ACK for chunk 571 from ('172.18.0.3', 20001)
+Received ACK for chunk 572 from ('172.18.0.3', 20001)
+Sent chunk 576 of 1028 - Sequence number: 576
+Packet size is 1024
+Received ACK for chunk 573 from ('172.18.0.3', 20001)
+Sent chunk 577 of 1028 - Sequence number: 577
+Packet size is 1024
+Received ACK for chunk 574 from ('172.18.0.3', 20001)
+Sent chunk 578 of 1028 - Sequence number: 578
+Packet size is 1024
+Received ACK for chunk 575 from ('172.18.0.3', 20001)
+Sent chunk 579 of 1028 - Sequence number: 579
+Packet size is 1024
+Received ACK for chunk 576 from ('172.18.0.3', 20001)
+Sent chunk 580 of 1028 - Sequence number: 580
+Packet size is 1024
+Received ACK for chunk 577 from ('172.18.0.3', 20001)
+Sent chunk 581 of 1028 - Sequence number: 581
+Packet size is 1024
+Received ACK for chunk 578 from ('172.18.0.3', 20001)
+Sent chunk 582 of 1028 - Sequence number: 582
+Packet size is 1024
+Received ACK for chunk 579 from ('172.18.0.3', 20001)
+Sent chunk 583 of 1028 - Sequence number: 583
+Packet size is 1024
+Received ACK for chunk 580 from ('172.18.0.3', 20001)
+Sent chunk 584 of 1028 - Sequence number: 584
+Packet size is 1024
+Received ACK for chunk 581 from ('172.18.0.3', 20001)
+Sent chunk 585 of 1028 - Sequence number: 585
+Packet size is 1024
+Received ACK for chunk 582 from ('172.18.0.3', 20001)
+Received ACK for chunk 583 from ('172.18.0.3', 20001)
+Sent chunk 586 of 1028 - Sequence number: 586
+Packet size is 1024
+Received ACK for chunk 584 from ('172.18.0.3', 20001)
+Sent chunk 587 of 1028 - Sequence number: 587
+Packet size is 1024
+Received ACK for chunk 585 from ('172.18.0.3', 20001)
+Sent chunk 588 of 1028 - Sequence number: 588
+Packet size is 1024
+Received ACK for chunk 586 from ('172.18.0.3', 20001)
+Sent chunk 589 of 1028 - Sequence number: 589
+Packet size is 1024
+Received ACK for chunk 587 from ('172.18.0.3', 20001)
+Sent chunk 590 of 1028 - Sequence number: 590
+Packet size is 1024
+Received ACK for chunk 588 from ('172.18.0.3', 20001)
+Sent chunk 591 of 1028 - Sequence number: 591
+Packet size is 1024
+Received ACK for chunk 589 from ('172.18.0.3', 20001)
+Sent chunk 592 of 1028 - Sequence number: 592
+Packet size is 1024
+Received ACK for chunk 590 from ('172.18.0.3', 20001)
+Sent chunk 593 of 1028 - Sequence number: 593
+Packet size is 1024
+Received ACK for chunk 591 from ('172.18.0.3', 20001)
+Received ACK for chunk 592 from ('172.18.0.3', 20001)
+Sent chunk 594 of 1028 - Sequence number: 594
+Packet size is 1024
+Received ACK for chunk 593 from ('172.18.0.3', 20001)
+Sent chunk 595 of 1028 - Sequence number: 595
+Packet size is 1024
+Received ACK for chunk 594 from ('172.18.0.3', 20001)
+Sent chunk 596 of 1028 - Sequence number: 596
+Packet size is 1024
+Received ACK for chunk 595 from ('172.18.0.3', 20001)
+Sent chunk 597 of 1028 - Sequence number: 597
+Packet size is 1024
+Received ACK for chunk 596 from ('172.18.0.3', 20001)
+Sent chunk 598 of 1028 - Sequence number: 598
+Packet size is 1024
+Received ACK for chunk 597 from ('172.18.0.3', 20001)
+Sent chunk 599 of 1028 - Sequence number: 599
+Packet size is 1024
+Received ACK for chunk 598 from ('172.18.0.3', 20001)
+Sent chunk 600 of 1028 - Sequence number: 600
+Packet size is 1024
+Sent chunk 601 of 1028 - Sequence number: 601
+Packet size is 1024
+Received ACK for chunk 599 from ('172.18.0.3', 20001)
+Sent chunk 602 of 1028 - Sequence number: 602
+Packet size is 1024
+Received ACK for chunk 600 from ('172.18.0.3', 20001)
+Sent chunk 603 of 1028 - Sequence number: 603
+Packet size is 1024
+Received ACK for chunk 601 from ('172.18.0.3', 20001)
+Received ACK for chunk 602 from ('172.18.0.3', 20001)
+Sent chunk 604 of 1028 - Sequence number: 604
+Packet size is 1024
+Received ACK for chunk 603 from ('172.18.0.3', 20001)
+Sent chunk 605 of 1028 - Sequence number: 605
+Packet size is 1024
+Received ACK for chunk 604 from ('172.18.0.3', 20001)
+Sent chunk 606 of 1028 - Sequence number: 606
+Packet size is 1024
+Received ACK for chunk 605 from ('172.18.0.3', 20001)
+Received ACK for chunk 606 from ('172.18.0.3', 20001)
+Sent chunk 607 of 1028 - Sequence number: 607
+Packet size is 1024
+Received ACK for chunk 607 from ('172.18.0.3', 20001)
+Sent chunk 608 of 1028 - Sequence number: 608
+Packet size is 1024
+Sent chunk 609 of 1028 - Sequence number: 609
+Packet size is 1024
+Received ACK for chunk 608 from ('172.18.0.3', 20001)
+Sent chunk 610 of 1028 - Sequence number: 610
+Packet size is 1024
+Received ACK for chunk 609 from ('172.18.0.3', 20001)
+Sent chunk 611 of 1028 - Sequence number: 611
+Packet size is 1024
+Received ACK for chunk 610 from ('172.18.0.3', 20001)
+Received ACK for chunk 611 from ('172.18.0.3', 20001)
+Sent chunk 612 of 1028 - Sequence number: 612
+Packet size is 1024
+Received ACK for chunk 612 from ('172.18.0.3', 20001)
+Sent chunk 613 of 1028 - Sequence number: 613
+Packet size is 1024
+Sent chunk 614 of 1028 - Sequence number: 614
+Packet size is 1024
+Received ACK for chunk 613 from ('172.18.0.3', 20001)
+Sent chunk 615 of 1028 - Sequence number: 615
+Packet size is 1024
+Received ACK for chunk 614 from ('172.18.0.3', 20001)
+nk 383 of 1028 - Sequence number: 383
+Packet size is 1024
+Received ACK for chunk 378 from ('172.18.0.3', 20001)
+Sent chunk 384 of 10Sent chunk 616 of 1028 - Sequence number: 616
+Packet size is 1024
+Sent chunk 617 of 1028 - Sequence number: 617
+Packet size is 1024
+Sent chunk 618 of 1028 - Sequence number: 618
+Packet size is 1024
+Received ACK for chunk 617 from ('172.18.0.3', 20001)
+Sent chunk 619 of 1028 - Sequence number: 619
+Packet size is 1024
+Received ACK for chunk 618 from ('172.18.0.3', 20001)
+Received ACK for chunk 619 from ('172.18.0.3', 20001)
+Sent chunk 620 of 1028 - Sequence number: 620
+Packet size is 1024
+Received ACK for chunk 620 from ('172.18.0.3', 20001)
+Sent chunk 621 of 1028 - Sequence number: 621
+Packet size is 1024
+Sent chunk 622 of 1028 - Sequence number: 622
+Packet size is 1024
+Received ACK for chunk 621 from ('172.18.0.3', 20001)
+Received ACK for chunk 622 from ('172.18.0.3', 20001)
+Sent chunk 623 of 1028 - Sequence number: 623
+Packet size is 1024
+Received ACK for chunk 623 from ('172.18.0.3', 20001)
+Sent chunk 624 of 1028 - Sequence number: 624
+Packet size is 1024
+Sent chunk 625 of 1028 - Sequence number: 625
+Packet size is 1024
+Received ACK for chunk 624 from ('172.18.0.3', 20001)
+Received ACK for chunk 625 from ('172.18.0.3', 20001)
+Sent chunk 626 of 1028 - Sequence number: 626
+Packet size is 1024
+Received ACK for chunk 626 from ('172.18.0.3', 20001)
+Sent chunk 627 of 1028 - Sequence number: 627
+Packet size is 1024
+Sent chunk 628 of 1028 - Sequence number: 628
+Packet size is 1024
+Received ACK for chunk 627 from ('172.18.0.3', 20001)
+Received ACK for chunk 628 from ('172.18.0.3', 20001)
+Sent chunk 629 of 1028 - Sequence number: 629
+Packet size is 1024
+Received ACK for chunk 629 from ('172.18.0.3', 20001)
+Sent chunk 630 of 1028 - Sequence number: 630
+Packet size is 1024
+Sent chunk 631 of 1028 - Sequence number: 631
+Packet size is 1024
+Received ACK for chunk 630 from ('172.18.0.3', 20001)
+Received ACK for chunk 631 from ('172.18.0.3', 20001)
+Sent chunk 632 of 1028 - Sequence number: 632
+Packet size is 1024
+Received ACK for chunk 632 from ('172.18.0.3', 20001)
+Sent chunk 633 of 1028 - Sequence number: 633
+Packet size is 1024
+Sent chunk 634 of 1028 - Sequence number: 634
+Packet size is 1024
+Received ACK for chunk 633 from ('172.18.0.3', 20001)
+Received ACK for chunk 634 from ('172.18.0.3', 20001)
+Sent chunk 635 of 1028 - Sequence number: 635
+Packet size is 1024
+Received ACK for chunk 635 from ('172.18.0.3', 20001)
+Sent chunk 636 of 1028 - Sequence number: 636
+Packet size is 1024
+Sent chunk 637 of 1028 - Sequence number: 637
+Packet size is 1024
+Received ACK for chunk 636 from ('172.18.0.3', 20001)
+Received ACK for chunk 637 from ('172.18.0.3', 20001)
+Sent chunk 638 of 1028 - Sequence number: 638
+Packet size is 1024
+Received ACK for chunk 638 from ('172.18.0.3', 20001)
+Sent chunk 639 of 1028 - Sequence number: 639
+Packet size is 1024
+Sent chunk 640 of 1028 - Sequence number: 640
+Packet size is 1024
+Received ACK for chunk 639 from ('172.18.0.3', 20001)
+Sent chunk 641 of 1028 - Sequence number: 641
+Packet size is 1024
+Received ACK for chunk 640 from ('172.18.0.3', 20001)
+Received ACK for chunk 641 from ('172.18.0.3', 20001)
+Sent chunk 642 of 1028 - Sequence number: 642
+Packet size is 1024
+Received ACK for chunk 642 from ('172.18.0.3', 20001)
+Sent chunk 643 of 1028 - Sequence number: 643
+Packet size is 1024
+Received ACK for chunk 643 from ('172.18.0.3', 20001)
+Sent chunk 644 of 1028 - Sequence number: 644
+Packet size is 1024
+Sent chunk 645 of 1028 - Sequence number: 645
+Packet size is 1024
+Received ACK for chunk 644 from ('172.18.0.3', 20001)
+Received ACK for chunk 645 from ('172.18.0.3', 20001)
+Sent chunk 646 of 1028 - Sequence number: 646
+Packet size is 1024
+Received ACK for chunk 646 from ('172.18.0.3', 20001)
+Sent chunk 647 of 1028 - Sequence number: 647
+Packet size is 1024
+Sent chunk 648 of 1028 - Sequence number: 648
+Packet size is 1024
+Received ACK for chunk 647 from ('172.18.0.3', 20001)
+Received ACK for chunk 648 from ('172.18.0.3', 20001)
+Sent chunk 649 of 1028 - Sequence number: 649
+Packet size is 1024
+Received ACK for chunk 649 from ('172.18.0.3', 20001)
+Sent chunk 650 of 1028 - Sequence number: 650
+Packet size is 1024
+Sent chunk 651 of 1028 - Sequence number: 651
+Packet size is 1024
+Received ACK for chunk 650 from ('172.18.0.3', 20001)
+Received ACK for chunk 651 from ('172.18.0.3', 20001)
+Sent chunk 652 of 1028 - Sequence number: 652
+Packet size is 1024
+Received ACK for chunk 652 from ('172.18.0.3', 20001)
+Sent chunk 653 of 1028 - Sequence number: 653
+Packet size is 1024
+Sent chunk 654 of 1028 - Sequence number: 654
+Packet size is 1024
+Received ACK for chunk 653 from ('172.18.0.3', 20001)
+Sent chunk 655 of 1028 - Sequence number: 655
+Packet size is 1024
+Received ACK for chunk 654 from ('172.18.0.3', 20001)
+Received ACK for chunk 655 from ('172.18.0.3', 20001)
+Sent chunk 656 of 1028 - Sequence number: 656
+Packet size is 1024
+Received ACK for chunk 656 from ('172.18.0.3', 20001)
+Sent chunk 657 of 1028 - Sequence number: 657
+Packet size is 1024
+Sent chunk 658 of 1028 - Sequence number: 658
+Packet size is 1024
+Received ACK for chunk 657 from ('172.18.0.3', 20001)
+Sent chunk 659 of 1028 - Sequence number: 659
+Packet size is 1024
+Received ACK for chunk 658 from ('172.18.0.3', 20001)
+Sent chunk 660 of 1028 - Sequence number: 660
+Packet size is 1024
+Received ACK for chunk 659 from ('172.18.0.3', 20001)
+Sent chunk 661 of 1028 - Sequence number: 661
+Packet size is 1024
+Received ACK for chunk 660 from ('172.18.0.3', 20001)
+Sent chunk 662 of 1028 - Sequence number: 662
+Packet size is 1024
+Received ACK for chunk 661 from ('172.18.0.3', 20001)
+Sent chunk 663 of 1028 - Sequence number: 663
+Packet size is 1024
+Received ACK for chunk 662 from ('172.18.0.3', 20001)
+Sent chunk 664 of 1028 - Sequence number: 664
+Packet size is 1024
+Received ACK for chunk 663 from ('172.18.0.3', 20001)
+Sent chunk 665 of 1028 - Sequence number: 665
+Packet size is 1024
+Received ACK for chunk 664 from ('172.18.0.3', 20001)
+Sent chunk 666 of 1028 - Sequence number: 666
+Packet size is 1024
+Received ACK for chunk 665 from ('172.18.0.3', 20001)
+Sent chunk 667 of 1028 - Sequence number: 667
+Packet size is 1024
+Received ACK for chunk 666 from ('172.18.0.3', 20001)
+Sent chunk 668 of 1028 - Sequence number: 668
+Packet size is 1024
+Received ACK for chunk 667 from ('172.18.0.3', 20001)
+Sent chunk 669 of 1028 - Sequence number: 669
+Packet size is 1024
+Received ACK for chunk 668 from ('172.18.0.3', 20001)
+Sent chunk 670 of 1028 - Sequence number: 670
+Packet size is 1024
+Received ACK for chunk 669 from ('172.18.0.3', 20001)
+Sent chunk 671 of 1028 - Sequence number: 671
+Packet size is 1024
+Received ACK for chunk 670 from ('172.18.0.3', 20001)
+Sent chunk 672 of 1028 - Sequence number: 672
+Packet size is 1024
+Received ACK for chunk 671 from ('172.18.0.3', 20001)
+Sent chunk 673 of 1028 - Sequence number: 673
+Packet size is 1024
+Received ACK for chunk 672 from ('172.18.0.3', 20001)
+Sent chunk 674 of 1028 - Sequence number: 674
+Packet size is 1024
+Received ACK for chunk 673 from ('172.18.0.3', 20001)
+Sent chunk 675 of 1028 - Sequence number: 675
+Packet size is 1024
+Received ACK for chunk 674 from ('172.18.0.3', 20001)
+Sent chunk 676 of 1028 - Sequence number: 676
+Packet size is 1024
+Received ACK for chunk 675 from ('172.18.0.3', 20001)
+Sent chunk 677 of 1028 - Sequence number: 677
+Packet size is 1024
+Received ACK for chunk 676 from ('172.18.0.3', 20001)
+Sent chunk 678 of 1028 - Sequence number: 678
+Packet size is 1024
+Received ACK for chunk 677 from ('172.18.0.3', 20001)
+Sent chunk 679 of 1028 - Sequence number: 679
+Packet size is 1024
+Received ACK for chunk 678 from ('172.18.0.3', 20001)
+Sent chunk 680 of 1028 - Sequence number: 680
+Packet size is 1024
+Received ACK for chunk 679 from ('172.18.0.3', 20001)
+Sent chunk 681 of 1028 - Sequence number: 681
+Packet size is 1024
+Received ACK for chunk 680 from ('172.18.0.3', 20001)
+Sent chunk 682 of 1028 - Sequence number: 682
+Packet size is 1024
+Received ACK for chunk 681 from ('172.18.0.3', 20001)
+Sent chunk 683 of 1028 - Sequence number: 683
+Packet size is 1024
+Sent chunk 684 of 1028 - Sequence number: 684
+Packet size is 1024
+                                                                                                            Received ACK for chunk 682 from ('172.18.0.3', 20001)
+Received ACK for chunk 683 from ('172.18.0.3', 20001)
+Sent chunk 687 of 1028 - Sequence number: 687
+Packet size is 1024
+Received ACK for chunk 684 from ('172.18.0.3', 20001)
+Sent chunk 688 of 1028 - Sequence number: 688
+Packet size is 1024
+Received ACK for chunk 685 from ('172.18.0.3', 20001)
+Sent chunk 689 of 1028 - Sequence number: 689
+Packet size is 1024
+Received ACK for chunk 686 from ('172.18.0.3', 20001)
+Sent chunk 690 of 1028 - Sequence number: 690
+Packet size is 1024
+Received ACK for chunk 687 from ('172.18.0.3', 20001)
+Sent chunk 691 of 1028 - Sequence number: 691
+Packet size is 1024
+Received ACK for chunk 688 from ('172.18.0.3', 20001)
+Sent chunk 692 of 1028 - Sequence number: 692
+Packet size is 1024
+Received ACK for chunk 689 from ('172.18.0.3', 20001)
+Sent chunk 693 of 1028 - Sequence number: 693
+Packet size is 1024
+Received ACK for chunk 690 from ('172.18.0.3', 20001)
+Sent chunk 694 of 1028 - Sequence number: 694
+Packet size is 1024
+Received ACK for chunk 691 from ('172.18.0.3', 20001)
+Sent chunk 695 of 1028 - Sequence number: 695
+Packet size is 1024
+Received ACK for chunk 692 from ('172.18.0.3', 20001)
+Sent chunk 696 of 1028 - Sequence number: 696
+Packet size is 1024
+Received ACK for chunk 693 from ('172.18.0.3', 20001)
+Sent chunk 697 of 1028 - Sequence number: 697
+Packet size is 1024
+Received ACK for chunk 694 from ('172.18.0.3', 20001)
+Sent chunk 698 of 1028 - Sequence number: 698
+Packet size is 1024
+Received ACK for chunk 695 from ('172.18.0.3', 20001)
+Sent chunk 699 of 1028 - Sequence number: 699
+Packet size is 1024
+Received ACK for chunk 696 from ('172.18.0.3', 20001)
+Sent chunk 700 of 1028 - Sequence number: 700
+Packet size is 1024
+Received ACK for chunk 697 from ('172.18.0.3', 20001)
+Sent chunk 701 of 1028 - Sequence number: 701
+Packet size is 1024
+Received ACK for chunk 698 from ('172.18.0.3', 20001)
+Sent chunk 702 of 1028 - Sequence number: 702
+Packet size is 1024
+Sent chunk 703 of 1028 - Sequence number: 703
+Packet size is 1024
+Sent chunk 704 of 1028 - Sequence number: 704
+Packet size is 1024
+Received ACK for chunk 699 from ('172.18.0.3', 20001)
+Received ACK for chunk 700 from ('172.18.0.3', 20001)
+Received ACK for chunk 701 from ('172.18.0.3', 20001)
+Sent chunk 705 of 1028 - Sequence number: 705
+Packet size is 1024
+Received ACK for chunk 702 from ('172.18.0.3', 20001)
+Sent chunk 706 of 1028 - Sequence number: 706
+Packet size is 1024
+Received ACK for chunk 703 from ('172.18.0.3', 20001)
+Sent chunk 707 of 1028 - Sequence number: 707
+Packet size is 1024
+Received ACK for chunk 704 from ('172.18.0.3', 20001)
+Sent chunk 708 of 1028 - Sequence number: 708
+Packet size is 1024
+Received ACK for chunk 705 from ('172.18.0.3', 20001)
+Sent chunk 709 of 1028 - Sequence number: 709
+Packet size is 1024
+Received ACK for chunk 706 from ('172.18.0.3', 20001)
+Sent chunk 710 of 1028 - Sequence number: 710
+Packet size is 1024
+Received ACK for chunk 707 from ('172.18.0.3', 20001)
+Sent chunk 711 of 1028 - Sequence number: 711
+Packet size is 1024
+Received ACK for chunk 708 from ('172.18.0.3', 20001)
+Sent chunk 712 of 1028 - Sequence number: 712
+Packet size is 1024
+Received ACK for chunk 709 from ('172.18.0.3', 20001)
+Sent chunk 713 of 1028 - Sequence number: 713
+Packet size is 1024
+Received ACK for chunk 710 from ('172.18.0.3', 20001)
+Sent chunk 714 of 1028 - Sequence number: 714
+Packet size is 1024
+Received ACK for chunk 711 from ('172.18.0.3', 20001)
+Sent chunk 715 of 1028 - Sequence number: 715
+Packet size is 1024
+Received ACK for chunk 712 from ('172.18.0.3', 20001)
+Sent chunk 716 of 1028 - Sequence number: 716
+Packet size is 1024
+Received ACK for chunk 713 from ('172.18.0.3', 20001)
+Sent chunk 717 of 1028 - Sequence number: 717
+Packet size is 1024
+Received ACK for chunk 714 from ('172.18.0.3', 20001)
+Sent chunk 718 of 1028 - Sequence number: 718
+Packet size is 1024
+Received ACK for chunk 715 from ('172.18.0.3', 20001)
+Sent chunk 719 of 1028 - Sequence number: 719
+Packet size is 1024
+Received ACK for chunk 716 from ('172.18.0.3', 20001)
+Sent chunk 720 of 1028 - Sequence number: 720
+Packet size is 1024
+Received ACK for chunk 717 from ('172.18.0.3', 20001)
+Sent chunk 721 of 1028 - Sequence number: 721
+Packet size is 1024
+Received ACK for chunk 718 from ('172.18.0.3', 20001)
+Sent chunk 722 of 1028 - Sequence number: 722
+Packet size is 1024
+Received ACK for chunk 719 from ('172.18.0.3', 20001)
+Sent chunk 723 of 1028 - Sequence number: 723
+Packet size is 1024
+Received ACK for chunk 720 from ('172.18.0.3', 20001)
+Sent chunk 724 of 1028 - Sequence number: 724
+Packet size is 1024
+Received ACK for chunk 721 from ('172.18.0.3', 20001)
+Sent chunk 725 of 1028 - Sequence number: 725
+Packet size is 1024
+Received ACK for chunk 722 from ('172.18.0.3', 20001)
+Sent chunk 726 of 1028 - Sequence number: 726
+Packet size is 1024
+Received ACK for chunk 723 from ('172.18.0.3', 20001)
+Sent chunk 727 of 1028 - Sequence number: 727
+Packet size is 1024
+Received ACK for chunk 724 from ('172.18.0.3', 20001)
+Sent chunk 728 of 1028 - Sequence number: 728
+Packet size is 1024
+Received ACK for chunk 725 from ('172.18.0.3', 20001)
+Sent chunk 729 of 1028 - Sequence number: 729
+Packet size is 1024
+Received ACK for chunk 726 from ('172.18.0.3', 20001)
+Sent chunk 730 of 1028 - Sequence number: 730
+Packet size is 1024
+Received ACK for chunk 727 from ('172.18.0.3', 20001)
+Sent chunk 731 of 1028 - Sequence number: 731
+Packet size is 1024
+Received ACK for chunk 728 from ('172.18.0.3', 20001)
+Sent chunk 732 of 1028 - Sequence number: 732
+Packet size is 1024
+Received ACK for chunk 729 from ('172.18.0.3', 20001)
+Sent chunk 733 of 1028 - Sequence number: 733
+Packet size is 1024
+Received ACK for chunk 730 from ('172.18.0.3', 20001)
+Sent chunk 734 of 1028 - Sequence number: 734
+Packet size is 1024
+Received ACK for chunk 731 from ('172.18.0.3', 20001)
+Sent chunk 735 of 1028 - Sequence number: 735
+Packet size is 1024
+Received ACK for chunk 732 from ('172.18.0.3', 20001)
+Sent chunk 736 of 1028 - Sequence number: 736
+Packet size is 1024
+Received ACK for chunk 733 from ('172.18.0.3', 20001)
+Sent chunk 737 of 1028 - Sequence number: 737
+Packet size is 1024
+Received ACK for chunk 734 from ('172.18.0.3', 20001)
+Sent chunk 738 of 1028 - Sequence number: 738
+Packet size is 1024
+Received ACK for chunk 735 from ('172.18.0.3', 20001)
+Sent chunk 739 of 1028 - Sequence number: 739
+Packet size is 1024
+Received ACK for chunk 736 from ('172.18.0.3', 20001)
+Sent chunk 740 of 1028 - Sequence number: 740
+Packet size is 1024
+Received ACK for chunk 737 from ('172.18.0.3', 20001)
+Sent chunk 741 of 1028 - Sequence number: 741
+Packet size is 1024
+Received ACK for chunk 738 from ('172.18.0.3', 20001)
+Sent chunk 742 of 1028 - Sequence number: 742
+Packet size is 1024
+Received ACK for chunk 739 from ('172.18.0.3', 20001)
+Sent chunk 743 of 1028 - Sequence number: 743
+Packet size is 1024
+Received ACK for chunk 740 from ('172.18.0.3', 20001)
+Sent chunk 744 of 1028 - Sequence number: 744
+Packet size is 1024
+Received ACK for chunk 741 from ('172.18.0.3', 20001)
+Sent chunk 745 of 1028 - Sequence number: 745
+Packet size is 1024
+Received ACK for chunk 742 from ('172.18.0.3', 20001)
+Sent chunk 746 of 1028 - Sequence number: 746
+Packet size is 1024
+Received ACK for chunk 743 from ('172.18.0.3', 20001)
+Sent chunk 747 of 1028 - Sequence number: 747
+Packet size is 1024
+Received ACK for chunk 744 from ('172.18.0.3', 20001)
+Sent chunk 748 of 1028 - Sequence number: 748
+Packet size is 1024
+Received ACK for chunk 745 from ('172.18.0.3', 20001)
+Sent chunk 749 of 1028 - Sequence number: 749
+Packet size is 1024
+Received ACK for chunk 746 from ('172.18.0.3', 20001)
+Sent chunk 750 of 1028 - Sequence number: 750
+Packet size is 1024
+Received ACK for chunk 747 from ('172.18.0.3', 20001)
+Sent chunk 751 of 1028 - Sequence number: 751
+Packet size is 1024
+Received ACK for chunk 748 from ('172.18.0.3', 20001)
+Sent chunk 752 of 1028 - Sequence number: 752
+Packet size is 1024
+Received ACK for chunk 749 from ('172.18.0.3', 20001)
+                                                                                                                                    Sent chunk 753 of 1028 - Sequence number: 753
+Packet size is 1024
+Received ACK for chunk 751 from ('172.18.0.3', 20001)
+Received ACK for chunk 752 from ('172.18.0.3', 20001)
+Received ACK for chunk 753 from ('172.18.0.3', 20001)
+Sent chunk 754 of 1028 - Sequence number: 754
+Packet size is 1024
+Received ACK for chunk 754 from ('172.18.0.3', 20001)
+Sent chunk 755 of 1028 - Sequence number: 755
+Packet size is 1024
+Sent chunk 756 of 1028 - Sequence number: 756
+Packet size is 1024
+Received ACK for chunk 755 from ('172.18.0.3', 20001)
+Sent chunk 757 of 1028 - Sequence number: 757
+Packet size is 1024
+Received ACK for chunk 756 from ('172.18.0.3', 20001)
+Sent chunk 758 of 1028 - Sequence number: 758
+Packet size is 1024
+Received ACK for chunk 757 from ('172.18.0.3', 20001)
+Sent chunk 759 of 1028 - Sequence number: 759
+Packet size is 1024
+Received ACK for chunk 758 from ('172.18.0.3', 20001)
+Sent chunk 760 of 1028 - Sequence number: 760
+Packet size is 1024
+Received ACK for chunk 759 from ('172.18.0.3', 20001)
+Sent chunk 761 of 1028 - Sequence number: 761
+Packet size is 1024
+Received ACK for chunk 760 from ('172.18.0.3', 20001)
+Sent chunk 762 of 1028 - Sequence number: 762
+Packet size is 1024
+Received ACK for chunk 761 from ('172.18.0.3', 20001)
+Sent chunk 763 of 1028 - Sequence number: 763
+Packet size is 1024
+Received ACK for chunk 762 from ('172.18.0.3', 20001)
+Sent chunk 764 of 1028 - Sequence number: 764
+Packet size is 1024
+Received ACK for chunk 763 from ('172.18.0.3', 20001)
+Sent chunk 765 of 1028 - Sequence number: 765
+Packet size is 1024
+Received ACK for chunk 764 from ('172.18.0.3', 20001)
+Sent chunk 766 of 1028 - Sequence number: 766
+Packet size is 1024
+Received ACK for chunk 765 from ('172.18.0.3', 20001)
+Sent chunk 767 of 1028 - Sequence number: 767
+Packet size is 1024
+Received ACK for chunk 766 from ('172.18.0.3', 20001)
+Sent chunk 768 of 1028 - Sequence number: 768
+Packet size is 1024
+Received ACK for chunk 767 from ('172.18.0.3', 20001)
+Sent chunk 769 of 1028 - Sequence number: 769
+Packet size is 1024
+Received ACK for chunk 768 from ('172.18.0.3', 20001)
+Sent chunk 770 of 1028 - Sequence number: 770
+Packet size is 1024
+Received ACK for chunk 769 from ('172.18.0.3', 20001)
+Sent chunk 771 of 1028 - Sequence number: 771
+Packet size is 1024
+Received ACK for chunk 770 from ('172.18.0.3', 20001)
+Sent chunk 772 of 1028 - Sequence number: 772
+Packet size is 1024
+Received ACK for chunk 771 from ('172.18.0.3', 20001)
+Sent chunk 773 of 1028 - Sequence number: 773
+Packet size is 1024
+Received ACK for chunk 772 from ('172.18.0.3', 20001)
+Sent chunk 774 of 1028 - Sequence number: 774
+Packet size is 1024
+Received ACK for chunk 773 from ('172.18.0.3', 20001)
+Sent chunk 775 of 1028 - Sequence number: 775
+Packet size is 1024
+Received ACK for chunk 774 from ('172.18.0.3', 20001)
+Sent chunk 776 of 1028 - Sequence number: 776
+Packet size is 1024
+Received ACK for chunk 775 from ('172.18.0.3', 20001)
+Sent chunk 777 of 1028 - Sequence number: 777
+Packet size is 1024
+Sent chunk 778 of 1028 - Sequence number: 778
+Packet size is 1024
+Received ACK for chunk 776 from ('172.18.0.3', 20001)
+Sent chunk 779 of 1028 - Sequence number: 779
+Packet size is 1024
+Received ACK for chunk 777 from ('172.18.0.3', 20001)
+Sent chunk 780 of 1028 - Sequence number: 780
+Packet size is 1024
+Received ACK for chunk 778 from ('172.18.0.3', 20001)
+Sent chunk 781 of 1028 - Sequence number: 781
+Packet size is 1024
+Received ACK for chunk 779 from ('172.18.0.3', 20001)
+Sent chunk 782 of 1028 - Sequence number: 782
+Packet size is 1024
+Received ACK for chunk 780 from ('172.18.0.3', 20001)
+Sent chunk 783 of 1028 - Sequence number: 783
+Packet size is 1024
+Received ACK for chunk 781 from ('172.18.0.3', 20001)
+Sent chunk 784 of 1028 - Sequence number: 784
+Packet size is 1024
+Received ACK for chunk 782 from ('172.18.0.3', 20001)
+Sent chunk 785 of 1028 - Sequence number: 785
+Packet size is 1024
+Received ACK for chunk 783 from ('172.18.0.3', 20001)
+Sent chunk 786 of 1028 - Sequence number: 786
+Packet size is 1024
+Received ACK for chunk 784 from ('172.18.0.3', 20001)
+Sent chunk 787 of 1028 - Sequence number: 787
+Packet size is 1024
+Received ACK for chunk 785 from ('172.18.0.3', 20001)
+Sent chunk 788 of 1028 - Sequence number: 788
+Packet size is 1024
+Received ACK for chunk 786 from ('172.18.0.3', 20001)
+Sent chunk 789 of 1028 - Sequence number: 789
+Packet size is 1024
+Received ACK for chunk 787 from ('172.18.0.3', 20001)
+Sent chunk 790 of 1028 - Sequence number: 790
+Packet size is 1024
+Received ACK for chunk 788 from ('172.18.0.3', 20001)
+Sent chunk 791 of 1028 - Sequence number: 791
+Packet size is 1024
+Received ACK for chunk 789 from ('172.18.0.3', 20001)
+Sent chunk 792 of 1028 - Sequence number: 792
+Packet size is 1024
+Received ACK for chunk 790 from ('172.18.0.3', 20001)
+Sent chunk 793 of 1028 - Sequence number: 793
+Packet size is 1024
+Received ACK for chunk 791 from ('172.18.0.3', 20001)
+Sent chunk 794 of 1028 - Sequence number: 794
+Packet size is 1024
+Received ACK for chunk 792 from ('172.18.0.3', 20001)
+Sent chunk 795 of 1028 - Sequence number: 795
+Packet size is 1024
+Received ACK for chunk 793 from ('172.18.0.3', 20001)
+Received ACK for chunk 794 from ('172.18.0.3', 20001)
+Sent chunk 796 of 1028 - Sequence number: 796
+Packet size is 1024
+Received ACK for chunk 795 from ('172.18.0.3', 20001)
+Sent chunk 797 of 1028 - Sequence number: 797
+Packet size is 1024
+Received ACK for chunk 796 from ('172.18.0.3', 20001)
+Sent chunk 798 of 1028 - Sequence number: 798
+Packet size is 1024
+Received ACK for chunk 797 from ('172.18.0.3', 20001)
+Sent chunk 799 of 1028 - Sequence number: 799
+Packet size is 1024
+Sent chunk 800 of 1028 - Sequence number: 800
+Packet size is 1024
+Sent chunk 801 of 1028 - Sequence number: 801
+Packet size is 1024
+Sent chunk 802 of 1028 - Sequence number: 802
+Packet size is 1024
+Received ACK for chunk 798 from ('172.18.0.3', 20001)
+Received ACK for chunk 799 from ('172.18.0.3', 20001)
+Sent chunk 803 of 1028 - Sequence number: 803
+Packet size is 1024
+Received ACK for chunk 800 from ('172.18.0.3', 20001)
+Sent chunk 804 of 1028 - Sequence number: 804
+Packet size is 1024
+Received ACK for chunk 801 from ('172.18.0.3', 20001)
+Sent chunk 805 of 1028 - Sequence number: 805
+Packet size is 1024
+Received ACK for chunk 802 from ('172.18.0.3', 20001)
+Sent chunk 806 of 1028 - Sequence number: 806
+Packet size is 1024
+Received ACK for chunk 803 from ('172.18.0.3', 20001)
+Sent chunk 807 of 1028 - Sequence number: 807
+Packet size is 1024
+Received ACK for chunk 804 from ('172.18.0.3', 20001)
+Sent chunk 808 of 1028 - Sequence number: 808
+Packet size is 1024
+Received ACK for chunk 805 from ('172.18.0.3', 20001)
+Sent chunk 809 of 1028 - Sequence number: 809
+Packet size is 1024
+Received ACK for chunk 806 from ('172.18.0.3', 20001)
+Sent chunk 810 of 1028 - Sequence number: 810
+Packet size is 1024
+Received ACK for chunk 807 from ('172.18.0.3', 20001)
+Sent chunk 811 of 1028 - Sequence number: 811
+Packet size is 1024
+Received ACK for chunk 808 from ('172.18.0.3', 20001)
+Sent chunk 812 of 1028 - Sequence number: 812
+Packet size is 1024
+Sent chunk 813 of 1028 - Sequence number: 813
+Packet size is 1024
+Received ACK for chunk 809 from ('172.18.0.3', 20001)
+Received ACK for chunk 810 from ('172.18.0.3', 20001)
+Sent chunk 814 of 1028 - Sequence number: 814
+Packet size is 1024
+Received ACK for chunk 811 from ('172.18.0.3', 20001)
+Sent chunk 815 of 1028 - Sequence number: 815
+Packet size is 1024
+Received ACK for chunk 812 from ('172.18.0.3', 20001)
+Sent chunk 816 of 1028 - Sequence number: 816
+Packet size is 1024
+Received ACK for chunk 813 from ('172.18.0.3', 20001)
+Sent chunk 817 of 1028 - Sequence number: 817
+Packet size is 1024
+Received ACK for chunk 814 from ('172.18.0.3', 20001)
+Sent chunk 818 of 1028 - Sequence number: 818
+Packet size is 1024
+Received ACK for chunk 815 from ('172.18.0.3', 20001)
+Sent chunk 819 of 1028 - Sequence number: 819
+Packet size is 1024
+Received ACK for chunk 816 from ('172.18.0.3', 20001)
+Sent chunk 820 of 1028 - Sequence number: 820
+Packet size is 1024
+Received ACK for chunk 817 from ('172.18.0.3', 20001)
+                                                      Sent chunk 821 of 1028 - Sequence number: 821
+Packet size is 1024
+Received ACK for chunk 819 from ('172.18.0.3', 20001)
+Sent chunk 822 of 1028 - Sequence number: 822
+Packet size is 1024
+Received ACK for chunk 820 from ('172.18.0.3', 20001)
+Sent chunk 823 of 1028 - Sequence number: 823
+Packet size is 1024
+Received ACK for chunk 821 from ('172.18.0.3', 20001)
+Sent chunk 824 of 1028 - Sequence number: 824
+Packet size is 1024
+Received ACK for chunk 822 from ('172.18.0.3', 20001)
+Sent chunk 825 of 1028 - Sequence number: 825
+Packet size is 1024
+Received ACK for chunk 823 from ('172.18.0.3', 20001)
+Sent chunk 826 of 1028 - Sequence number: 826
+Packet size is 1024
+Received ACK for chunk 824 from ('172.18.0.3', 20001)
+Sent chunk 827 of 1028 - Sequence number: 827
+Packet size is 1024
+Received ACK for chunk 825 from ('172.18.0.3', 20001)
+Sent chunk 828 of 1028 - Sequence number: 828
+Packet size is 1024
+Received ACK for chunk 826 from ('172.18.0.3', 20001)
+Sent chunk 829 of 1028 - Sequence number: 829
+Packet size is 1024
+Received ACK for chunk 827 from ('172.18.0.3', 20001)
+Sent chunk 830 of 1028 - Sequence number: 830
+Packet size is 1024
+Received ACK for chunk 828 from ('172.18.0.3', 20001)
+Sent chunk 831 of 1028 - Sequence number: 831
+Packet size is 1024
+Sent chunk 832 of 1028 - Sequence number: 832
+Packet size is 1024
+Received ACK for chunk 829 from ('172.18.0.3', 20001)
+Received ACK for chunk 830 from ('172.18.0.3', 20001)
+Sent chunk 833 of 1028 - Sequence number: 833
+Packet size is 1024
+Received ACK for chunk 831 from ('172.18.0.3', 20001)
+Sent chunk 834 of 1028 - Sequence number: 834
+Packet size is 1024
+Received ACK for chunk 832 from ('172.18.0.3', 20001)
+Sent chunk 835 of 1028 - Sequence number: 835
+Packet size is 1024
+Received ACK for chunk 833 from ('172.18.0.3', 20001)
+Sent chunk 836 of 1028 - Sequence number: 836
+Packet size is 1024
+Received ACK for chunk 834 from ('172.18.0.3', 20001)
+Sent chunk 837 of 1028 - Sequence number: 837
+Packet size is 1024
+Received ACK for chunk 835 from ('172.18.0.3', 20001)
+Sent chunk 838 of 1028 - Sequence number: 838
+Packet size is 1024
+Received ACK for chunk 836 from ('172.18.0.3', 20001)
+Sent chunk 839 of 1028 - Sequence number: 839
+Packet size is 1024
+Received ACK for chunk 837 from ('172.18.0.3', 20001)
+Sent chunk 840 of 1028 - Sequence number: 840
+Packet size is 1024
+Received ACK for chunk 838 from ('172.18.0.3', 20001)
+Sent chunk 841 of 1028 - Sequence number: 841
+Packet size is 1024
+Received ACK for chunk 839 from ('172.18.0.3', 20001)
+Sent chunk 842 of 1028 - Sequence number: 842
+Packet size is 1024
+Received ACK for chunk 840 from ('172.18.0.3', 20001)
+Sent chunk 843 of 1028 - Sequence number: 843
+Packet size is 1024
+Received ACK for chunk 841 from ('172.18.0.3', 20001)
+Sent chunk 844 of 1028 - Sequence number: 844
+Packet size is 1024
+Received ACK for chunk 842 from ('172.18.0.3', 20001)
+Sent chunk 845 of 1028 - Sequence number: 845
+Packet size is 1024
+Sent chunk 846 of 1028 - Sequence number: 846
+Packet size is 1024
+Received ACK for chunk 843 from ('172.18.0.3', 20001)
+Sent chunk 847 of 1028 - Sequence number: 847
+Packet size is 1024
+Received ACK for chunk 844 from ('172.18.0.3', 20001)
+Sent chunk 848 of 1028 - Sequence number: 848
+Packet size is 1024
+Received ACK for chunk 845 from ('172.18.0.3', 20001)
+Sent chunk 849 of 1028 - Sequence number: 849
+Packet size is 1024
+Received ACK for chunk 846 from ('172.18.0.3', 20001)
+Sent chunk 850 of 1028 - Sequence number: 850
+Packet size is 1024
+Received ACK for chunk 847 from ('172.18.0.3', 20001)
+Sent chunk 851 of 1028 - Sequence number: 851
+Packet size is 1024
+Received ACK for chunk 848 from ('172.18.0.3', 20001)
+Sent chunk 852 of 1028 - Sequence number: 852
+Packet size is 1024
+Received ACK for chunk 849 from ('172.18.0.3', 20001)
+Sent chunk 853 of 1028 - Sequence number: 853
+Packet size is 1024
+Received ACK for chunk 850 from ('172.18.0.3', 20001)
+Sent chunk 854 of 1028 - Sequence number: 854
+Packet size is 1024
+Received ACK for chunk 851 from ('172.18.0.3', 20001)
+Sent chunk 855 of 1028 - Sequence number: 855
+Packet size is 1024
+Received ACK for chunk 852 from ('172.18.0.3', 20001)
+Sent chunk 856 of 1028 - Sequence number: 856
+Packet size is 1024
+Received ACK for chunk 853 from ('172.18.0.3', 20001)
+Sent chunk 857 of 1028 - Sequence number: 857
+Packet size is 1024
+Received ACK for chunk 854 from ('172.18.0.3', 20001)
+Sent chunk 858 of 1028 - Sequence number: 858
+Packet size is 1024
+Received ACK for chunk 855 from ('172.18.0.3', 20001)
+Sent chunk 859 of 1028 - Sequence number: 859
+Packet size is 1024
+Received ACK for chunk 856 from ('172.18.0.3', 20001)
+Sent chunk 860 of 1028 - Sequence number: 860
+Packet size is 1024
+Received ACK for chunk 857 from ('172.18.0.3', 20001)
+Sent chunk 861 of 1028 - Sequence number: 861
+Packet size is 1024
+Received ACK for chunk 858 from ('172.18.0.3', 20001)
+Sent chunk 862 of 1028 - Sequence number: 862
+Packet size is 1024
+Received ACK for chunk 859 from ('172.18.0.3', 20001)
+Sent chunk 863 of 1028 - Sequence number: 863
+Packet size is 1024
+Received ACK for chunk 860 from ('172.18.0.3', 20001)
+Sent chunk 864 of 1028 - Sequence number: 864
+Packet size is 1024
+Received ACK for chunk 861 from ('172.18.0.3', 20001)
+Sent chunk 865 of 1028 - Sequence number: 865
+Packet size is 1024
+Received ACK for chunk 862 from ('172.18.0.3', 20001)
+Sent chunk 866 of 1028 - Sequence number: 866
+Packet size is 1024
+Received ACK for chunk 863 from ('172.18.0.3', 20001)
+Sent chunk 867 of 1028 - Sequence number: 867
+Packet size is 1024
+Received ACK for chunk 864 from ('172.18.0.3', 20001)
+Sent chunk 868 of 1028 - Sequence number: 868
+Packet size is 1024
+Received ACK for chunk 865 from ('172.18.0.3', 20001)
+Sent chunk 869 of 1028 - Sequence number: 869
+Packet size is 1024
+Received ACK for chunk 866 from ('172.18.0.3', 20001)
+Sent chunk 870 of 1028 - Sequence number: 870
+Packet size is 1024
+Received ACK for chunk 867 from ('172.18.0.3', 20001)
+Sent chunk 871 of 1028 - Sequence number: 871
+Packet size is 1024
+Received ACK for chunk 868 from ('172.18.0.3', 20001)
+Sent chunk 872 of 1028 - Sequence number: 872
+Packet size is 1024
+Received ACK for chunk 869 from ('172.18.0.3', 20001)
+Sent chunk 873 of 1028 - Sequence number: 873
+Packet size is 1024
+Received ACK for chunk 870 from ('172.18.0.3', 20001)
+Sent chunk 874 of 1028 - Sequence number: 874
+Packet size is 1024
+Received ACK for chunk 871 from ('172.18.0.3', 20001)
+Sent chunk 875 of 1028 - Sequence number: 875
+Packet size is 1024
+Received ACK for chunk 872 from ('172.18.0.3', 20001)
+Sent chunk 876 of 1028 - Sequence number: 876
+Packet size is 1024
+Received ACK for chunk 873 from ('172.18.0.3', 20001)
+Sent chunk 877 of 1028 - Sequence number: 877
+Packet size is 1024
+Received ACK for chunk 874 from ('172.18.0.3', 20001)
+Sent chunk 878 of 1028 - Sequence number: 878
+Packet size is 1024
+Received ACK for chunk 875 from ('172.18.0.3', 20001)
+Sent chunk 879 of 1028 - Sequence number: 879
+Packet size is 1024
+Received ACK for chunk 876 from ('172.18.0.3', 20001)
+Sent chunk 880 of 1028 - Sequence number: 880
+Packet size is 1024
+Received ACK for chunk 877 from ('172.18.0.3', 20001)
+Sent chunk 881 of 1028 - Sequence number: 881
+Packet size is 1024
+Received ACK for chunk 878 from ('172.18.0.3', 20001)
+Sent chunk 882 of 1028 - Sequence number: 882
+Packet size is 1024
+Sent chunk 883 of 1028 - Sequence number: 883
+Packet size is 1024
+Sent chunk 884 of 1028 - Sequence number: 884
+Packet size is 1024
+Sent chunk 885 of 1028 - Sequence number: 885
+Packet size is 1024
+Received ACK for chunk 879 from ('172.18.0.3', 20001)
+Sent chunk 886 of 1028 - Sequence number: 886
+Packet size is 1024
+Received ACK for chunk 880 from ('172.18.0.3', 20001)
+Sent chunk 887 of 1028 - Sequence number: 887
+Packet size is 1024
+Received ACK for chunk 881 from ('172.18.0.3', 20001)
+Sent chunk 888 of 1028 - Sequence number: 888
+Packet size is 1024
+Received ACK for chunk 882 from ('172.18.0.3', 20001)
+Sent chunk 889 of 1028 - Sequence number: 889
+Packet size is 1024
+Received ACK for chunk 883 from ('172.18.0.3', 20001)
+Sent chunk 890 of 1028 - Sequence number: 890
+Packet size is 1024
+                                                      Received ACK for chunk 884 from ('172.18.0.3', 20001)
+Sent chunk 894 of 1028 - Sequence number: 894
+Packet size is 1024
+Received ACK for chunk 885 from ('172.18.0.3', 20001)
+Received ACK for chunk 886 from ('172.18.0.3', 20001)
+Received ACK for chunk 887 from ('172.18.0.3', 20001)
+Received ACK for chunk 888 from ('172.18.0.3', 20001)
+Received ACK for chunk 889 from ('172.18.0.3', 20001)
+Sent chunk 895 of 1028 - Sequence number: 895
+Packet size is 1024
+Received ACK for chunk 890 from ('172.18.0.3', 20001)
+Sent chunk 896 of 1028 - Sequence number: 896
+Packet size is 1024
+Received ACK for chunk 891 from ('172.18.0.3', 20001)
+Sent chunk 897 of 1028 - Sequence number: 897
+Packet size is 1024
+Received ACK for chunk 892 from ('172.18.0.3', 20001)
+Sent chunk 898 of 1028 - Sequence number: 898
+Packet size is 1024
+Received ACK for chunk 893 from ('172.18.0.3', 20001)
+Sent chunk 899 of 1028 - Sequence number: 899
+Packet size is 1024
+Received ACK for chunk 894 from ('172.18.0.3', 20001)
+Sent chunk 900 of 1028 - Sequence number: 900
+Packet size is 1024
+Received ACK for chunk 895 from ('172.18.0.3', 20001)
+Sent chunk 901 of 1028 - Sequence number: 901
+Packet size is 1024
+Received ACK for chunk 896 from ('172.18.0.3', 20001)
+Sent chunk 902 of 1028 - Sequence number: 902
+Packet size is 1024
+Sent chunk 903 of 1028 - Sequence number: 903
+Packet size is 1024
+Received ACK for chunk 897 from ('172.18.0.3', 20001)
+Sent chunk 904 of 1028 - Sequence number: 904
+Packet size is 1024
+Sent chunk 905 of 1028 - Sequence number: 905
+Packet size is 1024
+Sent chunk 906 of 1028 - Sequence number: 906
+Packet size is 1024
+Received ACK for chunk 898 from ('172.18.0.3', 20001)
+Sent chunk 907 of 1028 - Sequence number: 907
+Packet size is 1024
+Received ACK for chunk 899 from ('172.18.0.3', 20001)
+Sent chunk 908 of 1028 - Sequence number: 908
+Packet size is 1024
+Received ACK for chunk 900 from ('172.18.0.3', 20001)
+Sent chunk 909 of 1028 - Sequence number: 909
+Packet size is 1024
+Received ACK for chunk 901 from ('172.18.0.3', 20001)
+Sent chunk 910 of 1028 - Sequence number: 910
+Packet size is 1024
+Received ACK for chunk 902 from ('172.18.0.3', 20001)
+Sent chunk 911 of 1028 - Sequence number: 911
+Packet size is 1024
+Received ACK for chunk 903 from ('172.18.0.3', 20001)
+Sent chunk 912 of 1028 - Sequence number: 912
+Packet size is 1024
+Received ACK for chunk 904 from ('172.18.0.3', 20001)
+Sent chunk 913 of 1028 - Sequence number: 913
+Packet size is 1024
+Received ACK for chunk 905 from ('172.18.0.3', 20001)
+Sent chunk 914 of 1028 - Sequence number: 914
+Packet size is 1024
+Received ACK for chunk 906 from ('172.18.0.3', 20001)
+Sent chunk 915 of 1028 - Sequence number: 915
+Packet size is 1024
+Received ACK for chunk 907 from ('172.18.0.3', 20001)
+Sent chunk 916 of 1028 - Sequence number: 916
+Packet size is 1024
+Received ACK for chunk 908 from ('172.18.0.3', 20001)
+Received ACK for chunk 909 from ('172.18.0.3', 20001)
+Sent chunk 917 of 1028 - Sequence number: 917
+Packet size is 1024
+Received ACK for chunk 910 from ('172.18.0.3', 20001)
+Sent chunk 918 of 1028 - Sequence number: 918
+Packet size is 1024
+Received ACK for chunk 911 from ('172.18.0.3', 20001)
+Sent chunk 919 of 1028 - Sequence number: 919
+Packet size is 1024
+Received ACK for chunk 912 from ('172.18.0.3', 20001)
+Sent chunk 920 of 1028 - Sequence number: 920
+Packet size is 1024
+Received ACK for chunk 913 from ('172.18.0.3', 20001)
+Sent chunk 921 of 1028 - Sequence number: 921
+Packet size is 1024
+Received ACK for chunk 914 from ('172.18.0.3', 20001)
+Sent chunk 922 of 1028 - Sequence number: 922
+Packet size is 1024
+Received ACK for chunk 915 from ('172.18.0.3', 20001)
+Sent chunk 923 of 1028 - Sequence number: 923
+Packet size is 1024
+Received ACK for chunk 916 from ('172.18.0.3', 20001)
+Sent chunk 924 of 1028 - Sequence number: 924
+Packet size is 1024
+Received ACK for chunk 917 from ('172.18.0.3', 20001)
+Sent chunk 925 of 1028 - Sequence number: 925
+Packet size is 1024
+Received ACK for chunk 918 from ('172.18.0.3', 20001)
+Sent chunk 926 of 1028 - Sequence number: 926
+Packet size is 1024
+Received ACK for chunk 919 from ('172.18.0.3', 20001)
+Sent chunk 927 of 1028 - Sequence number: 927
+Packet size is 1024
+Received ACK for chunk 920 from ('172.18.0.3', 20001)
+Sent chunk 928 of 1028 - Sequence number: 928
+Packet size is 1024
+Sent chunk 929 of 1028 - Sequence number: 929
+Packet size is 1024
+Received ACK for chunk 921 from ('172.18.0.3', 20001)
+Received ACK for chunk 922 from ('172.18.0.3', 20001)
+Sent chunk 930 of 1028 - Sequence number: 930
+Packet size is 1024
+Received ACK for chunk 923 from ('172.18.0.3', 20001)
+Sent chunk 931 of 1028 - Sequence number: 931
+Packet size is 1024
+Received ACK for chunk 924 from ('172.18.0.3', 20001)
+Sent chunk 932 of 1028 - Sequence number: 932
+Packet size is 1024
+Received ACK for chunk 925 from ('172.18.0.3', 20001)
+Sent chunk 933 of 1028 - Sequence number: 933
+Packet size is 1024
+Received ACK for chunk 926 from ('172.18.0.3', 20001)
+Sent chunk 934 of 1028 - Sequence number: 934
+Packet size is 1024
+Received ACK for chunk 927 from ('172.18.0.3', 20001)
+Sent chunk 935 of 1028 - Sequence number: 935
+Packet size is 1024
+Received ACK for chunk 928 from ('172.18.0.3', 20001)
+Sent chunk 936 of 1028 - Sequence number: 936
+Packet size is 1024
+Received ACK for chunk 929 from ('172.18.0.3', 20001)
+Sent chunk 937 of 1028 - Sequence number: 937
+Packet size is 1024
+Received ACK for chunk 930 from ('172.18.0.3', 20001)
+Sent chunk 938 of 1028 - Sequence number: 938
+Packet size is 1024
+Received ACK for chunk 931 from ('172.18.0.3', 20001)
+Sent chunk 939 of 1028 - Sequence number: 939
+Packet size is 1024
+Received ACK for chunk 932 from ('172.18.0.3', 20001)
+Sent chunk 940 of 1028 - Sequence number: 940
+Packet size is 1024
+Received ACK for chunk 933 from ('172.18.0.3', 20001)
+Sent chunk 941 of 1028 - Sequence number: 941
+Packet size is 1024
+Received ACK for chunk 934 from ('172.18.0.3', 20001)
+Sent chunk 942 of 1028 - Sequence number: 942
+Packet size is 1024
+Received ACK for chunk 935 from ('172.18.0.3', 20001)
+Sent chunk 943 of 1028 - Sequence number: 943
+Packet size is 1024
+Received ACK for chunk 936 from ('172.18.0.3', 20001)
+Sent chunk 944 of 1028 - Sequence number: 944
+Packet size is 1024
+Received ACK for chunk 937 from ('172.18.0.3', 20001)
+Sent chunk 945 of 1028 - Sequence number: 945
+Packet size is 1024
+Received ACK for chunk 938 from ('172.18.0.3', 20001)
+Received ACK for chunk 939 from ('172.18.0.3', 20001)
+Sent chunk 946 of 1028 - Sequence number: 946
+Packet size is 1024
+Received ACK for chunk 940 from ('172.18.0.3', 20001)
+Sent chunk 947 of 1028 - Sequence number: 947
+Packet size is 1024
+Received ACK for chunk 941 from ('172.18.0.3', 20001)
+Sent chunk 948 of 1028 - Sequence number: 948
+Packet size is 1024
+Received ACK for chunk 942 from ('172.18.0.3', 20001)
+Sent chunk 949 of 1028 - Sequence number: 949
+Packet size is 1024
+Received ACK for chunk 943 from ('172.18.0.3', 20001)
+Sent chunk 950 of 1028 - Sequence number: 950
+Packet size is 1024
+Received ACK for chunk 944 from ('172.18.0.3', 20001)
+Sent chunk 951 of 1028 - Sequence number: 951
+Packet size is 1024
+Received ACK for chunk 945 from ('172.18.0.3', 20001)
+Sent chunk 952 of 1028 - Sequence number: 952
+Packet size is 1024
+Received ACK for chunk 946 from ('172.18.0.3', 20001)
+Sent chunk 953 of 1028 - Sequence number: 953
+Packet size is 1024
+Received ACK for chunk 947 from ('172.18.0.3', 20001)
+Sent chunk 954 of 1028 - Sequence number: 954
+Packet size is 1024
+Received ACK for chunk 948 from ('172.18.0.3', 20001)
+Sent chunk 955 of 1028 - Sequence number: 955
+Packet size is 1024
+Received ACK for chunk 949 from ('172.18.0.3', 20001)
+Sent chunk 956 of 1028 - Sequence number: 956
+Packet size is 1024
+Received ACK for chunk 950 from ('172.18.0.3', 20001)
+Sent chunk 957 of 1028 - Sequence number: 957
+Packet size is 1024
+Received ACK for chunk 951 from ('172.18.0.3', 20001)
+Sent chunk 958 of 1028 - Sequence number: 958
+Packet size is 1024
+Received ACK for chunk 881 from ('172.18.0.3', 20001)
+Sent chunk 888 of 1028 - Sequence number: 888
+Packet size is 1024
+Received ACK for chunk 882 from ('172.18.0.3', 20001)
+Sent chunk 889 of 1028 -Received ACK for chunk 952 from ('172.18.0.3', 20001)
+Received ACK for chunk 953 from ('172.18.0.3', 20001)
+Received ACK for chunk 954 from ('172.18.0.3', 20001)
+Received ACK for chunk 955 from ('172.18.0.3', 20001)
+Received ACK for chunk 956 from ('172.18.0.3', 20001)
+Sent chunk 961 of 1028 - Sequence number: 961
+Packet size is 1024
+Received ACK for chunk 957 from ('172.18.0.3', 20001)
+Sent chunk 962 of 1028 - Sequence number: 962
+Packet size is 1024
+Received ACK for chunk 958 from ('172.18.0.3', 20001)
+Received ACK for chunk 959 from ('172.18.0.3', 20001)
+Sent chunk 963 of 1028 - Sequence number: 963
+Packet size is 1024
+Received ACK for chunk 960 from ('172.18.0.3', 20001)
+Sent chunk 964 of 1028 - Sequence number: 964
+Packet size is 1024
+Received ACK for chunk 961 from ('172.18.0.3', 20001)
+Sent chunk 965 of 1028 - Sequence number: 965
+Packet size is 1024
+Received ACK for chunk 962 from ('172.18.0.3', 20001)
+Sent chunk 966 of 1028 - Sequence number: 966
+Packet size is 1024
+Received ACK for chunk 963 from ('172.18.0.3', 20001)
+Sent chunk 967 of 1028 - Sequence number: 967
+Packet size is 1024
+Received ACK for chunk 964 from ('172.18.0.3', 20001)
+Sent chunk 968 of 1028 - Sequence number: 968
+Packet size is 1024
+Received ACK for chunk 965 from ('172.18.0.3', 20001)
+Sent chunk 969 of 1028 - Sequence number: 969
+Packet size is 1024
+Received ACK for chunk 966 from ('172.18.0.3', 20001)
+Sent chunk 970 of 1028 - Sequence number: 970
+Packet size is 1024
+Received ACK for chunk 967 from ('172.18.0.3', 20001)
+Sent chunk 971 of 1028 - Sequence number: 971
+Packet size is 1024
+Received ACK for chunk 968 from ('172.18.0.3', 20001)
+Sent chunk 972 of 1028 - Sequence number: 972
+Packet size is 1024
+Sent chunk 973 of 1028 - Sequence number: 973
+Packet size is 1024
+Received ACK for chunk 969 from ('172.18.0.3', 20001)
+Received ACK for chunk 970 from ('172.18.0.3', 20001)
+Sent chunk 974 of 1028 - Sequence number: 974
+Packet size is 1024
+Received ACK for chunk 971 from ('172.18.0.3', 20001)
+Sent chunk 975 of 1028 - Sequence number: 975
+Packet size is 1024
+Received ACK for chunk 972 from ('172.18.0.3', 20001)
+Sent chunk 976 of 1028 - Sequence number: 976
+Packet size is 1024
+Received ACK for chunk 973 from ('172.18.0.3', 20001)
+Sent chunk 977 of 1028 - Sequence number: 977
+Packet size is 1024
+Received ACK for chunk 974 from ('172.18.0.3', 20001)
+Sent chunk 978 of 1028 - Sequence number: 978
+Packet size is 1024
+Received ACK for chunk 975 from ('172.18.0.3', 20001)
+Sent chunk 979 of 1028 - Sequence number: 979
+Packet size is 1024
+Received ACK for chunk 976 from ('172.18.0.3', 20001)
+Received ACK for chunk 977 from ('172.18.0.3', 20001)
+Sent chunk 980 of 1028 - Sequence number: 980
+Packet size is 1024
+Received ACK for chunk 978 from ('172.18.0.3', 20001)
+Sent chunk 981 of 1028 - Sequence number: 981
+Packet size is 1024
+Sent chunk 982 of 1028 - Sequence number: 982
+Packet size is 1024
+Sent chunk 983 of 1028 - Sequence number: 983
+Packet size is 1024
+Received ACK for chunk 979 from ('172.18.0.3', 20001)
+Sent chunk 984 of 1028 - Sequence number: 984
+Packet size is 1024
+Received ACK for chunk 980 from ('172.18.0.3', 20001)
+Sent chunk 985 of 1028 - Sequence number: 985
+Packet size is 1024
+Sent chunk 986 of 1028 - Sequence number: 986
+Packet size is 1024
+Received ACK for chunk 981 from ('172.18.0.3', 20001)
+Sent chunk 987 of 1028 - Sequence number: 987
+Packet size is 1024
+Received ACK for chunk 982 from ('172.18.0.3', 20001)
+Sent chunk 988 of 1028 - Sequence number: 988
+Packet size is 1024
+Received ACK for chunk 983 from ('172.18.0.3', 20001)
+Sent chunk 989 of 1028 - Sequence number: 989
+Packet size is 1024
+Received ACK for chunk 984 from ('172.18.0.3', 20001)
+Sent chunk 990 of 1028 - Sequence number: 990
+Packet size is 1024
+Received ACK for chunk 985 from ('172.18.0.3', 20001)
+Sent chunk 991 of 1028 - Sequence number: 991
+Packet size is 1024
+Sent chunk 992 of 1028 - Sequence number: 992
+Packet size is 1024
+Received ACK for chunk 986 from ('172.18.0.3', 20001)
+Received ACK for chunk 987 from ('172.18.0.3', 20001)
+Sent chunk 993 of 1028 - Sequence number: 993
+Packet size is 1024
+Received ACK for chunk 988 from ('172.18.0.3', 20001)
+Sent chunk 994 of 1028 - Sequence number: 994
+Packet size is 1024
+Received ACK for chunk 989 from ('172.18.0.3', 20001)
+Sent chunk 995 of 1028 - Sequence number: 995
+Packet size is 1024
+Received ACK for chunk 990 from ('172.18.0.3', 20001)
+Sent chunk 996 of 1028 - Sequence number: 996
+Packet size is 1024
+Received ACK for chunk 991 from ('172.18.0.3', 20001)
+Sent chunk 997 of 1028 - Sequence number: 997
+Packet size is 1024
+Received ACK for chunk 992 from ('172.18.0.3', 20001)
+Sent chunk 998 of 1028 - Sequence number: 998
+Packet size is 1024
+Received ACK for chunk 993 from ('172.18.0.3', 20001)
+Sent chunk 999 of 1028 - Sequence number: 999
+Packet size is 1024
+Received ACK for chunk 994 from ('172.18.0.3', 20001)
+Sent chunk 1000 of 1028 - Sequence number: 1000
+Packet size is 1024
+Received ACK for chunk 995 from ('172.18.0.3', 20001)
+Sent chunk 1001 of 1028 - Sequence number: 1001
+Packet size is 1024
+Received ACK for chunk 996 from ('172.18.0.3', 20001)
+Sent chunk 1002 of 1028 - Sequence number: 1002
+Packet size is 1024
+Sent chunk 1003 of 1028 - Sequence number: 1003
+Packet size is 1024
+Sent chunk 1004 of 1028 - Sequence number: 1004
+Packet size is 1024
+Received ACK for chunk 997 from ('172.18.0.3', 20001)
+Sent chunk 1005 of 1028 - Sequence number: 1005
+Packet size is 1024
+Received ACK for chunk 998 from ('172.18.0.3', 20001)
+Sent chunk 1006 of 1028 - Sequence number: 1006
+Packet size is 1024
+Received ACK for chunk 999 from ('172.18.0.3', 20001)
+Sent chunk 1007 of 1028 - Sequence number: 1007
+Packet size is 1024
+Received ACK for chunk 1000 from ('172.18.0.3', 20001)
+Sent chunk 1008 of 1028 - Sequence number: 1008
+Packet size is 1024
+Received ACK for chunk 1001 from ('172.18.0.3', 20001)
+Sent chunk 1009 of 1028 - Sequence number: 1009
+Packet size is 1024
+Received ACK for chunk 1002 from ('172.18.0.3', 20001)
+Sent chunk 1010 of 1028 - Sequence number: 1010
+Packet size is 1024
+Received ACK for chunk 1003 from ('172.18.0.3', 20001)
+Sent chunk 1011 of 1028 - Sequence number: 1011
+Packet size is 1024
+Received ACK for chunk 1004 from ('172.18.0.3', 20001)
+Sent chunk 1012 of 1028 - Sequence number: 1012
+Packet size is 1024
+Received ACK for chunk 1005 from ('172.18.0.3', 20001)
+Sent chunk 1013 of 1028 - Sequence number: 1013
+Packet size is 1024
+Received ACK for chunk 1006 from ('172.18.0.3', 20001)
+Sent chunk 1014 of 1028 - Sequence number: 1014
+Packet size is 1024
+Received ACK for chunk 1007 from ('172.18.0.3', 20001)
+Sent chunk 1015 of 1028 - Sequence number: 1015
+Packet size is 1024
+Received ACK for chunk 1008 from ('172.18.0.3', 20001)
+Sent chunk 1016 of 1028 - Sequence number: 1016
+Packet size is 1024
+Received ACK for chunk 1009 from ('172.18.0.3', 20001)
+Sent chunk 1017 of 1028 - Sequence number: 1017
+Packet size is 1024
+Received ACK for chunk 1010 from ('172.18.0.3', 20001)
+Sent chunk 1018 of 1028 - Sequence number: 1018
+Packet size is 1024
+Received ACK for chunk 1011 from ('172.18.0.3', 20001)
+Sent chunk 1019 of 1028 - Sequence number: 1019
+Packet size is 1024
+Received ACK for chunk 1012 from ('172.18.0.3', 20001)
+Sent chunk 1020 of 1028 - Sequence number: 1020
+Packet size is 1024
+Received ACK for chunk 1013 from ('172.18.0.3', 20001)
+Sent chunk 1021 of 1028 - Sequence number: 1021
+Packet size is 1024
+Received ACK for chunk 1014 from ('172.18.0.3', 20001)
+Sent chunk 1022 of 1028 - Sequence number: 1022
+Packet size is 1024
+Received ACK for chunk 1015 from ('172.18.0.3', 20001)
+Sent chunk 1023 of 1028 - Sequence number: 1023
+Packet size is 1024
+Received ACK for chunk 1016 from ('172.18.0.3', 20001)
+Sent chunk 1024 of 1028 - Sequence number: 1024
+Packet size is 1024
+Received ACK for chunk 1017 from ('172.18.0.3', 20001)
+Sent chunk 1025 of 1028 - Sequence number: 1025
+Packet size is 1024
+Received ACK for chunk 1018 from ('172.18.0.3', 20001)
+Sent chunk 1026 of 1028 - Sequence number: 1026
+Packet size is 1024
+ce number: 957
+Packet size is 1024
+Received ACK for chunk 951 from ('172.18.0.3', 20001)
+Sent chunk 958 of 1028 - Sequence number: 9Received ACK for chunk 1019 from ('172.18.0.3', 20001)
+Received ACK for chunk 1020 from ('172.18.0.3', 20001)
+Received ACK for chunk 1021 from ('172.18.0.3', 20001)
+Received ACK for chunk 1022 from ('172.18.0.3', 20001)
+Received ACK for chunk 1023 from ('172.18.0.3', 20001)
+Received ACK for chunk 1024 from ('172.18.0.3', 20001)
+Received ACK for chunk 1025 from ('172.18.0.3', 20001)
+Received ACK for chunk 1026 from ('172.18.0.3', 20001)
+Received ACK for chunk 1027 from ('172.18.0.3', 20001)
+Received ACK for chunk 1028 from ('172.18.0.3', 20001)
+All chunks sent and ACKed successfully
+  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ  PÅÕ  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ  °9¢Õ  Ð ÅÕ  Ð ÅÕ  ÅÕ  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ  Ð ÅÕ                          
