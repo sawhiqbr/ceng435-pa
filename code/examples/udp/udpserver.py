@@ -3,18 +3,59 @@ import hashlib
 import os
 import sys
 
-localIP     = "server"
-localPort   = 20001
-bufferSize  = 1024  # Increase buffer size to match TCP server
+localIP           = "server"
+localPort         = 20001
+bufferSize        = 1024  # Increase buffer size to match TCP server
 current_directory = os.getcwd()
 
-# Create a datagram socket
+# Create a datagram socket and bind it
 UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-
-# Bind to address and ip
 UDPServerSocket.bind((localIP, localPort))
-
 print("UDP server up and listening")
+
+while True:
+    # Wait for the client to send the file info
+    packet, address = UDPServerSocket.recvfrom(bufferSize)
+
+    # Check if the packet is the special "end" packet
+    if packet.decode() == "end":
+        break
+
+    # Extract the checksum and file info from the packet
+    checksum = packet[:32].decode()
+    file_info_bytes = packet[32:]
+
+    # Calculate the checksum of the file info
+    calculated_checksum = hashlib.md5(file_info_bytes).hexdigest()
+
+
+    # Check if the checksums match
+    if checksum != calculated_checksum:
+        print("Error: Checksum does not match. Sending NACK...")
+        nack_packet = "NACK".encode()
+        UDPServerSocket.sendto(nack_packet, address)
+        continue
+
+    # Send an ACK for the received packet
+    ack_packet = "ACK".encode()
+    UDPServerSocket.sendto(ack_packet, address)
+    
+    # Decode the file info from bytes to a string
+    file_info_str = file_info_bytes.decode()
+
+    # Convert the string back to a list
+    file_info = eval(file_info_str)
+
+    # Calculate the checksum of the file info
+    ack_checksum = hashlib.md5(file_info_bytes).hexdigest()
+
+    # Include the checksum in the packet
+    ack_packet = ack_checksum.encode() + file_info_bytes
+
+    # Send back the file info to the client
+    UDPServerSocket.sendto(ack_packet, address)
+
+print(f"Finished receiving file info: {file_info}")
 
 chunks = {}
 # Listen for incoming datagrams
