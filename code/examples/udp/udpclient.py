@@ -1,136 +1,100 @@
+""" ---------------------- SENDER ---------------------- """
+""" Sequence numbers will start from 1 and go up to whatever the total number of chunks is """
 import socket
 import hashlib
 import threading
 import os
 import time
+import sys
+import queue
 
-starttime = time.time()
+SERVER_ADDRESS_PORT   = (socket.gethostbyname("server"), 20001)
+LOCAL_IP              = "client"
+LOCAL_PORT            = 20002
+BUFFER_SIZE           = 1024
+CURRENT_DIRECTORY     = os.getcwd()
+TIMEOUT               = 1 
+WINDOW_SIZE           = 128
+SEND_BASE             = 0
+FILES                 = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
+# FILES                 = ["large-0"]
 
-serverAddressPort   = (socket.gethostbyname("server"), 20001)
-bufferSize          = 1024  # Increase buffer size to match TCP client
-current_directory   = os.getcwd()
-TIMEOUT             = 1 
-# List of files to send
-files = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
-ALL_CHUNKS = 10390
-# files = ["large-0"]
-# ALL_CHUNKS = 1028
+sequence_queue        = queue.Queue()
+packets_lock          = threading.Lock()
+packets               = {}
+timers                = {}
 
 # Create a UDP socket at client side
 UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-print("UDP client up and getting ready to send file info")
+UDPClientSocket.bind((LOCAL_IP, LOCAL_PORT))
+print("UDP client up and running")
 
-
-# Create a list of file names and sizes, then convert it to a string
-file_info = [(file_name, os.path.getsize(os.path.join(current_directory, 'objects', f'{file_name}.obj'))) for file_name in files]
-file_info_str = str(file_info)
-
-# Encode the string to bytes and append the checksum to the front of the packet
-file_info_bytes = file_info_str.encode()
-checksum = hashlib.md5(file_info_bytes).hexdigest()
-packet = checksum.encode() + file_info_bytes
-
-timeout_start = time.time()
-
-# First trial of sending the file info
-UDPClientSocket.sendto(packet, serverAddressPort) 
-while True:
-    # Check if the timeout has been reached to resend the packet if lost
-    if time.time() - timeout_start > TIMEOUT:
-        print("Timeout. Resending packet...")
-        UDPClientSocket.sendto(packet, serverAddressPort)
-        timeout_start = time.time()
-        continue
-
-    ack_packet, server_address = UDPClientSocket.recvfrom(bufferSize)
-
-    # Check if the server sent a NACK
-    if ack_packet.decode() == "NACK":
-        print("Received NACK from server. Retrying...")
-        continue
-    
-    # Check if the server sent an ACK
-    if ack_packet.decode() == "ACK":
-        print("Received ACK from server. Proceeding...")
-        break
-    
-    print("Error: Did not receive ACK from server. Retrying...")
-    
-    # Extract the checksum and file info from the packet
-    ack_checksum = ack_packet[:32].decode()
-    ack_file_info_bytes = ack_packet[32:]
-
-# Send a special "end" packet to signal that the file info has been correctly received
-end_packet = "end".encode()
-UDPClientSocket.sendto(end_packet, serverAddressPort)
-
-def wait_for_ack(ALL_CHUNKS=ALL_CHUNKS):
-    received = {i: False for i in range(ALL_CHUNKS)}
-    while False in received.values():
-        # Wait for ACK
-        ack, server_address = UDPClientSocket.recvfrom(bufferSize)
-        sequence_number = int(ack.decode())
-        if sequence_number > ALL_CHUNKS:
-            print(f"Trying to insert True into index {sequence_number - 1} where received is dict is of length: {len(received)}")
-            continue
-        
-        received[sequence_number - 1] = True
-
-        print(f"Received ACK for chunk {sequence_number} from {server_address}")
-    
-    print("All chunks sent and ACKed successfully")
-
-# Create a thread for waiting for ACK
-ack_thread = threading.Thread(target=wait_for_ack, args=(ALL_CHUNKS,))
-ack_thread.start()
-
+# Making packets ready to send
 sequence_number = 0
-for file_name in files:
-    print(f"Sending file {file_name} with size {os.path.getsize(os.path.join(current_directory, 'objects', f'{file_name}.obj'))}")
+for file_name in FILES:
+    print(f"Preparing file {file_name} with size {os.path.getsize(os.path.join(CURRENT_DIRECTORY, 'objects', f'{file_name}.obj'))}")
     # Read file data
-    with open(os.path.join(current_directory, "objects", f"{file_name}.obj"), 'rb') as file:
+    with open(os.path.join(CURRENT_DIRECTORY, "objects", f"{file_name}.obj"), 'rb') as file:
         file_data = file.read()
 
     # Divide file data into chunks, add checksum to each chunk, and send each chunk
     # Also print sent status and sequence number for each chunk
-    chunk_size = 973 # 1024 - 7 - 4 - 4 - 4 - 32
+    chunk_size = 1009 # 1024 - 7 - 4 - 4
     total_chunks = len(file_data) // chunk_size + 1
 
     print(f"Total chunks: {total_chunks}")
-
     for i in range(0, len(file_data), chunk_size):
         sequence_number += 1
         message = file_data[i:i+chunk_size]
-        length = len(message)
-        data = file_name.encode() + length.to_bytes(4, 'big') + sequence_number.to_bytes(4, 'big') + total_chunks.to_bytes(4, 'big') + message
+        packet = file_name.encode() +  sequence_number.to_bytes(4, 'big') + total_chunks.to_bytes(4, 'big') + message
         
-        # Calculate checksum
-        checksum = hashlib.md5(data).hexdigest()
-        
-        # Add checksum to the data and create a packet to send
-        packet = checksum.encode() + data
-
-        # print(f"Checksum: {checksum}")
-        # print(f"Length: {length}")
         # print(f"Sequence number: {sequence_number}")
         # print(f"Total chunks: {total_chunks}")
-        # print(f"Message length: {len(message)}")
-        # print(f"Data length: {len(data)}")
         # print(f"Packet length: {len(packet)}")
 
-        # Send chunk
-        print(f"Packet size is {len(packet)}")
-        UDPClientSocket.sendto(packet, serverAddressPort)
-        # Print status and sequence number
-        print(f"Sent chunk {i//chunk_size + 1} of {total_chunks} - Sequence number: {sequence_number}")
+        with packets_lock:
+            packets[sequence_number] = packet
+        print(f"Prepared chunk {i//chunk_size + 1} of {total_chunks} - Sequence number: {sequence_number}")
+
+        if (sequence_number < WINDOW_SIZE):
+            sequence_queue.put(sequence_number)
+
+    print(f"Finished preparing file {file_name}")
 
 
-    print(f"Finished sending file {file_name}")
+def packet_sender(UDPClientSocket, address):
+    while True:
+        # Get a sequence number from the queue
+        sequence = sequence_queue.get()
 
-    endtime = time.time()
-    print(f"Time elapsed: {endtime - starttime}")
+        # Send the packet for this sequence number
+        UDPClientSocket.sendto(packets[sequence], address)
 
+        # Start a timer for this packet
+        timers[sequence] = threading.Timer(TIMEOUT, packet_sender, args=(UDPClientSocket, address))
+        timers[sequence].start()
 
+        # Mark this task as done
+        sequence_queue.task_done()
 
-# Wait for the ACK thread to finish
-ack_thread.join()
+# Define and tart the packet sender thread
+send_thread = threading.Thread(target=packet_sender, args=(UDPClientSocket, SERVER_ADDRESS_PORT), name="Packet Sender")
+send_thread.start()
+
+# Wait for ACKs
+while True:
+    ack_packet, address = UDPClientSocket.recvfrom(4)
+    ack_sequence = int.from_bytes(ack_packet, 'big')
+
+    # If an ACK is received, mark the corresponding packet as acknowledged and stop its timer
+    if ack_sequence >= SEND_BASE and ack_sequence < SEND_BASE + WINDOW_SIZE:
+        if ack_sequence in packets:
+            del packets[ack_sequence]
+            timers[ack_sequence].cancel()
+            del timers[ack_sequence]
+
+            # If the base of the window is acknowledged, slide the window forward
+            if ack_sequence == SEND_BASE:
+                while SEND_BASE + 1 not in packets:
+                    SEND_BASE += 1
+    

@@ -1,121 +1,178 @@
+""" --------------------- RECEIVER --------------------- """
 import socket
 import hashlib
+import threading
 import os
+import time
 import sys
+import queue
 
-localIP           = "server"
-localPort         = 20001
-bufferSize        = 1024  # Increase buffer size to match TCP server
-current_directory = os.getcwd()
+CLIENT_ADDRESS_PORT = (socket.gethostbyname("client"), 20002)
+LOCAL_IP           = "server"
+LOCAL_PORT         = 20001
+BUFFER_SIZE        = 1024
+CURRENT_DIRECTORY  = os.getcwd()
+TIMEOUT            = 1
+WINDOW_SIZE        = 128
+RECV_BASE          = 0
+TOTAL_CHUNKS_SMALL = 0
+TOTAL_CHUNKS_LARGE = 0
+FILES              = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
 
-# Create a datagram socket and bind it
+chunks             = {}
+files_done         = {}
+sequence_queue     = queue.Queue()
+chunks_lock        = threading.Lock()
+
+total_chunks_small_not_set = True
+total_chunks_large_not_set = True
+new_chunks_not_ready       = True
+total_chunks_set_cond      = threading.Condition()
+new_chunks_ready_cond      = threading.Condition()
+
+for file_name in FILES:
+    files_done[file_name] = False
+
+# Create a datagram socket at the server side and bind it
 UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-UDPServerSocket.bind((localIP, localPort))
+UDPServerSocket.bind((LOCAL_IP, LOCAL_PORT))
 print("UDP server up and listening")
 
-while True:
-    # Wait for the client to send the file info
-    packet, address = UDPServerSocket.recvfrom(bufferSize)
+def ack_sender(UDPServerSocket, address):
+    while True:
+        # Get a sequence number from the queue
+        sequence = sequence_queue.get()
 
-    # Check if the packet is the special "end" packet
-    if packet.decode() == "end":
-        break
+        # Send an ACK for this sequence number
+        ack_packet = sequence.to_bytes(4, 'big')
+        UDPServerSocket.sendto(ack_packet, address)
 
-    # Extract the checksum and file info from the packet
-    checksum = packet[:32].decode()
-    file_info_bytes = packet[32:]
+        # Mark this task as done
+        sequence_queue.task_done()
 
-    # Calculate the checksum of the file info
-    calculated_checksum = hashlib.md5(file_info_bytes).hexdigest()
+# Start the ACK sender thread
+ack_thread = threading.Thread(target=ack_sender, args=(UDPServerSocket, LOCAL_IP), name="ACK Sender")
+ack_thread.start()
 
-
-    # Check if the checksums match
-    if checksum != calculated_checksum:
-        print("Error: Checksum does not match. Sending NACK...")
-        nack_packet = "NACK".encode()
-        UDPServerSocket.sendto(nack_packet, address)
-        continue
-
-    # Send an ACK for the received packet
-    ack_packet = "ACK".encode()
-    UDPServerSocket.sendto(ack_packet, address)
+# Checks if all chunks have been received for a file and if so, reassembles the file
+def file_creator():
+    global files_done
     
-    # Decode the file info from bytes to a string
-    file_info_str = file_info_bytes.decode()
+    with total_chunks_set_cond:
+        while total_chunks_small_not_set and total_chunks_large_not_set:
+            total_chunks_set_cond.wait()
+    
+    while not all(files_done.values()):  # Continue until all files are done
+        for file_name in files_done:
+            if not files_done[file_name]:  # If the file is not done
+                total_chunks = TOTAL_CHUNKS_SMALL if file_name.startswith("small") else TOTAL_CHUNKS_LARGE
 
-    # Convert the string back to a list
-    file_info = eval(file_info_str)
+                if file_name.startswith("small"):
+                    n = int(file_name.split("-")[1])
+                    start_sequence = total_chunks * n + 1
+                    end_sequence = total_chunks * (n + 1)
+                else:
+                    n = int(file_name.split("-")[1])
+                    start_sequence = TOTAL_CHUNKS_SMALL * 10 + total_chunks * n + 1
+                    end_sequence = TOTAL_CHUNKS_SMALL * 10 + total_chunks * (n + 1)
 
-    # Calculate the checksum of the file info
-    ack_checksum = hashlib.md5(file_info_bytes).hexdigest()
+                with chunks_lock:
+                    all_chunks_received = all(chunks.get(i) is not None for i in range(start_sequence, end_sequence + 1))
+                
+                if all_chunks_received:
+                    # If all chunks are received, create the file
+                    with chunks_lock:
+                        with open(os.path.join(CURRENT_DIRECTORY, "object_received", file_name), 'wb') as f:
+                            for sequence in range(start_sequence, end_sequence + 1):
+                                f.write(chunks[sequence])
 
-    # Include the checksum in the packet
-    ack_packet = ack_checksum.encode() + file_info_bytes
+                    # Calculate MD5 hash
+                    with open(os.path.join(CURRENT_DIRECTORY, "object_received", file_name), 'rb') as f:
+                        file_data = f.read()
+                        calculated_hash = hashlib.md5(file_data).hexdigest()
 
-    # Send back the file info to the client
-    UDPServerSocket.sendto(ack_packet, address)
+                    # Read the stored MD5 hash
+                    with open(os.path.join(CURRENT_DIRECTORY, "objects", f"{file_name}.obj.md5"), 'r') as md5_file:
+                        stored_hash = md5_file.read().strip()
 
-print(f"Finished receiving file info: {file_info}")
+                    # Compare hashes
+                    if stored_hash == calculated_hash:
+                        print("File received intact")
+                    else:
+                        print("File corrupted during transfer")
 
-chunks = {}
-# Listen for incoming datagrams
+                    # Mark the file as done
+                    files_done[file_name] = True
+
+                    print(f"File {file_name} created")
+
+                    # Break the loop as we have processed a file
+                    break
+
+        with new_chunks_ready_cond:
+            while new_chunks_not_ready:
+                new_chunks_ready_cond.wait()
+    
+    print("All files created")
+
+file_creator_thread = threading.Thread(target=file_creator, name="File Creator")
+file_creator_thread.start()
+
+# Chunks will hold sequence number -> acked info. It will start from 1 and go up to the
+# total number of chunks in all of the files. Total chunks will be set when the first packet
+# from the file of that kind is received.
 while(True):
     print("Waiting for incoming datagrams")
-    bytesAddressPair = UDPServerSocket.recvfrom(bufferSize)
+    bytesAddressPair = UDPServerSocket.recvfrom(BUFFER_SIZE)
     packet = bytesAddressPair[0]
     address = bytesAddressPair[1]
     
     # Extract the checksum, length, sequence number, total chunks, and data from the packet
-    checksum = packet[:32].decode()
-    file_name = packet[32:39].decode()
-    length = int.from_bytes(packet[39:43], 'big')
-    sequence_number = int.from_bytes(packet[43:47], 'big')
-    total_chunks = int.from_bytes(packet[47:51], 'big')
-    message = packet[51:51+length]
-    data = file_name.encode() + length.to_bytes(4, 'big') + sequence_number.to_bytes(4, 'big') + total_chunks.to_bytes(4, 'big') + message
-    
-    # print(f"Checksum: {checksum}")
-    # print(f"Length: {length}")
+    file_name = packet[0:7].decode()
+    sequence_number = int.from_bytes(packet[7:11], 'big')
+    total_chunks = int.from_bytes(packet[11:15], 'big')
+    message = packet[19:]
+    max_sequence_number = sequence_number + total_chunks - 1
+
+    if total_chunks_small_not_set and file_name.startswith("small"):
+        TOTAL_CHUNKS_SMALL = total_chunks
+    elif total_chunks_large_not_set and file_name.startswith("large"):
+        TOTAL_CHUNKS_LARGE = total_chunks
+    if total_chunks_small_not_set and total_chunks_large_not_set:
+        total_chunks_set_cond.notify_all()
+
+    # print(f"File name: {file_name}")
     # print(f"Sequence number: {sequence_number}")
     # print(f"Total chunks: {total_chunks}")
-    # print(f"Message length: {len(message)}")
-    # print(f"Data length: {len(data)}")
     # print(f"Packet length: {len(packet)}")
     
-    # Store the data chunk
-    if file_name not in chunks:
-        chunks[file_name] = {}
-    chunks[file_name][sequence_number] = message
+    # Correctly received
+    if sequence_number >= RECV_BASE and sequence_number < RECV_BASE + WINDOW_SIZE:
+        # Put the sequence number in the queue
+        sequence_queue.put(sequence_number)
 
-    # Verify the checksum
-    calculated_checksum = hashlib.md5(packet[32:]).hexdigest()
-    if checksum != calculated_checksum:
-        print(f"Packet corrupted during transfer with checksum {checksum} and calculated checksum {calculated_checksum}")
-        continue
+        # If the packet was not previously received, buffer it
+        with chunks_lock:
+            if chunks.get(sequence_number) is None:
+                chunks[sequence_number] = message
+        
+        # Move the window if sequence number is the receive base
+        if sequence_number == RECV_BASE:
+            with chunks_lock:
+                current_base = RECV_BASE
+                while chunks.get(current_base + 1) is not None:
+                    current_base += 1
+            RECV_BASE = current_base
     
-    # Store the data chunk
-    chunks[sequence_number] = message
+    # Correctly received but previously acknowledged
+    if sequence_number >= RECV_BASE - WINDOW_SIZE and sequence_number < RECV_BASE:
+        # Put the sequence number in the queue
+        sequence_queue.put(sequence_number)
+
+    # Else ignore the packet
+    else:
+        pass
     
-    # Send an ACK back to the client
-    ack = str(sequence_number).encode()
-    UDPServerSocket.sendto(ack, address)
-    print(f"Sent ACK for chunk {ack} to {address}")
-
-    # Check if all chunks have been received
-    if len(chunks[file_name]) == total_chunks:
-        # Reassemble the file data
-        file_data = b''.join(chunks[file_name][i] for i in sorted(chunks[file_name]))
-        print(f"Reassembled file data with size {sys.getsizeof(file_data)}")
-        calculated_hash = hashlib.md5(file_data).hexdigest()
-
-        # Read the stored MD5 hash
-        with open(os.path.join(current_directory, "objects", f"{file_name}.obj.md5"), 'r') as md5_file:
-            stored_hash = md5_file.read().strip()
-
-        # Compare hashes
-        if stored_hash == calculated_hash:
-            print("File received intact")
-        else:
-            print("File corrupted during transfer")
-
-        print(f"Finished receiving file {file_name}")
+    new_chunks_not_ready = False
+    new_chunks_ready_cond.notify_all()
+    new_chunks_not_ready = True
