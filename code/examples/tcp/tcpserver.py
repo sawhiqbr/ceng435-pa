@@ -32,10 +32,10 @@ def receive_acknowledgment(conn):
     return
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    starttime = time.time()
     s.bind((HOST, PORT))
     s.listen()
     conn, addr = s.accept()
+    starttime = time.time()
     with conn:
         print('Connected by', addr)
         for i in range(10):

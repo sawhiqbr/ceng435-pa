@@ -8,6 +8,7 @@ PORT               = 8080
 CURRENT_DIRECTORY  = os.getcwd()
 
 def receive_file(conn, filename):
+    global RECEIVED_BYTES
     # Receive the file size first
     file_size_data = conn.recv(8)
     if not file_size_data:
@@ -28,7 +29,6 @@ def receive_file(conn, filename):
                 break  # Handle case where connection is closed unexpectedly
             file.write(data)
             remaining -= len(data)
-
     conn.sendall(b'File received')
 
 

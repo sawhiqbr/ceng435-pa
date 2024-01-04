@@ -18,8 +18,7 @@ WINDOW_SIZE           = 128
 SEND_BASE             = 1
 TOTAL_CHUNKS_ALL      = 10010
 FILES                 = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
-# FILES                 = ["large-0"]
-
+ALL_DONE              = False
 packets               = {}
 timers                = {}
 sequence_queue        = queue.Queue()
@@ -28,7 +27,9 @@ timers_lock           = threading.Lock()
 
 # Create a UDP socket at Server side
 UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
+UDPServerSocket.settimeout(TIMEOUT)
 UDPServerSocket.bind((LOCAL_IP, LOCAL_PORT))
+starttime = time.time()
 # print("UDP Server up and running")
 
 # Making packets ready to send
@@ -62,9 +63,12 @@ for file_name in FILES:
 def packet_resender(UDPServerSocket):
     global timers, sequence_queue
 
-    while True:
+    while not ALL_DONE:
         # Get a sequence number from the queue
-        sequence = sequence_queue.get()
+        try:
+            sequence = sequence_queue.get(False)
+        except queue.Empty:
+            continue
         # print("Waited for sequence number to re-send and got: {sequence}")
 
         with packets_lock:
@@ -85,11 +89,14 @@ def packet_resender(UDPServerSocket):
                 timers[sequence].start()
 
 def packet_sender(UDPServerSocket):
-    global timers, sequence_queue
+    global timers, sequence_queue, ALL_DONE
 
-    while True:
+    while not ALL_DONE:
         # Get a sequence number from the queue
-        sequence = sequence_queue.get()
+        try:
+            sequence = sequence_queue.get(False)
+        except queue.Empty:
+            continue
         # print("Waited for sequence number to send and got: {sequence}")
 
         with packets_lock:
@@ -114,9 +121,11 @@ send_thread = threading.Thread(target=packet_sender, args=(UDPServerSocket, ), n
 send_thread.start()
 
 # Wait for ACKs
-all_done = False
-while not all_done:
-    ack_packet, address = UDPServerSocket.recvfrom(4)
+while not ALL_DONE:
+    try:
+        ack_packet, address = UDPServerSocket.recvfrom(4)
+    except socket.timeout:
+        continue
     ack_sequence = int.from_bytes(ack_packet, 'big')
     # print(f"Received ACK for sequence number {ack_sequence} while SEND_BASE = {SEND_BASE}")
 
@@ -145,11 +154,11 @@ while not all_done:
                 if SEND_BASE == TOTAL_CHUNKS_ALL + 1:
                     # print("All packets have been acknowledged")
                     UDPServerSocket.close()
-                    all_done = True
+                    ALL_DONE = True
                     break
                 sequence_queue.task_done()
 
-            if all_done:
+            if ALL_DONE:
                 break
             
             for i in range(ack_sequence + WINDOW_SIZE, SEND_BASE + WINDOW_SIZE):
@@ -158,6 +167,9 @@ while not all_done:
         
             # print(f"OLD_BASE = {ack_sequence} - NEW_SEND_BASE: {SEND_BASE}")
 
-send_thread.join()
+print(f"Time taken: {time.time() - starttime}")
 
+send_thread.join()
+print(threading.enumerate())
+UDPServerSocket.close()
 exit(0)

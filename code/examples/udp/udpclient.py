@@ -18,6 +18,7 @@ RECV_BASE          = 1
 TOTAL_CHUNKS_SMALL = 0
 TOTAL_CHUNKS_LARGE = 0
 FILES              = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
+ALL_DONE           = False
 
 chunks             = {}
 files_done         = {}
@@ -35,14 +36,19 @@ for file_name in FILES:
 
 # Create a datagram socket at the Client side and bind it
 UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
+UDPClientSocket.settimeout(TIMEOUT)
 UDPClientSocket.bind((LOCAL_IP, LOCAL_PORT))
+starttime = time.time()
 # print("UDP Client up and listening")
 
 # Waits for a sequence number to ACK and sends an ACK for it
 def ack_sender(UDPClientSocket):
-    while True:
+    while not ALL_DONE:
         # Get a sequence number from the queue
-        sequence = sequence_queue.get()
+        try:
+            sequence = sequence_queue.get(False)
+        except queue.Empty:
+            continue
 
         # Send an ACK for this sequence number
         ack_packet = sequence.to_bytes(4, 'big')
@@ -50,6 +56,9 @@ def ack_sender(UDPClientSocket):
         UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
         # Mark this task as done
         sequence_queue.task_done()
+    
+    print("All ACKs sent")
+    return
 
 # Start the ACK sender thread
 ack_thread = threading.Thread(target=ack_sender, args=(UDPClientSocket, ), name="ACK Sender")
@@ -57,7 +66,7 @@ ack_thread.start()
 
 # Checks if all chunks have been received for a file and if so, reassembles the file
 def file_creator():
-    global files_done, files_done_boolean, new_chunks_not_ready
+    global files_done, files_done_boolean, new_chunks_not_ready, ALL_DONE
 
     with total_chunks_set_cond:
         while total_chunks_small_not_set and total_chunks_large_not_set:
@@ -111,19 +120,21 @@ def file_creator():
 
                     # Mark the file as done
                     files_done[file_name] = True
-
+                    if all(files_done.values()):
+                        ALL_DONE = True
                     # print(f"File {file_name} created")
 
-        with new_chunks_ready_cond:
-            while new_chunks_not_ready:
-                # print("Waiting for new chunks")
-                new_chunks_ready_cond.wait()
-        # print("Really New chunks ready")
-        new_chunks_not_ready = True
+        if not ALL_DONE:
+            with new_chunks_ready_cond:
+                while new_chunks_not_ready:
+                    # print("Waiting for new chunks")
+                    new_chunks_ready_cond.wait()
+            # print("Really New chunks ready")
+            new_chunks_not_ready = True
 
-    # print("All files created")
-    UDPClientSocket.close()
     files_done_boolean = True
+    ALL_DONE = True
+    return
 
 file_creator_thread = threading.Thread(target=file_creator, name="File Creator")
 file_creator_thread.start()
@@ -132,7 +143,11 @@ file_creator_thread.start()
 # total number of chunks in all of the files. Total chunks will be set when the first packet
 # from the file of that kind is received.
 while(not files_done_boolean):
-    bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
+    try:
+        bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
+    except socket.timeout:
+        continue
+    
     # print(f"Got a packet at time: {time.time()}")
     packet = bytesAddressPair[0]
     address = bytesAddressPair[1]
@@ -195,6 +210,10 @@ while(not files_done_boolean):
             new_chunks_ready_cond.notify_all()
 
 
-file_creator_thread.join()
+print("All chunks received")
+
 ack_thread.join()
+print(threading.enumerate())
+UDPClientSocket.close()
+print(f"Time taken: {time.time() - starttime}")
 exit(0)
