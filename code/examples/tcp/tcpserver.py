@@ -1,37 +1,49 @@
-# echo-server.py
-
+""" ---------------------- SENDER ---------------------- """
 import socket
-import hashlib
+import os
+import time
 
-HOST = "server"  # Standard loopback interface address (localhost)
-PORT = 8080  # Port to listen on (non-privileged ports are > 1023)
+HOST              = 'server'
+PORT              = 8080
+CURRENT_DIRECTORY = os.getcwd()
 
-OBJ = "small-0"
+
+def send_file(conn, filename):
+    try:
+        with open(filename, 'rb') as file:
+            file_data = file.read()
+        file_size = len(file_data)
+        # Check if conn is still open
+        if conn.fileno() != -1:
+            conn.sendall(file_size.to_bytes(8, 'big'))  # Send file size as 8 byte integer
+            conn.sendall(file_data)  # Then send the file data
+    except OSError as e:
+        print(f"Error sending file: {e}")
+
+
+def receive_acknowledgment(conn):
+    buffer = ""
+    while True:
+        data = conn.recv(1024).decode()
+        buffer += data
+        if "File received" in buffer:
+            break
+    print('Received from client: File received')
+    return
 
 with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+    starttime = time.time()
     s.bind((HOST, PORT))
     s.listen()
     conn, addr = s.accept()
     with conn:
-        print(f"Connected by {addr}")
-        while True:
-            data = conn.recv(1024)
-            if not data:
-                break
-            
-            # Calculate MD5 hash of received file data
-            md5_hash = hashlib.md5()
-            md5_hash.update(data)
-            calculated_hash = md5_hash.hexdigest()
+        print('Connected by', addr)
+        for i in range(10):
+            send_file(conn, os.path.join(CURRENT_DIRECTORY, "objects", f"large-{i}.obj"))
+            receive_acknowledgment(conn)
 
-            # Read the stored MD5 hash
-            with open(f"../objects/{OBJ}.obj.md5", 'r') as md5_file:
-                stored_hash = md5_file.read().strip()
+            send_file(conn, os.path.join(CURRENT_DIRECTORY, "objects", f"small-{i}.obj"))
+            receive_acknowledgment(conn)
 
-            # Compare hashes
-            if stored_hash == calculated_hash:
-                print("File received intact")
-            else:
-                print("File corrupted during transfer")
-
-            conn.sendall(b'File received')
+    print(f"Time taken: {time.time() - starttime}")
+    conn.close()

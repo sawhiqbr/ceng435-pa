@@ -86,16 +86,16 @@ def file_creator():
                 if all_chunks_received:
                     # If all chunks are received, create the file
                     # Ensure the directory exists
-                    os.makedirs(os.path.join(CURRENT_DIRECTORY, "objects_received"), exist_ok=True)
+                    os.makedirs(os.path.join(CURRENT_DIRECTORY, "objects_received_udp"), exist_ok=True)
 
                     with chunks_lock:
-                        with open(os.path.join(CURRENT_DIRECTORY, "objects_received", f"{file_name}.obj"), 'wb') as f:
+                        with open(os.path.join(CURRENT_DIRECTORY, "objects_received_udp", f"{file_name}.obj"), 'wb') as f:
                             f.truncate(0)  # Clear existing content
                             for sequence in range(start_sequence, end_sequence + 1):
                                 f.write(chunks[sequence])
 
                     # Calculate MD5 hash
-                    with open(os.path.join(CURRENT_DIRECTORY, "objects_received", f"{file_name}.obj"), 'rb') as f:
+                    with open(os.path.join(CURRENT_DIRECTORY, "objects_received_udp", f"{file_name}.obj"), 'rb') as f:
                         file_data = f.read()
                         calculated_hash = hashlib.md5(file_data).hexdigest()
 
