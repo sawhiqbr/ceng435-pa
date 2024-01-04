@@ -1,5 +1,6 @@
 """ ---------------------- SENDER ---------------------- """
 """ Sequence numbers will start from 1 and go up to whatever the total number of chunks is """
+""" Please comment your code thoroughly, on what your implementation does rather than how. """
 import socket
 import hashlib
 import threading
@@ -66,11 +67,7 @@ def packet_resender(UDPServerSocket):
 
     while not terminate_event.is_set():
         # Get a sequence number from the queue
-        try:
-            sequence = sequence_queue.get(False)
-        except queue.Empty:
-            time.sleep(0.01)
-            continue
+        sequence = sequence_queue.get()
         # print("Waited for sequence number to re-send and got: {sequence}")
 
         with packets_lock:
@@ -95,12 +92,7 @@ def packet_sender(UDPServerSocket):
 
     while not terminate_event.is_set():
         # Get a sequence number from the queue
-        
-        try:
-            sequence = sequence_queue.get(False)
-        except queue.Empty:
-            time.sleep(0.01)
-            continue
+        sequence = sequence_queue.get()
         # print("Waited for sequence number to send and got: {sequence}")
 
         with packets_lock:

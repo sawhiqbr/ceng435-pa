@@ -1,4 +1,5 @@
 """ --------------------- RECEIVER --------------------- """
+""" Please comment your code thoroughly, on what your implementation does rather than how. """
 import socket
 import hashlib
 import threading
@@ -45,11 +46,7 @@ UDPClientSocket.bind((LOCAL_IP, LOCAL_PORT))
 def ack_sender(UDPClientSocket):
     while not terminate_event.is_set():
         # Get a sequence number from the queue
-        try:
-            sequence = sequence_queue.get(False)
-        except queue.Empty:
-            time.sleep(0.01)
-            continue
+        sequence = sequence_queue.get()
         # Send an ACK for this sequence number
         ack_packet = sequence.to_bytes(4, 'big')
         # print(f"Sending ACK for sequence number {sequence}")
