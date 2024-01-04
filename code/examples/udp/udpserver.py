@@ -24,6 +24,7 @@ timers                = {}
 sequence_queue        = queue.Queue()
 packets_lock          = threading.Lock()
 timers_lock           = threading.Lock()
+terminate_event       = threading.Event()
 
 # Create a UDP socket at Server side
 UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
@@ -63,11 +64,12 @@ for file_name in FILES:
 def packet_resender(UDPServerSocket):
     global timers, sequence_queue
 
-    while not ALL_DONE:
+    while not terminate_event.is_set():
         # Get a sequence number from the queue
         try:
             sequence = sequence_queue.get(False)
         except queue.Empty:
+            time.sleep(0.01)
             continue
         # print("Waited for sequence number to re-send and got: {sequence}")
 
@@ -91,11 +93,13 @@ def packet_resender(UDPServerSocket):
 def packet_sender(UDPServerSocket):
     global timers, sequence_queue, ALL_DONE
 
-    while not ALL_DONE:
+    while not terminate_event.is_set():
         # Get a sequence number from the queue
+        
         try:
             sequence = sequence_queue.get(False)
         except queue.Empty:
+            time.sleep(0.01)
             continue
         # print("Waited for sequence number to send and got: {sequence}")
 
@@ -121,7 +125,7 @@ send_thread = threading.Thread(target=packet_sender, args=(UDPServerSocket, ), n
 send_thread.start()
 
 # Wait for ACKs
-while not ALL_DONE:
+while not terminate_event.is_set():
     try:
         ack_packet, address = UDPServerSocket.recvfrom(4)
     except socket.timeout:
@@ -155,10 +159,11 @@ while not ALL_DONE:
                     # print("All packets have been acknowledged")
                     UDPServerSocket.close()
                     ALL_DONE = True
+                    terminate_event.set()
                     break
                 sequence_queue.task_done()
 
-            if ALL_DONE:
+            if terminate_event.is_set():
                 break
             
             for i in range(ack_sequence + WINDOW_SIZE, SEND_BASE + WINDOW_SIZE):
@@ -168,8 +173,3 @@ while not ALL_DONE:
             # print(f"OLD_BASE = {ack_sequence} - NEW_SEND_BASE: {SEND_BASE}")
 
 print(f"Time taken: {time.time() - starttime}")
-
-send_thread.join()
-print(threading.enumerate())
-UDPServerSocket.close()
-exit(0)
