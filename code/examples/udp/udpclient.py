@@ -9,13 +9,11 @@ import sys
 import queue
 
 BUFFER_SIZE        = 1024
-### WARNING! SET THESE VALUES ACCORDING TO THE BEFORE RUNNING ###
+### WARNING! PLEASE SET THESE VALUES ACCORDING TO THE REPORT BEFORE RUNNING ###
 
 SERVER_ADDRESS_PORT = (socket.gethostbyname("server"), 20002)
 CURRENT_DIRECTORY  = os.getcwd()
 SOCKET_TIMEOUT     = 0.5
-WINDOW_SIZE        = 128
-RECV_BASE          = 1
 TOTAL_CHUNKS_SMALL = 0
 TOTAL_CHUNKS_LARGE = 0
 TOTAL_CHUNKS_ALL   = 0
@@ -25,7 +23,6 @@ total_acks         = 0
 received_acks      = 0
 chunks             = {}
 files_done         = {}
-sequence_queue     = queue.Queue()
 chunks_lock        = threading.Lock()
 terminate_event    = threading.Event()
 
@@ -53,22 +50,18 @@ UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 UDPClientSocket.settimeout(SOCKET_TIMEOUT)
 starttime = time.time()
 
-# print("UDP Client up and listening")
-
 # Checks if all chunks have been received for a file and if so, reassembles the file
 def file_creator():
     global files_done, ALL_DONE, new_chunks_not_ready
 
     with total_chunks_set_cond:
         while total_chunks_small_not_set and total_chunks_large_not_set:
-            # print("Waiting for total chunks to be set")
             total_chunks_set_cond.wait()
     
-    # print("Total chunks set")
+    # total chunks is set
     while not all(files_done.values()):  # Continue until all files are done
         for file_name in files_done:
             if not files_done[file_name]:  # If the file is not done
-                # print(f"Checking if file {file_name} is done")
                 total_chunks = TOTAL_CHUNKS_SMALL if file_name.startswith("small") else TOTAL_CHUNKS_LARGE
 
                 if file_name.startswith("small"):
@@ -85,7 +78,6 @@ def file_creator():
                 
                 if all_chunks_received:
                     # If all chunks are received, create the file
-                    
                     with chunks_lock:
                         with open(os.path.join(CURRENT_DIRECTORY, "objects_received_udp", f"{file_name}.obj"), 'wb') as f:
                             f.truncate(0)  # Clear existing content
@@ -103,11 +95,9 @@ def file_creator():
 
                     # Compare hashes
                     if stored_hash == calculated_hash:
-                        # print(f"File {file_name} received intact")
                         files_done[file_name] = True
-                        # print(f"File {file_name} created")
                     else:
-                        print(f"File {file_name} corrupted during transfer")
+                        print(f"File {file_name} corrupted during transfer. Retrying... Don't close.")
 
                     # Mark the file as done
                     if all(files_done.values()):
@@ -117,17 +107,18 @@ def file_creator():
         if not ALL_DONE:
             with new_chunks_ready_cond:
                 while new_chunks_not_ready:
-                    # print("Waiting for new chunks")
                     new_chunks_ready_cond.wait()
-            # print("Really New chunks ready")
             new_chunks_not_ready = True
 
+    print("All files should be intact.")
     ALL_DONE = True
     return
 
 file_creator_thread = threading.Thread(target=file_creator, name="File Creator")
 file_creator_thread.start()
 
+# This will send a hello packet to the server to start the transfer
+# It will ensure that the server have our information
 hello = 0
 UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
 
@@ -138,24 +129,19 @@ while(not terminate_event.is_set()):
     try:
         bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
     except socket.timeout:
-        # print("Timeout")
         if (received_acks == 0):
             UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
         continue
     
-    # print(f"Got a packet at time: {time.time()}")
     packet = bytesAddressPair[0]
-    address = bytesAddressPair[1]
     
     # Extract the checksum, length, sequence number, total chunks, and data from the packet
     file_name = packet[0:7].decode()
     sequence_number = int.from_bytes(packet[7:11], 'big')
     total_chunks = int.from_bytes(packet[11:15], 'big')
     message = packet[15:]
-    max_sequence_number = sequence_number + total_chunks - 1
 
-    # print(f"Received chunk with sequence number: {sequence_number}")
-
+    # Try to set the total chunks if it is not set
     if total_chunks_small_not_set and file_name.startswith("small"):
         TOTAL_CHUNKS_SMALL = total_chunks
         total_chunks_small_not_set = False
@@ -167,12 +153,8 @@ while(not terminate_event.is_set()):
             TOTAL_CHUNKS_ALL = TOTAL_CHUNKS_SMALL * 10 + TOTAL_CHUNKS_LARGE * 10
             total_chunks_set_cond.notify_all()
     
-    # print(f"Received chunk with sequence number: {sequence_number} and while RECV_BASE = {RECV_BASE}")
-    # Correctly received
-    
     ack_packet = sequence_number.to_bytes(4, 'big')
 
-    # print(f"Sending ack for sequence number: {sequence_number}")
     UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
     total_acks += 1
 
@@ -185,11 +167,9 @@ while(not terminate_event.is_set()):
     
     with new_chunks_ready_cond:
         if not new_chunks_not_ready:
-            # print("Can we enter new chunks ready cond?")
             new_chunks_ready_cond.notify_all()
 
     if received_acks == TOTAL_CHUNKS_ALL:
         break
     
 print(f"{time.time() - starttime}") 
-# print("All chunks received and files are ready")
