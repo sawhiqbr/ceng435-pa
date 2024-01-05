@@ -3,8 +3,9 @@
 import socket
 import hashlib
 
-HOST = "server"  # Standard loopback interface address (localhost)
-PORT = 8080  # Port to listen on (non-privileged ports are > 1023)
+HOST              = 'server'
+PORT              = 8000
+CURRENT_DIRECTORY = os.getcwd()
 
 OBJ = "small-0"
 
@@ -28,10 +29,6 @@ with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
             with open(f"../objects/{OBJ}.obj.md5", 'r') as md5_file:
                 stored_hash = md5_file.read().strip()
 
-            # Compare hashes
-            if stored_hash == calculated_hash:
-                print("File received intact")
-            else:
-                print("File corrupted during transfer")
-
-            conn.sendall(b'File received')
+    print(f"Time taken: {time.time() - starttime}")
+    conn.close()
+    s.close()
