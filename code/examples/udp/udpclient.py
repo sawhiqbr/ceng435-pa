@@ -11,15 +11,16 @@ import queue
 SERVER_ADDRESS_PORT = (socket.gethostbyname("server"), 20002)
 LOCAL_IP           = "client"
 LOCAL_PORT         = 20001
-BUFFER_SIZE        = 1024
+BUFFER_SIZE        = 3072
 CURRENT_DIRECTORY  = os.getcwd()
-TIMEOUT            = 1
-WINDOW_SIZE        = 128
+SOCKET_TIMEOUT     = 0.1
+WINDOW_SIZE        = 100
 RECV_BASE          = 1
 TOTAL_CHUNKS_SMALL = 0
 TOTAL_CHUNKS_LARGE = 0
 FILES              = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
 ALL_DONE           = False
+total_acks         = 0
 
 chunks             = {}
 files_done         = {}
@@ -35,31 +36,23 @@ new_chunks_ready_cond      = threading.Condition()
 for file_name in FILES:
     files_done[file_name] = False
 
+# Ensure the directory exists
+os.makedirs(os.path.join(CURRENT_DIRECTORY, "objects_received_udp"), exist_ok=True)
+
+# Delete all files inside the folder
+folder_path = os.path.join(CURRENT_DIRECTORY, "objects_received_udp")
+for file_name in os.listdir(folder_path):
+    file_path = os.path.join(folder_path, file_name)
+    if os.path.isfile(file_path):
+        os.remove(file_path)
+
+
 # Create a datagram socket at the Client side and bind it
 UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
-UDPClientSocket.settimeout(TIMEOUT)
+UDPClientSocket.settimeout(SOCKET_TIMEOUT)
 UDPClientSocket.bind((LOCAL_IP, LOCAL_PORT))
 
 # print("UDP Client up and listening")
-
-# Waits for a sequence number to ACK and sends an ACK for it
-def ack_sender(UDPClientSocket):
-    while not terminate_event.is_set():
-        # Get a sequence number from the queue
-        sequence = sequence_queue.get()
-        # Send an ACK for this sequence number
-        ack_packet = sequence.to_bytes(4, 'big')
-        # print(f"Sending ACK for sequence number {sequence}")
-        UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
-        # Mark this task as done
-        sequence_queue.task_done()
-    
-    print("All ACKs sent")
-    return
-
-# Start the ACK sender thread
-ack_thread = threading.Thread(target=ack_sender, args=(UDPClientSocket, ), name="ACK Sender")
-ack_thread.start()
 
 # Checks if all chunks have been received for a file and if so, reassembles the file
 def file_creator():
@@ -91,9 +84,7 @@ def file_creator():
                 
                 if all_chunks_received:
                     # If all chunks are received, create the file
-                    # Ensure the directory exists
-                    os.makedirs(os.path.join(CURRENT_DIRECTORY, "objects_received_udp"), exist_ok=True)
-
+                    
                     with chunks_lock:
                         with open(os.path.join(CURRENT_DIRECTORY, "objects_received_udp", f"{file_name}.obj"), 'wb') as f:
                             f.truncate(0)  # Clear existing content
@@ -120,7 +111,7 @@ def file_creator():
                     if all(files_done.values()):
                         ALL_DONE = True
                         terminate_event.set()
-                    # print(f"File {file_name} created")
+                    print(f"File {file_name} created")
 
         if not ALL_DONE:
             with new_chunks_ready_cond:
@@ -140,6 +131,7 @@ file_creator_thread.start()
 # Chunks will hold sequence number -> acked info. It will start from 1 and go up to the
 # total number of chunks in all of the files. Total chunks will be set when the first packet
 # from the file of that kind is received.
+starttime = time.time()
 while(not terminate_event.is_set()):
     try:
         bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
@@ -157,7 +149,6 @@ while(not terminate_event.is_set()):
     message = packet[15:]
     max_sequence_number = sequence_number + total_chunks - 1
 
-    # print(file_name.startswith("small"), file_name.startswith("large"), TOTAL_CHUNKS_SMALL, TOTAL_CHUNKS_LARGE)
     if total_chunks_small_not_set and file_name.startswith("small"):
         TOTAL_CHUNKS_SMALL = total_chunks
         total_chunks_small_not_set = False
@@ -165,21 +156,22 @@ while(not terminate_event.is_set()):
         TOTAL_CHUNKS_LARGE = total_chunks
         total_chunks_large_not_set = False
     with total_chunks_set_cond:
-        # print("Can we enter total chunks set cond?")
         if not total_chunks_small_not_set and not total_chunks_large_not_set:
             total_chunks_set_cond.notify_all()
-
+    
+    # print(f"Received chunk with sequence number: {sequence_number} and while RECV_BASE = {RECV_BASE}")
     # Correctly received
     if sequence_number >= RECV_BASE and sequence_number < RECV_BASE + WINDOW_SIZE:
         # print(f"Correctly Received chunk with sequence number: {sequence_number} and put it into the queue")
-        # Put the sequence number in the queue
-        sequence_queue.put(sequence_number)
-
+        
+        ack_packet = sequence_number.to_bytes(4, 'big')
+        # print(f"Sending ACK for sequence number {sequence_number}")
+        UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
+        total_acks += 1
         # If the packet was not previously received, buffer it
         with chunks_lock:
             if chunks.get(sequence_number) is None:
                 chunks[sequence_number] = message
-                # print(f"Correctly Received chunk with sequence number: {sequence_number} is buffered")
 
         # Move the window if sequence number is the receive base
         if sequence_number == RECV_BASE:
@@ -192,9 +184,12 @@ while(not terminate_event.is_set()):
     # Correctly received but previously acknowledged
     elif sequence_number >= RECV_BASE - WINDOW_SIZE and sequence_number < RECV_BASE:
         # print(f"Previously Received chunk with sequence number: {sequence_number} and put it into the queue")
-        # Put the sequence number in the queue
-        sequence_queue.put(sequence_number)
-
+        
+        # Send an ACK for this sequence number
+        ack_packet = sequence_number.to_bytes(4, 'big')
+        # print(f"Sending ACK for sequence number {sequence_number}")
+        UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
+        total_acks += 1 
     # Else ignore the packet
     else:
         # print(f"Ignored chunk with sequence number: {sequence_number}")
@@ -208,4 +203,5 @@ while(not terminate_event.is_set()):
             new_chunks_ready_cond.notify_all()
 
 
-print("All chunks received")
+print(f"Total time taken: {time.time() - starttime}") 
+print("All chunks received with total acks: ", total_acks)

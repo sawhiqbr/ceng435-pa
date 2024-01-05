@@ -7,6 +7,17 @@ HOST               = socket.gethostbyname('server')
 PORT               = 8080
 CURRENT_DIRECTORY  = os.getcwd()
 
+# Ensure the directory exists
+os.makedirs(os.path.join(CURRENT_DIRECTORY, "objects_received_tcp"), exist_ok=True)
+
+# Delete all files inside the folder
+folder_path = os.path.join(CURRENT_DIRECTORY, "objects_received_tcp")
+for file_name in os.listdir(folder_path):
+    file_path = os.path.join(folder_path, file_name)
+    if os.path.isfile(file_path):
+        os.remove(file_path)
+
+
 def receive_file(conn, filename):
     global RECEIVED_BYTES
     # Receive the file size first
@@ -16,8 +27,6 @@ def receive_file(conn, filename):
     file_size = int.from_bytes(file_size_data, 'big')
 
     # Receive the file data
-
-    os.makedirs(os.path.join(CURRENT_DIRECTORY, "objects_received_tcp"), exist_ok=True)
 
     with open(os.path.join(CURRENT_DIRECTORY, "objects_received_tcp", f"{filename}"), 'wb') as file:
         file.truncate(0)  # Clear existing content
