@@ -18,7 +18,7 @@ TIMEOUT               = 0.1
 SOCKET_TIMEOUT        = 0.1
 WINDOW_SIZE           = 128
 SEND_BASE             = 1
-TOTAL_CHUNKS_ALL      = 4920 + 50
+TOTAL_CHUNKS_ALL      = 0
 FILES                 = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
 ALL_DONE              = False
 packets               = {}
@@ -46,6 +46,10 @@ for file_name in FILES:
     # Also # print sent status and sequence number for each chunk
     chunk_size = BUFFER_SIZE - 15
     total_chunks = len(file_data) // chunk_size + 1
+    if file_name == "small-0":
+        TOTAL_CHUNKS_ALL += total_chunks
+    if file_name == "large-0":
+        TOTAL_CHUNKS_ALL += total_chunks
     print(total_chunks)
     for i in range(0, len(file_data), chunk_size):
         sequence_number += 1
@@ -76,11 +80,11 @@ def packet_resender(UDPServerSocket, sequence_in_window):
                 UDPServerSocket.sendto(packets[SEND_BASE + sequence_in_window], CLIENT_ADDRESS_PORT)
                 resend_counter += 1
         if sequence_in_window == 0:
-            # time.sleep(0.01) # For others
-            time.sleep(0.2) # For delay
+            time.sleep(0.01) # For others
+            # ime.sleep(0.2) # For delay
         else:
-            # time.sleep(0.03) # For others
-            time.sleep(0.4) # For delay
+            time.sleep(0.03) # For others
+            # time.sleep(0.4) # For delay
 
 
 base_send_threads = [threading.Thread(target=packet_resender, args=(UDPServerSocket, i, ), name=f"Packet Resender {i}") for i in range(0, WINDOW_SIZE)] 

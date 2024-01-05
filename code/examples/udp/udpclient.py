@@ -126,10 +126,8 @@ def file_creator():
 file_creator_thread = threading.Thread(target=file_creator, name="File Creator")
 file_creator_thread.start()
 
-sequence_number = 0
-UDPClientSocket.sendto(sequence_number.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
-UDPClientSocket.sendto(sequence_number.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
-UDPClientSocket.sendto(sequence_number.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
+hello = 0
+UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
 
 # Chunks will hold sequence number -> acked info. It will start from 1 and go up to the
 # total number of chunks in all of the files. Total chunks will be set when the first packet
@@ -138,6 +136,7 @@ while(not terminate_event.is_set()):
     try:
         bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
     except socket.timeout:
+        UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
         continue
     
     # print(f"Got a packet at time: {time.time()}")
