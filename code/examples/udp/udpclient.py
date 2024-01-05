@@ -9,17 +9,18 @@ import sys
 import queue
 
 SERVER_ADDRESS_PORT = (socket.gethostbyname("server"), 20002)
-BUFFER_SIZE        = 2048
+BUFFER_SIZE        = 5048
 CURRENT_DIRECTORY  = os.getcwd()
-SOCKET_TIMEOUT     = 0.1
+SOCKET_TIMEOUT     = 0.5
 WINDOW_SIZE        = 128
 RECV_BASE          = 1
 TOTAL_CHUNKS_SMALL = 0
 TOTAL_CHUNKS_LARGE = 0
+TOTAL_CHUNKS_ALL   = 0
 FILES              = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
 ALL_DONE           = False
 total_acks         = 0
-
+received_acks      = 0
 chunks             = {}
 files_done         = {}
 sequence_queue     = queue.Queue()
@@ -119,7 +120,6 @@ def file_creator():
             # print("Really New chunks ready")
             new_chunks_not_ready = True
 
-    terminate_event.set()
     ALL_DONE = True
     return
 
@@ -136,6 +136,7 @@ while(not terminate_event.is_set()):
     try:
         bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
     except socket.timeout:
+        print("Timeout")
         UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
         continue
     
@@ -150,6 +151,8 @@ while(not terminate_event.is_set()):
     message = packet[15:]
     max_sequence_number = sequence_number + total_chunks - 1
 
+    # print(f"Received chunk with sequence number: {sequence_number}")
+
     if total_chunks_small_not_set and file_name.startswith("small"):
         TOTAL_CHUNKS_SMALL = total_chunks
         total_chunks_small_not_set = False
@@ -158,43 +161,22 @@ while(not terminate_event.is_set()):
         total_chunks_large_not_set = False
     with total_chunks_set_cond:
         if not total_chunks_small_not_set and not total_chunks_large_not_set:
+            TOTAL_CHUNKS_ALL = TOTAL_CHUNKS_SMALL * 10 + TOTAL_CHUNKS_LARGE * 10
             total_chunks_set_cond.notify_all()
     
     # print(f"Received chunk with sequence number: {sequence_number} and while RECV_BASE = {RECV_BASE}")
     # Correctly received
-    if sequence_number >= RECV_BASE and sequence_number < RECV_BASE + WINDOW_SIZE:
-        # print(f"Correctly Received chunk with sequence number: {sequence_number} and put it into the queue")
-        
-        ack_packet = sequence_number.to_bytes(4, 'big')
-        # print(f"Sending ACK for sequence number {sequence_number}")
-        UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
-        total_acks += 1
-        # If the packet was not previously received, buffer it
-        with chunks_lock:
-            if chunks.get(sequence_number) is None:
-                chunks[sequence_number] = message
+    
+    ack_packet = sequence_number.to_bytes(4, 'big')
 
-        # Move the window if sequence number is the receive base
-        if sequence_number == RECV_BASE:
-            with chunks_lock:
-                while chunks.get(RECV_BASE) is not None:
-                    RECV_BASE += 1
-        
-        # print(f"Receive base is now: {RECV_BASE}")
+    # print(f"Sending ack for sequence number: {sequence_number}")
+    UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
+    total_acks += 1
 
-    # Correctly received but previously acknowledged
-    elif sequence_number >= RECV_BASE - WINDOW_SIZE and sequence_number < RECV_BASE:
-        # print(f"Previously Received chunk with sequence number: {sequence_number} and put it into the queue")
-        
-        # Send an ACK for this sequence number
-        ack_packet = sequence_number.to_bytes(4, 'big')
-        # print(f"Sending ACK for sequence number {sequence_number}")
-        UDPClientSocket.sendto(ack_packet, SERVER_ADDRESS_PORT)
-        total_acks += 1 
-    # Else ignore the packet
-    else:
-        # print(f"Ignored chunk with sequence number: {sequence_number}")
-        pass
+    with chunks_lock:
+        if chunks.get(sequence_number) is None:
+            chunks[sequence_number] = message
+            received_acks += 1
     
     new_chunks_not_ready = False
     
@@ -203,6 +185,8 @@ while(not terminate_event.is_set()):
             # print("Can we enter new chunks ready cond?")
             new_chunks_ready_cond.notify_all()
 
-
+    if received_acks == TOTAL_CHUNKS_ALL:
+        break
+    
 print(f"Total time taken: {time.time() - starttime}") 
 print("All chunks received with total acks: ", total_acks)
