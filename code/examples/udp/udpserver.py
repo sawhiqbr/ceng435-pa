@@ -10,14 +10,17 @@ import sys
 import queue
 import random
 
+BUFFER_SIZE           = 1024
+THREAD_COUNT          = 256
+THREAD_SLEEP          = 0.15
+### WARNING! SET THESE VALUES ACCORDING TO THE REPORT BEFORE RUNNING ###
+
 CLIENT_ADDRESS_PORT   = None
 LOCAL_IP              = "server"
 LOCAL_PORT            = 20002
-BUFFER_SIZE           = 64000
 CURRENT_DIRECTORY     = os.getcwd()
 TIMEOUT               = 0.1
 SOCKET_TIMEOUT        = 0.5
-THREAD_COUNT          = 40 # random.randint(16, 192) // 16 * 16
 SEND_BASE             = 1
 TOTAL_CHUNKS_ALL      = 0
 FILES                 = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
@@ -84,7 +87,8 @@ def packet_resender(UDPServerSocket, responsible):
                 # print(f"Sending packet with sequence number {sequence}")
                 UDPServerSocket.sendto(packets[sequence], CLIENT_ADDRESS_PORT)
                 resend_counter += 1
-            time.sleep(0.005)
+            time.sleep(THREAD_SLEEP)
+
 selective_send_threads = [threading.Thread(target=packet_resender, args=(UDPServerSocket, i, ), name=f"Packet Resender {i}") for i in range(1, TOTAL_CHUNKS_ALL + 1, responsible_area)]
 
 # Wait for ACKs
@@ -95,21 +99,21 @@ while not terminate_event.is_set():
         ack_packet, address = UDPServerSocket.recvfrom(4)
         timeout_counter = 0
         if not CLIENT_ADDRESS_PORT:
-            print("Other threads started")
-            starttime = time.time()
+            # print("Other threads started")
+            # starttime = time.time()
             CLIENT_ADDRESS_PORT = address
             for thread in selective_send_threads:
                 thread.start()
     except socket.timeout:
-        print(f"Timeout: {acked_total}, {TOTAL_CHUNKS_ALL}")
+        # print(f"Timeout: {acked_total}, {TOTAL_CHUNKS_ALL}")
         timeout_counter += 1
-        if timeout_counter == 5:
+        if timeout_counter >= 5 and CLIENT_ADDRESS_PORT:
             terminate_event.set()
         continue
 
     ack_sequence = int.from_bytes(ack_packet, 'big')
     if ack_sequence == 0:
-        print("Received hello")
+        # print("Received hello")
         continue
     
     # print(f"Received ACK for sequence number {ack_sequence}")
@@ -124,7 +128,7 @@ while not terminate_event.is_set():
         # If the base of the window is acknowledged, slide the window forward
             
     if acked_total == TOTAL_CHUNKS_ALL:
-        print("All packets have been acknowledged")
+        #print("All packets have been acknowledged")
         UDPServerSocket.close()
         ALL_DONE = True
         terminate_event.set()
@@ -135,6 +139,7 @@ while not terminate_event.is_set():
 
     # print(f"OLD_BASE = {ack_sequence} - NEW_SEND_BASE: {SEND_BASE}")
 
+print("Waiting for all threads to finish")
 
-print(f"Time taken: {time.time() - starttime}")
-print(f"Resend counter: {resend_counter}")
+# print(f"Time taken: {time.time() - starttime}")
+#print(f"Resend counter: {resend_counter}")

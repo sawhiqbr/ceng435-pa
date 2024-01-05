@@ -8,8 +8,10 @@ import time
 import sys
 import queue
 
+BUFFER_SIZE        = 1024
+### WARNING! SET THESE VALUES ACCORDING TO THE BEFORE RUNNING ###
+
 SERVER_ADDRESS_PORT = (socket.gethostbyname("server"), 20002)
-BUFFER_SIZE        = 64000
 CURRENT_DIRECTORY  = os.getcwd()
 SOCKET_TIMEOUT     = 0.5
 WINDOW_SIZE        = 128
@@ -136,7 +138,7 @@ while(not terminate_event.is_set()):
     try:
         bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
     except socket.timeout:
-        print("Timeout")
+        # print("Timeout")
         if (received_acks == 0):
             UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
         continue
@@ -189,5 +191,5 @@ while(not terminate_event.is_set()):
     if received_acks == TOTAL_CHUNKS_ALL:
         break
     
-print(f"Total time taken: {time.time() - starttime}") 
-print("All chunks received with total acks: ", total_acks)
+print(f"{time.time() - starttime}") 
+# print("All chunks received and files are ready")

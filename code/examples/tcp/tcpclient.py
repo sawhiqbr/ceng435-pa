@@ -5,8 +5,9 @@ import time
 import hashlib
 
 HOST               = socket.gethostbyname('server')
-PORT               = 16000
+PORT               = 17000
 CURRENT_DIRECTORY  = os.getcwd()
+BUFFER_SIZE        = 1024
 
 # Ensure the directory exists
 os.makedirs(os.path.join(CURRENT_DIRECTORY, "objects_received_tcp"), exist_ok=True)
@@ -33,7 +34,7 @@ def receive_file(conn, filename):
         file.truncate(0)  # Clear existing content
         remaining = file_size
         while remaining > 0:
-            chunk_size = 10240 if remaining >= 10240 else remaining
+            chunk_size = BUFFER_SIZE if remaining >= BUFFER_SIZE else remaining
             data = conn.recv(chunk_size)
             if not data:
                 break  # Handle case where connection is closed unexpectedly
@@ -59,13 +60,13 @@ def receive_file(conn, filename):
 
 for i in range(30):
     with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-        starttime = time.time()
         s.connect((HOST, PORT + i))
+        starttime = time.time()
         for i in range(10):
             receive_file(s, f"large-{i}.obj")
             receive_file(s, f"small-{i}.obj")
 
-        print(f"Time taken: {time.time() - starttime}")
+        print(f"{time.time() - starttime}")
         s.close()
 
-        time.sleep(2)
+        time.sleep(1)

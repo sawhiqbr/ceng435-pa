@@ -4,7 +4,7 @@ import os
 import time
 
 HOST              = 'server'
-PORT              = 16000
+PORT              = 17000
 CURRENT_DIRECTORY = os.getcwd()
 
 
@@ -28,7 +28,7 @@ def receive_acknowledgment(conn):
         buffer += data
         if "File received" in buffer:
             break
-    print('Received from client: File received')
+    # print('Received from client: File received')
     return
 
 for i in range(30):
@@ -36,7 +36,7 @@ for i in range(30):
         s.bind((HOST, PORT + i))
         s.listen()
         conn, addr = s.accept()
-        starttime = time.time()
+        # starttime = time.time()
         with conn:
             print('Connected by', addr)
             for i in range(10):
@@ -46,6 +46,6 @@ for i in range(30):
                 send_file(conn, os.path.join(CURRENT_DIRECTORY, "objects", f"small-{i}.obj"))
                 receive_acknowledgment(conn)
 
-        print(f"Time taken: {time.time() - starttime}")
+        # print(f"Time taken: {time.time() - starttime}")
         conn.close()
         s.close()
