@@ -9,21 +9,20 @@ import time
 import sys
 import queue
 
-CLIENT_ADDRESS_PORT   = (socket.gethostbyname("client"), 20001)
+CLIENT_ADDRESS_PORT   = None
 LOCAL_IP              = "server"
 LOCAL_PORT            = 20002
-BUFFER_SIZE           = 3072
+BUFFER_SIZE           = 2048
 CURRENT_DIRECTORY     = os.getcwd()
 TIMEOUT               = 0.1
 SOCKET_TIMEOUT        = 0.1
-WINDOW_SIZE           = 100
+WINDOW_SIZE           = 128
 SEND_BASE             = 1
-TOTAL_CHUNKS_ALL      = 10010
+TOTAL_CHUNKS_ALL      = 4920 + 50
 FILES                 = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
 ALL_DONE              = False
 packets               = {}
 timers                = {}
-sequence_queue        = queue.Queue()
 packets_lock          = threading.Lock()
 timers_lock           = threading.Lock()
 sendbase_lock         = threading.Lock()
@@ -34,8 +33,6 @@ resend_counter        = 0
 UDPServerSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 UDPServerSocket.settimeout(SOCKET_TIMEOUT)
 UDPServerSocket.bind((LOCAL_IP, LOCAL_PORT))
-starttime = time.time()
-# print("UDP Server up and running")
 
 # Making packets ready to send
 sequence_number = 0
@@ -49,7 +46,7 @@ for file_name in FILES:
     # Also # print sent status and sequence number for each chunk
     chunk_size = BUFFER_SIZE - 15
     total_chunks = len(file_data) // chunk_size + 1
-
+    print(total_chunks)
     for i in range(0, len(file_data), chunk_size):
         sequence_number += 1
         message = file_data[i:i+chunk_size]
@@ -62,82 +59,48 @@ for file_name in FILES:
         with packets_lock:
             packets[sequence_number] = packet
 
-        # if (sequence_number <= WINDOW_SIZE):
-        #     sequence_queue.put(sequence_number)
 
 def packet_resender(UDPServerSocket, sequence_in_window):
     global resend_counter
 
     while not terminate_event.is_set():
         with packets_lock:
-            # If the packet for this sequence number has already been acknowledged, don't send it
-            if SEND_BASE + sequence_in_window not in packets:
-                # print(f"Packet with resend_sequence number {SEND_BASE + sequence_in_window} has already been acknowledged")
-                continue
+            with sendbase_lock:
+                # If the packet for this sequence number has already been acknowledged, don't send it
+                if SEND_BASE + sequence_in_window not in packets:
+                    # print(f"Packet with resend_sequence number {SEND_BASE + sequence_in_window} has already been acknowledged")
+                    continue
 
-            # Send the packet for this resend_sequence number
-            # print(f"Re-sending packet for re-send {resend_sequence} number at time: {time.time()}")
-            UDPServerSocket.sendto(packets[SEND_BASE + sequence_in_window], CLIENT_ADDRESS_PORT)
-            resend_counter += 1
-        time.sleep(0.015) 
-
-    # with timers_lock:
-    #     # Start another timer for this packet
-    #     with packets_lock:
-    #         if resend_sequence not in packets:
-    #             # print(f"Packet with resend_sequence number {resend_sequence} has already been acknowledged")
-    #             return
-    #     if resend_sequence in timers:
-    #         # print(f"Starting timer for re-send {resend_sequence}. Currently there are {len(timers[resend_sequence])} timers for this sequence number")
-    #         timers[resend_sequence].append(threading.Timer(TIMEOUT, packet_resender, args=(UDPServerSocket, resend_sequence, )))
-    #         timers[resend_sequence][-1].start()
+                # Send the packet for this resend_sequence number
+                # print(f"Re-sending packet for re-send {resend_sequence} number at time: {time.time()}")
+                UDPServerSocket.sendto(packets[SEND_BASE + sequence_in_window], CLIENT_ADDRESS_PORT)
+                resend_counter += 1
+        if sequence_in_window == 0:
+            # time.sleep(0.01) # For others
+            time.sleep(0.2) # For delay
+        else:
+            # time.sleep(0.03) # For others
+            time.sleep(0.4) # For delay
 
 
 base_send_threads = [threading.Thread(target=packet_resender, args=(UDPServerSocket, i, ), name=f"Packet Resender {i}") for i in range(0, WINDOW_SIZE)] 
-for thread in base_send_threads:
-    thread.start()
-
-def packet_sender(UDPServerSocket):
-    global timers, sequence_queue, ALL_DONE
-
-    while not terminate_event.is_set():
-        # Get a sequence number from the queue
-        # print("Waiting for sequence number to send")
-        sequence = sequence_queue.get()
-        # print(f"Waited for sequence number to send and got: {sequence}")
-
-        with packets_lock:
-            # If the packet for this sequence number has already been acknowledged, don't send it
-            if sequence not in packets:
-                # print(f"Packet with sequence number {sequence} has already been acknowledged")
-                continue
-
-            # Send the packet for this sequence number
-            # print(f"Sending packet for sequence number {sequence} at time: {time.time()}")
-            UDPServerSocket.sendto(packets[sequence], CLIENT_ADDRESS_PORT)
-
-        # with timers_lock:
-        #     # Start a timer for this packet
-        #     if sequence not in timers:
-        #         # print(f"Starting timer for sequence number {sequence}")
-        #         timers[sequence] = []
-        #         timers[sequence].append(threading.Timer(TIMEOUT, packet_resender, args=(UDPServerSocket, sequence, )))
-        #         timers[sequence][0].start()
-        
-        # sequence_queue.task_done()
-
-
-# Define and tart the packet sender thread
-# send_thread = threading.Thread(target=packet_sender, args=(UDPServerSocket, ), name="Packet Sender")
-# send_thread.start()
 
 # Wait for ACKs
 while not terminate_event.is_set():
     try:
         ack_packet, address = UDPServerSocket.recvfrom(4)
+        if not CLIENT_ADDRESS_PORT:
+            starttime = time.time()
+            CLIENT_ADDRESS_PORT = address
+            for thread in base_send_threads:
+                thread.start()
     except socket.timeout:
         continue
+    
     ack_sequence = int.from_bytes(ack_packet, 'big')
+    if ack_sequence == 0:
+        continue
+    
     # print(f"Received ACK for sequence number {ack_sequence} while SEND_BASE = {SEND_BASE}")
 
     # If an ACK is received, mark the corresponding packet as acknowledged and stop its timer
@@ -146,16 +109,6 @@ while not terminate_event.is_set():
             if ack_sequence in packets:
                 # print(f"Deleting packet with sequence number {ack_sequence}")
                 del packets[ack_sequence]
-
-        # with timers_lock:
-        #     if ack_sequence in timers:
-        #         for timer in timers[ack_sequence]:
-        #             # print(f"Cancelling timers for sequence number {ack_sequence}")
-        #             timer.cancel()
-        #             if timer.is_alive():
-        #                 timer.join()
-        #         del timers[ack_sequence]
-                
 
         # If the base of the window is acknowledged, slide the window forward
             
@@ -173,12 +126,7 @@ while not terminate_event.is_set():
                 
             if terminate_event.is_set():
                 break
-            
-            # for i in range(ack_sequence + WINDOW_SIZE, SEND_BASE + WINDOW_SIZE):
-                # print(f"Packet with sequence number: {i} is added to the queue")
-                # sequence_queue.put(i)
-                # print(f"Addition of packet with sequence number: {i} to the queue is done")
-        
+
             # print(f"OLD_BASE = {ack_sequence} - NEW_SEND_BASE: {SEND_BASE}")
 
 

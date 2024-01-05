@@ -9,12 +9,10 @@ import sys
 import queue
 
 SERVER_ADDRESS_PORT = (socket.gethostbyname("server"), 20002)
-LOCAL_IP           = "client"
-LOCAL_PORT         = 20001
-BUFFER_SIZE        = 3072
+BUFFER_SIZE        = 2048
 CURRENT_DIRECTORY  = os.getcwd()
 SOCKET_TIMEOUT     = 0.1
-WINDOW_SIZE        = 100
+WINDOW_SIZE        = 128
 RECV_BASE          = 1
 TOTAL_CHUNKS_SMALL = 0
 TOTAL_CHUNKS_LARGE = 0
@@ -50,7 +48,7 @@ for file_name in os.listdir(folder_path):
 # Create a datagram socket at the Client side and bind it
 UDPClientSocket = socket.socket(family=socket.AF_INET, type=socket.SOCK_DGRAM)
 UDPClientSocket.settimeout(SOCKET_TIMEOUT)
-UDPClientSocket.bind((LOCAL_IP, LOCAL_PORT))
+starttime = time.time()
 
 # print("UDP Client up and listening")
 
@@ -103,15 +101,15 @@ def file_creator():
                     # Compare hashes
                     if stored_hash == calculated_hash:
                         print(f"File {file_name} received intact")
+                        files_done[file_name] = True
+                        print(f"File {file_name} created")
                     else:
                         print(f"File {file_name} corrupted during transfer")
 
                     # Mark the file as done
-                    files_done[file_name] = True
                     if all(files_done.values()):
                         ALL_DONE = True
                         terminate_event.set()
-                    print(f"File {file_name} created")
 
         if not ALL_DONE:
             with new_chunks_ready_cond:
@@ -128,10 +126,14 @@ def file_creator():
 file_creator_thread = threading.Thread(target=file_creator, name="File Creator")
 file_creator_thread.start()
 
+sequence_number = 0
+UDPClientSocket.sendto(sequence_number.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
+UDPClientSocket.sendto(sequence_number.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
+UDPClientSocket.sendto(sequence_number.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
+
 # Chunks will hold sequence number -> acked info. It will start from 1 and go up to the
 # total number of chunks in all of the files. Total chunks will be set when the first packet
 # from the file of that kind is received.
-starttime = time.time()
 while(not terminate_event.is_set()):
     try:
         bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
