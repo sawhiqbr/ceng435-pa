@@ -9,7 +9,7 @@ import sys
 import queue
 
 SERVER_ADDRESS_PORT = (socket.gethostbyname("server"), 20002)
-BUFFER_SIZE        = 5048
+BUFFER_SIZE        = 1024
 CURRENT_DIRECTORY  = os.getcwd()
 SOCKET_TIMEOUT     = 0.5
 WINDOW_SIZE        = 128
@@ -137,7 +137,8 @@ while(not terminate_event.is_set()):
         bytesAddressPair = UDPClientSocket.recvfrom(BUFFER_SIZE)
     except socket.timeout:
         print("Timeout")
-        UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
+        if (received_acks == 0):
+            UDPClientSocket.sendto(hello.to_bytes(4, 'big'), SERVER_ADDRESS_PORT)
         continue
     
     # print(f"Got a packet at time: {time.time()}")
