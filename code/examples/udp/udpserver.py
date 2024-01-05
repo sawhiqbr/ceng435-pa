@@ -13,11 +13,11 @@ import random
 CLIENT_ADDRESS_PORT   = None
 LOCAL_IP              = "server"
 LOCAL_PORT            = 20002
-BUFFER_SIZE           = 1024
+BUFFER_SIZE           = 64000
 CURRENT_DIRECTORY     = os.getcwd()
 TIMEOUT               = 0.1
 SOCKET_TIMEOUT        = 0.5
-THREAD_COUNT          = 256 # random.randint(16, 192) // 16 * 16
+THREAD_COUNT          = 40 # random.randint(16, 192) // 16 * 16
 SEND_BASE             = 1
 TOTAL_CHUNKS_ALL      = 0
 FILES                 = [f"{size}-{i}" for size in ["small", "large"] for i in range(10)]
@@ -84,7 +84,7 @@ def packet_resender(UDPServerSocket, responsible):
                 # print(f"Sending packet with sequence number {sequence}")
                 UDPServerSocket.sendto(packets[sequence], CLIENT_ADDRESS_PORT)
                 resend_counter += 1
-            time.sleep(0.15)
+            time.sleep(0.005)
 selective_send_threads = [threading.Thread(target=packet_resender, args=(UDPServerSocket, i, ), name=f"Packet Resender {i}") for i in range(1, TOTAL_CHUNKS_ALL + 1, responsible_area)]
 
 # Wait for ACKs

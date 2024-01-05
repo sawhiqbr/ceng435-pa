@@ -4,7 +4,7 @@ import os
 import time
 
 HOST              = 'server'
-PORT              = 8080
+PORT              = 16000
 CURRENT_DIRECTORY = os.getcwd()
 
 
@@ -31,19 +31,21 @@ def receive_acknowledgment(conn):
     print('Received from client: File received')
     return
 
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    s.bind((HOST, PORT))
-    s.listen()
-    conn, addr = s.accept()
-    starttime = time.time()
-    with conn:
-        print('Connected by', addr)
-        for i in range(10):
-            send_file(conn, os.path.join(CURRENT_DIRECTORY, "objects", f"large-{i}.obj"))
-            receive_acknowledgment(conn)
+for i in range(30):
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        s.bind((HOST, PORT + i))
+        s.listen()
+        conn, addr = s.accept()
+        starttime = time.time()
+        with conn:
+            print('Connected by', addr)
+            for i in range(10):
+                send_file(conn, os.path.join(CURRENT_DIRECTORY, "objects", f"large-{i}.obj"))
+                receive_acknowledgment(conn)
 
-            send_file(conn, os.path.join(CURRENT_DIRECTORY, "objects", f"small-{i}.obj"))
-            receive_acknowledgment(conn)
+                send_file(conn, os.path.join(CURRENT_DIRECTORY, "objects", f"small-{i}.obj"))
+                receive_acknowledgment(conn)
 
-    print(f"Time taken: {time.time() - starttime}")
-    conn.close()
+        print(f"Time taken: {time.time() - starttime}")
+        conn.close()
+        s.close()

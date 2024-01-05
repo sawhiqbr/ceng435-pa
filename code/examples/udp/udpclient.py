@@ -9,7 +9,7 @@ import sys
 import queue
 
 SERVER_ADDRESS_PORT = (socket.gethostbyname("server"), 20002)
-BUFFER_SIZE        = 1024
+BUFFER_SIZE        = 64000
 CURRENT_DIRECTORY  = os.getcwd()
 SOCKET_TIMEOUT     = 0.5
 WINDOW_SIZE        = 128
@@ -101,9 +101,9 @@ def file_creator():
 
                     # Compare hashes
                     if stored_hash == calculated_hash:
-                        print(f"File {file_name} received intact")
+                        # print(f"File {file_name} received intact")
                         files_done[file_name] = True
-                        print(f"File {file_name} created")
+                        # print(f"File {file_name} created")
                     else:
                         print(f"File {file_name} corrupted during transfer")
 

@@ -2,9 +2,10 @@
 import socket
 import os 
 import time
+import hashlib
 
 HOST               = socket.gethostbyname('server')
-PORT               = 8080
+PORT               = 16000
 CURRENT_DIRECTORY  = os.getcwd()
 
 # Ensure the directory exists
@@ -41,11 +42,30 @@ def receive_file(conn, filename):
     conn.sendall(b'File received')
 
 
-with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
-    starttime = time.time()
-    s.connect((HOST, PORT))
-    for i in range(10):
-        receive_file(s, f"large-{i}.obj")
-        receive_file(s, f"small-{i}.obj")
+    # Calculate MD5 hash
+    with open(os.path.join(CURRENT_DIRECTORY, "objects_received_tcp", f"{filename}"), 'rb') as f:
+        file_data = f.read()
+        calculated_hash = hashlib.md5(file_data).hexdigest()
 
-    print(f"Time taken: {time.time() - starttime}")
+    # Read the stored MD5 hash
+    with open(os.path.join(CURRENT_DIRECTORY, "objects", f"{filename}.md5"), 'r') as md5_file:
+        stored_hash = md5_file.read().strip()
+
+    # Compare hashes
+    if stored_hash == calculated_hash:
+        pass
+    else:
+        print(f"File {filename} corrupted during transfer")
+
+for i in range(30):
+    with socket.socket(socket.AF_INET, socket.SOCK_STREAM) as s:
+        starttime = time.time()
+        s.connect((HOST, PORT + i))
+        for i in range(10):
+            receive_file(s, f"large-{i}.obj")
+            receive_file(s, f"small-{i}.obj")
+
+        print(f"Time taken: {time.time() - starttime}")
+        s.close()
+
+        time.sleep(2)
